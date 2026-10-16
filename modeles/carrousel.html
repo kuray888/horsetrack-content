@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-400-italic.woff2);font-weight:400;font-style:italic}
+:root{--bg:#F6F4F0;--navy:#231B6B;--ink:#1A1446;--muted:#6E6A86;--lav:#B8B0F2;--vio:#6C5FD6;--line:#E4E0EF}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:Inter,"Noto Color Emoji",sans-serif;-webkit-font-smoothing:antialiased;color:var(--ink)}
+.s{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--bg);padding:110px 96px}
+.s.dark{background:var(--navy);color:var(--bg)}
+.num{position:absolute;right:80px;top:70px;font-size:28px;font-weight:700;color:var(--muted);letter-spacing:.06em}
+.dark .num{color:var(--lav)}
+.foot{position:absolute;left:96px;right:96px;bottom:70px;display:flex;justify-content:space-between;align-items:center;font-size:28px;font-weight:700}
+.foot .b{font-family:Fraunces,serif;font-size:36px;color:var(--navy)}
+.dark .foot .b{color:var(--bg)}
+.foot .sw{color:var(--vio)}
+.dark .foot .sw{color:var(--lav)}
+.tag{display:inline-block;background:var(--navy);color:var(--bg);font-size:30px;font-weight:800;letter-spacing:.14em;padding:14px 30px;border-radius:40px}
+.dark .tag{background:var(--lav);color:var(--navy)}
+h1{font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:118px;line-height:1.02;color:var(--navy);margin-top:60px}
+.dark h1{color:var(--bg)}
+h1 i,h2 i{font-weight:400;color:var(--vio)}
+.dark h1 i,.dark h2 i{color:var(--lav)}
+.sub{font-size:52px;line-height:1.35;color:var(--muted);margin-top:44px;font-weight:500}
+.dark .sub{color:rgba(246,244,240,.8)}
+.em{font-size:200px;line-height:1;margin-top:40px}
+h2{font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:104px;line-height:1.05;color:var(--navy);margin-top:40px}
+.dark h2{color:var(--bg)}
+.body{font-size:54px;line-height:1.4;color:var(--ink);margin-top:40px;font-weight:500}
+.dark .body{color:rgba(246,244,240,.88)}
+.body b{color:var(--vio)}
+.big{font-family:Fraunces,serif;font-weight:700;font-size:210px;line-height:1;color:var(--navy);margin-top:40px}
+.big small{font-size:70px;color:var(--vio);font-weight:600}
+.dark .big{color:var(--bg)}.dark .big small{color:var(--lav)}
+.box{margin-top:50px;background:#fff;border-radius:40px;padding:34px 40px;font-size:38px;line-height:1.4;font-weight:600;color:var(--navy);box-shadow:0 16px 40px rgba(35,27,107,.08)}
+.dark .box{background:rgba(246,244,240,.1);color:var(--bg);box-shadow:none}
+.shot{margin-top:46px;width:100%;border-radius:36px;box-shadow:0 24px 60px rgba(0,0,0,.25);display:block}
+.cta{display:inline-block;margin-top:50px;background:var(--bg);color:var(--navy);font-size:44px;font-weight:800;padding:30px 50px;border-radius:70px}
+</style></head><body><div id="root"></div>
+<script src="car.js"></script>
+<script>
+function render(i){
+  const s=CAR.slides[i], n=CAR.slides.length;
+  let h=`<div class="s ${s.dark?'dark':''}"><div class="num">${i+1}/${n}</div>`;
+  if(s.tag)h+=`<span class="tag">${s.tag}</span>`;
+  if(s.emoji)h+=`<div class="em">${s.emoji}</div>`;
+  if(s.h1)h+=`<h1>${s.h1}</h1>`;
+  if(s.h2)h+=`<h2>${s.h2}</h2>`;
+  if(s.big)h+=`<div class="big">${s.big}</div>`;
+  if(s.sub)h+=`<div class="sub">${s.sub}</div>`;
+  if(s.body)h+=`<div class="body">${s.body}</div>`;
+  if(s.box)h+=`<div class="box">${s.box}</div>`;
+  if(s.img)h+=`<img class="shot" src="${s.img}">`;
+  if(s.cta)h+=`<div class="cta">${s.cta}</div>`;
+  h+=`<div class="foot"><span class="b">Horsetrack</span><span class="sw">${i<n-1?(s.swipe||'Glisse →'):'Lien en bio'}</span></div></div>`;
+  document.getElementById('root').innerHTML=h;
+}
+window.render=render; render(0);
+</script></body></html>

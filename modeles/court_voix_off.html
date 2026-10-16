@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-400-italic.woff2);font-weight:400;font-style:italic}
+:root{--bg:#F6F4F0;--navy:#231B6B;--ink:#1A1446;--muted:#6E6A86;--lav:#B8B0F2;--vio:#6C5FD6;--red:#E5533D}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+body{font-family:Inter,"Noto Color Emoji",sans-serif;-webkit-font-smoothing:antialiased;color:var(--ink)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.abs{position:absolute}
+.sc{position:absolute;left:0;right:0;top:0;height:1920px}
+#tag{left:0;right:0;top:260px;text-align:center}
+#tag b{display:inline-block;background:var(--navy);color:var(--bg);font-size:38px;font-weight:800;letter-spacing:.12em;padding:16px 34px;border-radius:50px}
+#hEm{left:0;right:0;top:380px;text-align:center;font-size:240px;line-height:1}
+#hT{left:70px;right:70px;top:680px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:92px;line-height:1.06;color:var(--navy)}
+#hT i{font-weight:400;color:var(--vio)}
+#items{left:60px;right:60px;top:960px;display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+#items span{display:inline-block;background:#fff;color:var(--navy);font-size:40px;font-weight:800;padding:16px 28px;border-radius:40px;box-shadow:0 10px 26px rgba(35,27,107,.12);opacity:0}
+#items span.red{background:#fff;color:var(--red);outline:5px solid var(--red)}
+#aT{left:0;right:0;top:250px;text-align:center;font-family:Fraunces,serif;font-weight:700;font-size:88px;color:var(--navy)}
+#aT i{font-weight:400;color:var(--vio)}
+#phone{left:310px;top:390px;width:460px;height:982px;border-radius:70px;background:#121614;padding:12px;box-shadow:0 40px 90px rgba(35,27,107,.28)}
+#screen{position:relative;width:100%;height:100%;border-radius:58px;overflow:hidden;background:#e7ecef}
+#screen img{width:100%;display:block;transform-origin:50% 0}
+#notif{position:absolute;left:10px;right:10px;top:-200px;z-index:20;background:#fff;border-radius:28px;padding:16px 18px;display:flex;gap:14px;align-items:center;box-shadow:0 14px 34px rgba(0,0,0,.2)}
+#notif .ic{width:52px;height:52px;border-radius:14px;background:var(--navy);flex:none;display:flex;align-items:center;justify-content:center}
+#notif .t{font-size:20px;font-weight:700}#notif .b{font-size:21px;color:#333;line-height:1.25}
+.chip{position:absolute;background:var(--navy);color:var(--bg);font-size:34px;font-weight:700;padding:20px 30px;border-radius:26px;box-shadow:0 18px 40px rgba(35,27,107,.3);white-space:nowrap}
+#capWrap{left:60px;right:60px;top:1250px;height:340px;display:flex;align-items:center;justify-content:center;z-index:10}
+#cap{text-align:center;font-size:66px;line-height:1.28;font-weight:800;color:var(--navy)}
+#cap span{display:inline-block;padding:0 10px;margin:4px 0;border-radius:16px}
+#cap span.on{background:var(--vio);color:#fff;text-shadow:none}
+#cap span.pre{opacity:.28}
+#cta{inset:0;background:var(--navy);z-index:8;display:none}
+#c1{left:60px;right:60px;top:300px;text-align:center;color:var(--bg);font-family:Fraunces,serif;font-weight:700;font-size:150px;line-height:1}
+#c1 i{display:block;font-weight:400;font-size:84px;color:var(--lav);margin-top:14px}
+#c2{left:150px;right:150px;top:690px;background:var(--bg);border-radius:70px;padding:38px 0;text-align:center;color:var(--navy);font-size:52px;font-weight:800}
+#c2 small{display:block;font-size:30px;font-weight:600;color:var(--muted);margin-top:6px}
+#c3{left:0;right:0;top:930px;text-align:center;color:var(--lav);font-family:Fraunces,serif;font-weight:700;font-size:60px}
+</style></head><body>
+<div id="stage">
+  <div class="sc" id="hook">
+    <div class="abs" id="tag"><b></b></div>
+    <div class="abs" id="hEm"></div>
+    <div class="abs" id="hT"></div>
+    <div class="abs" id="items"></div>
+  </div>
+  <div class="sc" id="app">
+    <div class="abs" id="aT">Avec <i>Horsetrack</i></div>
+    <div class="abs" id="phone"><div id="screen">
+      <div id="notif"><div class="ic"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#F6F4F0" stroke-width="2.4" stroke-linecap="round"><path d="M6 17V11a6 6 0 0 1 12 0v6l2 2H4z"/><path d="M10 21h4"/></svg></div><div style="flex:1"><div class="t">Horsetrack · Rappel</div><div class="b" id="nb"></div></div></div>
+      <img id="shot">
+    </div></div>
+    <div class="chip" id="chip"></div>
+  </div>
+  <div class="abs" id="cta">
+    <div class="abs" id="c1">Gratuit<i>pour 1 cheval</i></div>
+    <div class="abs" id="c2">Lien dans la bio 👆<small>Horsetrack · App Store · iPhone</small></div>
+    <div class="abs" id="c3">Horsetrack</div>
+  </div>
+  <div class="abs" id="capWrap"><div id="cap"></div></div>
+</div>
+<script src="cfg.js"></script>
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const cl=v=>Math.min(1,Math.max(0,v)), P=(t,a,d)=>cl((t-a)/d);
+const oC=p=>1-Math.pow(1-p,3), io=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+const oB=p=>{const c1=1.8,c3=c1+1;return 1+c3*Math.pow(p-1,3)+c1*Math.pow(p-1,2)};
+function tf(el,{x=0,y=0,s=1,r=0,o=1}={}){el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;el.style.opacity=o}
+const C=CFG, L=C.lines, END=C.end; window.END=END;
+$('#tag b').textContent=C.tag; $('#hEm').textContent=C.emoji; $('#hT').innerHTML=C.title;
+$('#items').innerHTML=C.items.map(it=>`<span class="${it.red?'red':''}">${it.text}</span>`).join('');
+$('#shot').src=C.shot; $('#nb').textContent=C.notif||''; if(!C.notif)$('#notif').style.display='none';
+const chip=$('#chip'); chip.textContent=C.chip.text; Object.assign(chip.style,C.chip.pos);
+const scStart={}; L.forEach(l=>{if(!(l.scene in scStart))scStart[l.scene]=l.t;}); scStart.hook=0;
+let lastLine=-1;
+function render(t){
+  let li=-1; L.forEach((l,i)=>{if(t>=l.t-0.05)li=i;});
+  const line=L[Math.max(0,li)];
+  if(li!==lastLine){lastLine=li;$('#cap').innerHTML=li<0?'':line.words.map(w=>`<span>${w[0]}</span>`).join(' ');}
+  const spans=$$('#cap span');
+  if(li>=0){let wi=-1; line.words.forEach((w,k)=>{if(t>=w[1])wi=k;}); const fin=t>line.t+line.d+0.05;
+    spans.forEach((s,k)=>{s.className=(k===wi&&!fin)?'on':(k>wi?'pre':'');});
+    const p=oB(P(t,line.t-0.05,0.25)); tf($('#capWrap'),{s:0.85+0.15*p,o:P(t,line.t-0.05,0.1)});}
+  // hook
+  const a=scStart.app, ca=scStart.cta;
+  $('#hook').style.display=t<a+0.4?'block':'none'; tf($('#hook'),{x:-io(P(t,a,0.35))*1080});
+  tf($('#tag'),{s:0.6+0.4*oB(P(t,0,0.3)),o:P(t,0,0.06)});
+  tf($('#hEm'),{s:0.3+0.7*oB(P(t,0.1,0.45)),r:C.shake&&t>0.4?Math.sin(t*40)*6*Math.max(0,Math.sin(t*3)):0,o:P(t,0.1,0.06)});
+  tf($('#hT'),{y:(1-oC(P(t,0.25,0.4)))*40,o:P(t,0.25,0.3)});
+  $$('#items span').forEach((e,k)=>{const at=C.items[k].at; const p=oB(P(t,at,0.35)); tf(e,{s:0.4+0.6*p,r:(k%2?2:-2)*p,o:P(t,at,0.06)});});
+  // app
+  $('#app').style.display=t>=a&&t<ca+0.5?'block':'none'; tf($('#app'),{x:(1-oC(P(t,a,0.4)))*1080});
+  const ph=oC(P(t,a+0.1,0.55)); tf($('#phone'),{y:(1-ph)*1100});
+  $('#shot').style.transform=`scale(${1+0.04*P(t,a,3)})`;
+  if(C.notif){const np=oB(P(t,C.notifAt,0.4)); $('#notif').style.top=(-200+np*220)+'px';}
+  const cp=oB(P(t,C.chip.at,0.4)); tf(chip,{s:0.4+0.6*cp,r:-3*cp,o:P(t,C.chip.at,0.08)});
+  $('#capWrap').style.top=(t>=a?1420:1250)+'px';
+  $('#cap').style.textShadow=t>=a&&t<ca?'0 0 24px #F6F4F0,0 0 12px #F6F4F0':'none';
+  // cta
+  const c=$('#cta'); c.style.display=t>=ca?'block':'none';
+  c.style.clipPath=`circle(${io(P(t,ca,0.45))*2200}px at 50% 50%)`;
+  tf($('#c1'),{s:0.6+0.4*oB(P(t,ca+0.2,0.45)),o:P(t,ca+0.2,0.1)});
+  const bp=oB(P(t,ca+0.6,0.45)), pulse=t>ca+1.2?1+0.03*Math.sin((t-ca)*6):1;
+  tf($('#c2'),{s:(0.6+0.4*bp)*pulse,o:P(t,ca+0.6,0.1)}); tf($('#c3'),{o:P(t,ca+0.9,0.4)});
+  $('#cap').style.color=t>=ca?'#F6F4F0':'';
+}
+window.render=render; render(0);
+</script></body></html>
