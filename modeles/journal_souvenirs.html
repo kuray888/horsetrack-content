@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-400-italic.woff2);font-weight:400;font-style:italic}
+:root{--bg:#F6F4F0;--navy:#231B6B;--ink:#1A1446;--muted:#6E6A86;--lav:#B8B0F2;--vio:#6C5FD6;--red:#E5533D}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+body{font-family:Inter,"Noto Color Emoji",sans-serif;-webkit-font-smoothing:antialiased;color:var(--ink)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.abs{position:absolute}
+#hook{left:70px;right:70px;top:300px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:96px;line-height:1.08;color:var(--navy)}
+#hook i{font-weight:400;color:var(--vio)}
+.q{position:absolute;left:0;right:0;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-style:italic;font-weight:400;font-size:72px;color:var(--ink)}
+#punch{left:60px;right:60px;top:760px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:120px;line-height:1.06;color:var(--navy)}
+#punch i{font-weight:400;color:var(--vio)}
+#unless{left:60px;right:60px;top:1100px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:400;font-style:italic;font-size:86px;color:var(--vio)}
+/* app */
+#app{inset:0;background:var(--bg);z-index:8;display:none}
+#aT{left:60px;right:60px;top:170px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:76px;line-height:1.08;color:var(--navy)}
+#aT i{font-weight:400;color:var(--vio)}
+#phone{left:300px;top:440px;width:480px;height:1025px;border-radius:72px;background:#121614;padding:12px;box-shadow:0 40px 90px rgba(35,27,107,.28)}
+#screen{width:100%;height:100%;border-radius:60px;overflow:hidden;background:#e7ecef}
+#screen img{width:100%;display:block;transform-origin:50% 45%}
+.ac{position:absolute;background:var(--navy);color:var(--bg);font-size:36px;font-weight:700;padding:22px 32px;border-radius:26px;box-shadow:0 18px 40px rgba(35,27,107,.3);white-space:nowrap}
+#later{left:60px;right:60px;top:1560px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:58px;line-height:1.15;color:var(--navy)}
+#later i{font-weight:400;color:var(--vio)}
+/* end */
+#end{inset:0;background:var(--navy);z-index:9;display:none}
+#e1{left:60px;right:60px;top:380px;text-align:center;color:var(--bg);font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:100px;line-height:1.08}
+#e1 i{font-weight:400;color:var(--lav)}
+#brand{left:150px;right:150px;top:1000px;background:var(--bg);border-radius:60px;padding:38px 0;text-align:center}
+#brand .w{font-family:Fraunces,serif;font-weight:700;font-size:70px;color:var(--navy)}
+#brand .s{font-size:30px;font-weight:600;color:var(--muted);margin-top:6px}
+#url{left:0;right:0;top:1260px;text-align:center;color:var(--lav);font-size:42px;font-weight:600}
+</style></head><body>
+<div id="stage">
+  <div class="abs" id="hook">Tu te souviens de ta<br><i>première séance</i><br>avec lui ? 🥹</div>
+  <div class="q" id="q1" style="top:820px">La date exacte ?</div>
+  <div class="q" id="q2" style="top:960px">Le temps qu’il faisait ?</div>
+  <div class="q" id="q3" style="top:1100px">Ce que t’as ressenti ?</div>
+  <div class="q" id="q4" style="top:1240px">Ce qu’il a fait de génial ?</div>
+  <div class="abs" id="punch">On oublie<br><i>presque tout.</i> 🥲</div>
+  <div class="abs" id="unless">Sauf si tu l’écris.</div>
+  <div class="abs" id="app">
+    <div class="abs" id="aT">Le journal<br><i>de ton cheval</i> 📖</div>
+    <div class="abs" id="phone"><div id="screen"><img src="../captures/s8.png"></div></div>
+    <div class="ac" id="c1" style="left:30px;top:760px">📅 8 sept. · CSO</div>
+    <div class="ac" id="c2" style="right:30px;top:960px">🌧️ Météo notée toute seule</div>
+    <div class="ac" id="c3" style="left:30px;top:1180px">🤩 Ressenti : Top</div>
+    <div class="ac" id="c4" style="right:30px;top:1340px">📸 La photo du jour</div>
+    <div class="abs" id="later">Dans 1 an, tu seras contente<br><i>de relire ça</i> 💜</div>
+  </div>
+  <div class="abs" id="end">
+    <div class="abs" id="e1">Commence<br>son journal<br><i>ce soir</i> ✍️</div>
+    <div class="abs" id="brand"><div class="w">Horsetrack</div><div class="s">Gratuit pour 1 cheval · iPhone</div></div>
+    <div class="abs" id="url">Lien dans la bio</div>
+  </div>
+</div>
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const cl=v=>Math.min(1,Math.max(0,v)), P=(t,a,d)=>cl((t-a)/d);
+const oC=p=>1-Math.pow(1-p,3), io=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+const oB=p=>{const c1=1.8,c3=c1+1;return 1+c3*Math.pow(p-1,3)+c1*Math.pow(p-1,2)};
+function tf(el,{x=0,y=0,s=1,r=0,o=1}={}){el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;el.style.opacity=o}
+const Q0=1.6, QD=1.15, PU=Q0+4*QD+0.5, UN=PU+1.6, APP=UN+1.6, LAT=APP+4.0, END_T=LAT+2.6, END=END_T+3.6; window.END=END;
+window.SOUNDS=[[0,'soft'],[Q0,'soft'],[Q0+QD,'soft'],[Q0+2*QD,'soft'],[Q0+3*QD,'soft'],[PU,'boom'],[UN,'soft'],[APP,'whoosh'],
+ [APP+1.0,'pop'],[APP+1.6,'pop'],[APP+2.2,'pop'],[APP+2.8,'pop'],[LAT,'ding'],[END_T,'whoosh']];
+function render(t){
+  const pu=io(P(t,PU-0.4,0.4));
+  tf($('#hook'),{y:(1-oC(P(t,0,0.6)))*40,s:0.85+0.15*oB(P(t,0,0.5)),o:P(t,0,0.15)*(1-pu)});
+  ['#q1','#q2','#q3','#q4'].forEach((id,k)=>{const st=Q0+k*QD;tf($(id),{y:(1-oC(P(t,st,0.5)))*40,o:P(t,st,0.3)*(1-pu)});});
+  tf($('#punch'),{s:0.6+0.4*oB(P(t,PU,0.45)),o:P(t,PU,0.1)*(1-P(t,APP-0.1,0.2))});
+  tf($('#unless'),{y:(1-oC(P(t,UN,0.5)))*30,o:P(t,UN,0.3)*(1-P(t,APP-0.1,0.2))});
+  const a=$('#app'); a.style.display=t>=APP&&t<END_T+0.6?'block':'none';
+  a.style.clipPath=`circle(${io(P(t,APP,0.6))*2200}px at 50% 60%)`;
+  tf($('#aT'),{y:(1-oC(P(t,APP+0.2,0.4)))*40,o:P(t,APP+0.2,0.3)});
+  tf($('#phone'),{y:(1-oC(P(t,APP+0.2,0.7)))*1100});
+  $('#screen img').style.transform=`scale(${1+0.06*P(t,APP,6)})`;
+  [['#c1',1.0],['#c2',1.6],['#c3',2.2],['#c4',2.8]].forEach(([id,d],k)=>{const p=oB(P(t,APP+d,0.4));tf($(id),{s:0.4+0.6*p,r:(k%2?3:-3)*p,o:P(t,APP+d,0.08)});});
+  tf($('#later'),{y:(1-oC(P(t,LAT,0.5)))*40,o:P(t,LAT,0.3)});
+  const e=$('#end'); e.style.display=t>=END_T?'block':'none';
+  e.style.clipPath=`circle(${io(P(t,END_T,0.5))*2200}px at 50% 100%)`;
+  tf($('#e1'),{s:0.7+0.3*oB(P(t,END_T+0.25,0.45)),o:P(t,END_T+0.25,0.1)});
+  const b=oB(P(t,END_T+1.0,0.45)), pulse=t>END_T+1.6?1+0.03*Math.sin((t-END_T)*6):1;
+  tf($('#brand'),{s:(0.6+0.4*b)*pulse,o:P(t,END_T+1.0,0.1)}); tf($('#url'),{o:P(t,END_T+1.3,0.4)});
+}
+window.render=render; render(0);
+</script></body></html>
