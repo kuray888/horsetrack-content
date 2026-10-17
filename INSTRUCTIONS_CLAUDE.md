@@ -4,7 +4,7 @@ Ce fichier est la source de vérité pour programmer et gérer les publications 
 
 ## Règles absolues
 1. **Uniquement la marque Horsetrack** dans Metricool. Ne jamais toucher à une autre marque (par exemple « alfit.lifee »). Si aucune marque Horsetrack n'est visible, s'arrêter et le dire.
-2. **Toujours en brouillon** : `"draft": true` dans chaque post. Rien n'est publié sans validation de la fondatrice dans l'app Metricool.
+2. **Brouillon par défaut** (`"draft": true`) pour toute demande ponctuelle. **Exception** : la routine automatique du lundi et du jeudi (`ROUTINE_AUTO.md`) publie directement (`"draft": false`) — carte blanche donnée par la fondatrice le 17/10/2026.
 3. Fuseau horaire : `Europe/Paris`.
 4. Avant de programmer, appeler `getScheduledPosts` sur la période pour **ne pas créer de doublon**.
 5. Si un appel échoue, ne pas le relancer en boucle : noter l'erreur et passer au post suivant, puis faire un récapitulatif.
@@ -60,7 +60,10 @@ Un post par entrée du JSON (Instagram et TikTok séparés, car les légendes di
 2. Envoyer à la fondatrice un récapitulatif court : nombre de brouillons créés, erreurs éventuelles, et le rappel « Ouvre Metricool → Planificateur → valide chaque brouillon ». Pour TikTok, Metricool envoie une notification à valider dans l'app.
 3. Mettre à jour `historique.md` dans le dépôt (statut « programmé en brouillon »).
 
-## Routine hebdomadaire (chaque lundi)
+## Routine automatique (lundi et jeudi)
+La source de vérité est désormais **`ROUTINE_AUTO.md`** (analyse des statistiques, décisions, production, publication automatique, journal dans `analyses/journal.md`). La section ci-dessous reste valable pour le détail technique.
+
+## Routine hebdomadaire (ancienne version)
 Si on te demande de mettre en place ou d'exécuter la routine du lundi :
 1. Lire `historique.md` pour ne pas répéter un sujet récent.
 2. Produire la semaine suivante : environ 7 posts Instagram (réels + 2 carrousels) et 14 TikTok (2 par jour), avec les modèles de `modeles/` et les scripts de `scripts/` (rendu Playwright + ffmpeg, 1080×1920, 30 i/s ; carrousels 1080×1350).
