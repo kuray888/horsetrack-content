@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-400-italic.woff2);font-weight:400;font-style:italic}
+:root{--bg:#F6F4F0;--navy:#231B6B;--ink:#1A1446;--muted:#6E6A86;--lav:#B8B0F2;--vio:#6C5FD6;--red:#E5533D}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--navy)}
+body{font-family:Inter,"Noto Color Emoji",sans-serif;-webkit-font-smoothing:antialiased;color:var(--ink)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden}
+.abs{position:absolute}
+#call{inset:0;background:radial-gradient(120% 80% at 50% 0%,#6C5FD6 0%,#3A2F98 45%,#231B6B 100%)}
+#hook{left:50px;right:50px;top:120px;text-align:center;z-index:6}
+#hook span{display:inline-block;background:var(--bg);color:var(--navy);font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:76px;line-height:1.08;padding:28px 46px;border-radius:44px;box-shadow:0 20px 50px rgba(0,0,0,.3)}
+#hook i{font-weight:400;color:var(--vio)}
+#av{left:440px;top:400px;width:200px;height:200px;border-radius:50%;background:rgba(246,244,240,.18);font-size:110px;line-height:200px;text-align:center}
+#who{left:0;right:0;top:630px;text-align:center;color:var(--bg);font-size:62px;font-weight:700}
+#tim{left:0;right:0;top:715px;text-align:center;color:var(--lav);font-size:40px;font-weight:600}
+#q{left:70px;right:70px;top:830px;background:#fff;border-radius:48px;padding:42px 46px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-style:italic;font-size:74px;line-height:1.1;color:var(--ink);box-shadow:0 26px 60px rgba(10,6,40,.35)}
+#toi{left:0;right:0;top:1150px;text-align:center}
+#toi span{display:inline-block;background:var(--vio);color:#fff;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:78px;padding:20px 46px;border-radius:40px}
+.s{position:absolute;left:90px;right:90px;height:150px;background:rgba(246,244,240,.95);border-radius:36px;padding:0 36px;display:flex;align-items:center;gap:26px;font-size:44px;font-weight:700;color:var(--ink);box-shadow:0 14px 34px rgba(10,6,40,.3)}
+.s em{font-size:70px;font-style:normal}
+.s small{display:block;font-size:32px;font-weight:600;color:var(--muted)}
+#sil{left:0;right:0;top:1640px;text-align:center;z-index:7}
+#sil span{display:inline-block;background:var(--red);color:#fff;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:62px;padding:22px 44px;border-radius:36px;box-shadow:0 24px 60px rgba(0,0,0,.35)}
+#app{inset:0;background:var(--bg);z-index:8;display:none}
+#aT{left:60px;right:60px;top:170px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:84px;line-height:1.08;color:var(--navy)}
+#aT i{font-weight:400;color:var(--vio)}
+#phone{left:300px;top:450px;width:480px;height:1025px;border-radius:72px;background:#121614;padding:12px;box-shadow:0 40px 90px rgba(35,27,107,.28)}
+#screen{width:100%;height:100%;border-radius:60px;overflow:hidden;background:#e7ecef}
+#screen img{width:100%;display:block;transform-origin:50% 60%}
+.ac{position:absolute;background:var(--navy);color:var(--bg);font-size:38px;font-weight:700;padding:22px 32px;border-radius:26px;box-shadow:0 18px 40px rgba(35,27,107,.3);white-space:nowrap}
+#end{inset:0;background:var(--navy);z-index:9;display:none}
+#e1{left:60px;right:60px;top:380px;text-align:center;color:var(--bg);font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:96px;line-height:1.1}
+#e1 i{font-weight:400;color:var(--lav)}
+#brand{left:150px;right:150px;top:1060px;background:var(--bg);border-radius:60px;padding:38px 0;text-align:center}
+#brand .w{font-family:Fraunces,serif;font-weight:700;font-size:70px;color:var(--navy)}
+#brand .su{font-size:30px;font-weight:600;color:var(--muted);margin-top:6px}
+#url{left:0;right:0;top:1320px;text-align:center;color:var(--lav);font-size:42px;font-weight:600}
+</style></head><body>
+<div id="stage">
+  <div class="abs" id="call">
+    <div class="abs" id="av">🩺</div>
+    <div class="abs" id="who">Le véto</div>
+    <div class="abs" id="tim">appel en cours · 00:01</div>
+    <div class="abs" id="q">« Son dernier vaccin,<br>c’était quand ? »</div>
+    <div class="abs" id="toi"><span>Toi : « Euh… » 🫠</span></div>
+    <div id="srch"></div>
+  </div>
+  <div class="abs" id="hook"><span>POV : le véto<br><i>t’appelle</i> 📞</span></div>
+  <div class="abs" id="sil"><span>Silence gênant 😶</span></div>
+  <div class="abs" id="app">
+    <div class="abs" id="aT">La réponse<br><i>en 2 secondes</i> 😌</div>
+    <div class="abs" id="phone"><div id="screen"><img src="../captures/s4.png"></div></div>
+    <div class="ac" id="c1" style="left:40px;top:1220px">💉 Vaccins &amp; soins notés</div>
+    <div class="ac" id="c2" style="right:40px;top:1390px">🔔 Rappel avant l’échéance</div>
+  </div>
+  <div class="abs" id="end">
+    <div class="abs" id="e1">Identifie celle<br>qui répond<br><i>« au printemps ? »</i> 👇</div>
+    <div class="abs" id="brand"><div class="w">Horsetrack</div><div class="su">Gratuit pour 1 cheval · iPhone</div></div>
+    <div class="abs" id="url">Lien dans la bio</div>
+  </div>
+</div>
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const cl=v=>Math.min(1,Math.max(0,v)), P=(t,a,d)=>cl((t-a)/d);
+const oC=p=>1-Math.pow(1-p,3), io=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+const oB=p=>{const c1=1.8,c3=c1+1;return 1+c3*Math.pow(p-1,3)+c1*Math.pow(p-1,2)};
+function tf(el,{x=0,y=0,s=1,r=0,o=1}={}){el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;el.style.opacity=o}
+const S=[['📸','Galerie','4 213 photos de lui'],['💬','Groupe écurie','312 messages non lus'],['📒','Le carnet…','resté dans le van ?']];
+const box=$('#srch');
+S.forEach(s=>{const d=document.createElement('div');d.className='s';d.innerHTML=`<em>${s[0]}</em><div>${s[1]}<small>${s[2]}</small></div>`;box.appendChild(d);});
+const cards=$$('.s');
+const Q=0.0, TOI=1.9, C0=3.1, CD=1.2, SIL=C0+3*CD+0.3, APP=SIL+1.8, END_T=APP+3.4, END=END_T+3.4; window.END=END;
+window.SOUNDS=[[0,'notif'],[Q,'pop'],[TOI,'scratch'],[C0,'whoosh'],[C0+CD,'whoosh'],[C0+2*CD,'whoosh'],[SIL,'boom'],[APP,'whoosh'],[APP+0.9,'pop'],[APP+1.4,'ding'],[END_T,'whoosh']];
+function render(t){
+  // hook visible dès la 1re image
+  tf($('#hook'),{s:1+0.03*Math.sin(t*5),o:1-P(t,TOI-0.2,0.3)});
+  const sec=Math.floor(t)+1; $('#tim').textContent='appel en cours · 00:'+String(sec).padStart(2,'0');
+  tf($('#av'),{s:1+0.05*Math.sin(t*7)});
+  tf($('#q'),{s:1+0.02*Math.sin(t*6), y:-260*io(P(t,TOI,0.4))});
+  tf($('#who'),{y:-260*io(P(t,TOI,0.4)),o:1-P(t,TOI,0.3)}); tf($('#tim'),{y:-200*io(P(t,TOI,0.4))}); tf($('#av'),{y:-200*io(P(t,TOI,0.4)),o:1-P(t,TOI,0.3)});
+  const tp=oB(P(t,TOI,0.4)); tf($('#toi'),{s:0.5+0.5*tp,o:P(t,TOI,0.06),y:-260*io(P(t,C0-0.1,0.3))});
+  cards.forEach((c,i)=>{const st=C0+i*CD, p=oB(P(t,st,0.4)); c.style.top=(1080+i*175)+'px';
+    tf(c,{x:(1-p)*(i%2?1100:-1100),r:(i%2?2:-2)*(1-p),o:P(t,st,0.05)*(1-0.5*P(t,SIL,0.3))});});
+  const sp=oB(P(t,SIL,0.4)); tf($('#sil'),{s:0.5+0.5*sp,o:P(t,SIL,0.06)});
+  const sh=(t>SIL&&t<SIL+0.35)?Math.sin(t*120)*12:0; $('#call').style.transform=`translateX(${sh}px)`;
+  const a=$('#app'); a.style.display=t>=APP&&t<END_T+0.6?'block':'none';
+  a.style.clipPath=`circle(${io(P(t,APP,0.5))*2200}px at 50% 40%)`;
+  $('#sil').style.display=t<APP+0.5?'block':'none';
+  tf($('#aT'),{y:(1-oC(P(t,APP+0.2,0.4)))*40,o:P(t,APP+0.2,0.3)});
+  tf($('#phone'),{y:(1-oC(P(t,APP+0.2,0.6)))*1100});
+  $('#screen img').style.transform=`scale(${1+0.05*P(t,APP,3.5)})`;
+  [['#c1',0.9],['#c2',1.4]].forEach(([id,d],k)=>{const p=oB(P(t,APP+d,0.4));tf($(id),{s:0.4+0.6*p,r:(k?3:-3)*p,o:P(t,APP+d,0.08)});});
+  const e=$('#end'); e.style.display=t>=END_T?'block':'none';
+  e.style.clipPath=`circle(${io(P(t,END_T,0.5))*2200}px at 50% 100%)`;
+  tf($('#e1'),{s:0.7+0.3*oB(P(t,END_T+0.25,0.45)),o:P(t,END_T+0.25,0.1)});
+  const b=oB(P(t,END_T+1.0,0.45)), pulse=t>END_T+1.6?1+0.03*Math.sin((t-END_T)*6):1;
+  tf($('#brand'),{s:(0.6+0.4*b)*pulse,o:P(t,END_T+1.0,0.1)}); tf($('#url'),{o:P(t,END_T+1.3,0.4)});
+}
+window.render=render; render(0);
+</script></body></html>

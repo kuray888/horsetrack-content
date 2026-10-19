@@ -1,0 +1,21 @@
+{
+  "collecte": "2026-10-19 07:55 Europe/Paris (Metricool, blogId 7469064, Instagram uniquement)",
+  "colonnes_reels": ["date_utc","concept","vues","hook_vue_3s_pct","duree_moy_vue_s","partages","enregistrements","commentaires","likes","portee","age_h_au_releve"],
+  "reels": [
+    ["2026-10-10 20:00","Promo concours (ancien, avant routine)",279,6.1,1.53,1,0,null,null,null,227],
+    ["2026-10-11 07:35","Post-it (ancien, mentionne vermifuge)",1892,14.3,2.67,2,3,null,null,null,216],
+    ["2026-10-12 16:20","Tu fais laquelle 1-2-3 (ancien)",382,21.4,4.58,1,0,null,null,null,160],
+    ["2026-10-16 17:35","Floy ép.4 hiver / couvertures (publié hors Metricool)",1077,17.9,4.95,3,2,0,29,807,86],
+    ["2026-10-17 08:04","POV maréchal dans 10 min (voix off)",440,30.6,4.12,1,0,0,18,290,72],
+    ["2026-10-17 16:03","Mets pause : quel type de cavalière",391,16.0,2.84,1,0,0,8,270,64],
+    ["2026-10-18 08:05","Coût du cheval 680 €",244,18.0,3.74,1,0,0,4,168,48],
+    ["2026-10-18 16:30","Floy ép.2 concours","pas encore de données",null,null,null,null,null,null,null,13]
+  ],
+  "retention_IGRE27": "non renvoyée par Metricool (null)",
+  "compte": {
+    "abonnes": {"2026-10-15":197,"2026-10-16":197,"2026-10-17":198},
+    "gagnes": {"2026-10-11":0,"2026-10-12":0,"2026-10-13":3,"2026-10-14":2,"2026-10-15":1,"2026-10-16":2},
+    "perdus": {"2026-10-14":1},
+    "portee": {"2026-10-10":112,"2026-10-11":1133,"2026-10-12":151,"2026-10-13":105,"2026-10-14":1406,"2026-10-15":128,"2026-10-16":553,"2026-10-17":750}
+  }
+}
