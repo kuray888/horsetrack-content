@@ -28,6 +28,20 @@ Objectif unique : **plus d'abonnés Instagram et plus de téléchargements de l'
 
 ---
 
+## 0 bis. Stratégie de croissance v2 (19/10/2026), à appliquer à chaque cycle
+
+Diagnostic du 19/10 : environ 1 abonné net par jour, et un hook sous 31 % sur tous les réels. À ce rythme, il faudrait environ 2 ans pour atteindre 1 000 abonnés. Objectif : **≥ 15 abonnés nets par semaine dès maintenant, ≥ 30 à partir de mi-novembre, ≥ 60 ensuite**.
+
+1. **Hook d'abord.** Sur la 1re image (t = 0), on voit déjà le texte du hook en entier (8 mots maximum, en gros) **et** la situation (carte, appel, notification). Pas de fondu depuis un écran vide, pas de logo au début. Il faut du mouvement avant 0,5 s. On n'apporte qu'une seule idée par vidéo, qui dure entre 12 et 20 s.
+2. **Volume.** Tous les jours : 1 réel dans le fil, plus **1 Trial Reel** (`instagramData.type = "TRIAL_REEL"`), montré d'abord aux non-abonnés, jusqu'à 1 par jour, sans dépasser 2 publications par jour au total. Les Trial Reels servent à **tester les nouveaux concepts et hooks** sans encombrer le fil. Si un Trial Reel fait plus de 1,5 fois la médiane des vues : en refaire une variante pour le fil et prévenir la fondatrice. Elle peut aussi le « partager avec les abonnés » depuis l'app Instagram.
+3. **Faire parler et partager.** Chaque post se termine par une question facile à laquelle on répond en 1 mot ou 1 emoji (« 1, 2 ou 3 », « ton cheval en 3 emojis », « tu en coches combien ? »). Ajouter aussi « envoie-le à ta copine d'écurie ». **1 carrousel utile par semaine** du type « enregistre-le » (checklists, budget, calendrier de soins sans conseil médical) : ce sont les enregistrements qui font sortir le compte de sa base d'abonnés.
+4. **Séries qui fidélisent.** « Floy a ton numéro », et une série pilotée par les commentaires (« le commentaire le plus liké devient l'épisode suivant »).
+5. **Saisonnalité** (toujours vérifier les dates par une recherche web) : Equita Lyon du 28/10 au 1/11 ; vacances de la Toussaint jusqu'au 2/11 ; froid, couvertures et boue en novembre ; Salon du Cheval de Paris (dates à vérifier) ; cadeaux de Noël pour cavalière en décembre ; bilan et objectifs de saison en janvier (fonction Objectifs).
+6. **Mesure.** À chaque cycle, regarder le hook (> 3 s), la durée moyenne vue par rapport à la durée de la vidéo, les partages et enregistrements pour 1 000 vues, et les abonnés gagnés. Vues des Trial Reels comparées à celles du fil. Ne juger qu'après 48 h.
+7. **Ce que la routine ne peut pas faire** : répondre aux commentaires, envoyer des messages, faire des collaborations, modifier la bio, modifier l'App Store. Ces actions sont listées dans `PLAN_FONDATRICE.md` : les rappeler dans le récap tant qu'elles ne sont pas faites.
+
+---
+
 ## 1. Collecte (Metricool)
 
 - `getBrandSettings` → vérifier la marque et les réseaux reliés.

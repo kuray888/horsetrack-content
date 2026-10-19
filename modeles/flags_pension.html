@@ -83,7 +83,7 @@ function render(t){
   tf($('#hook'),{s:1+0.025*Math.sin(t*5)});
   const i=t<T0?-1:Math.min(F.length-1,Math.floor((t-T0)/RD));
   if(i!==last){last=i;
-    if(i<0){$('#card').className='abs r';$('#lbl').textContent='RED FLAG 🚩';$('#em').textContent='🌾';$('#tx').innerHTML=F[0][2];}
+    if(i<0){$('#card').className='abs r';$('#lbl').textContent='RED FLAG 🚩';$('#em').textContent=F[0][1];$('#tx').innerHTML=F[0][2];}
     else{const f=F[i];$('#card').className='abs '+f[0];$('#lbl').textContent=f[0]=='r'?'RED FLAG 🚩':'GREEN FLAG 💚';$('#em').textContent=f[1];$('#tx').innerHTML=f[2];}
   }
   $$('#cnt span').forEach((s,k)=>{s.className=(i>=0&&k<=i)?F[k][0]:'';});

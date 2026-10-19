@@ -29,3 +29,9 @@
 5. Pas de TikTok (non relié dans Metricool).
 
 **À regarder jeudi 22/10** : hook et partages de Floy ép. 2 et 3, carrousels (enregistrements), véto 12 h 30 vs 18 h–19 h, abonnés gagnés le 19–21. Si le POV véto passe 30 % → décliner le format « appel » (dentiste, propriétaire de la pension, coach). Refaire la 1re image des réels en stock (quiz, journal, dis vs réalité concours) si les nouveaux hooks montent nettement.
+
+### 2026-10-19 (suite) — Stratégie v2 demandée par la fondatrice (« tout ce que tu peux »)
+- `ROUTINE_AUTO.md` § 0 bis : règles de hook, **Trial Reels quotidiens** pour tester auprès des non-abonnés, un carrousel « enregistre-le » par semaine, calendrier de saison, objectifs d'abonnés nets par semaine (≥ 15, puis ≥ 30, puis ≥ 60).
+- Deux Trial Reels programmés : « Ce que seules les propriétaires comprennent » (jeu. 22, 12 h 30) et « Ton cheval en 3 emojis » (sam. 24, 18 h). À comparer aux réels du fil : vues et part de non-abonnés.
+- Audit App Store et site (`analyses/audit_aso_2026-10-19.md`) et liste de micro-créatrices (`analyses/createurs_2026-10-19.md`). Les actions de la fondatrice sont dans `PLAN_FONDATRICE.md`.
+- Points notables : catégorie App Store « Forme et santé » alors que les concurrents sont en Sports ; achats intégrés confus ; aucun lien `ct` donc impossible de mesurer les installations venant d'Instagram ; le site parle de vermifuge.
