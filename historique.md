@@ -15,3 +15,6 @@
 | 2026-10-25 | Instagram | Nouveau concept | POV écran verrouillé / notifications — programmé et validé |
 | 2026-10-27 | Instagram | Nouveau concept | Quiz « tu connais vraiment ton cheval ? » — programmé et validé |
 | 2026-10-29 | Instagram | Nouveau concept | Journal / souvenirs première séance — programmé et validé |
+| 2026-10-21 12:30 | Instagram | POV appel (nouveau, test 12 h 30) | Le véto t'appelle : « son dernier vaccin ? » — programmé auto |
+| 2026-10-26 19:00 | Instagram | Red flags / green flags (nouveau) | Pension — programmé auto (remplace Floy ép. 4, doublon du 16/10) |
+| 2026-10-28 18:30 | Instagram | Dis vs réalité · actu | Equita Lyon — programmé auto (remplace Mets pause quel cheval) |
