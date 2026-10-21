@@ -35,3 +35,11 @@
 - Deux Trial Reels programmés : « Ce que seules les propriétaires comprennent » (jeu. 22, 12 h 30) et « Ton cheval en 3 emojis » (sam. 24, 18 h). À comparer aux réels du fil : vues et part de non-abonnés.
 - Audit App Store et site (`analyses/audit_aso_2026-10-19.md`) et liste de micro-créatrices (`analyses/createurs_2026-10-19.md`). Les actions de la fondatrice sont dans `PLAN_FONDATRICE.md`.
 - Points notables : catégorie App Store « Forme et santé » alors que les concurrents sont en Sports ; achats intégrés confus ; aucun lien `ct` donc impossible de mesurer les installations venant d'Instagram ; le site parle de vermifuge.
+
+## 2026-10-21 (mercredi) — Nouveau mandat de la fondatrice et point intermédiaire
+- Mandat « directeur de la croissance » intégré (`ROUTINE_AUTO.md` § 0 ter) : top et flop 20 %, répartition 70/30, 3 hooks par vidéo, banque de hooks (`analyses/banque_hooks.md`), 3 meilleures idées par semaine dans le récap.
+- Abonnés : 201 le 20/10 (198 le 17/10).
+- **Signal fort, à confirmer** : la série « Floy a ton numéro » a le meilleur hook et la meilleure rétention. Ép. 3 (DP) : 44,4 % de hook et 10,4 s de durée moyenne, à moins de 48 h de vie. Ép. 2 : 31,6 % et 7,2 s. En revanche, zéro partage et zéro enregistrement.
+- Conséquence pour jeudi : produire Floy ép. 5 et 6 (format gagnant), avec une fin qui pousse au partage (« envoie-le à ta DP »).
+- Le message de la fondatrice était coupé après « RÉTENTION : une ». Le reste est demandé.
+- Point à trancher par la fondatrice : la règle « pas de vermifuge » contredit son nouveau brief, qui donne un hook vermifuge en exemple. Jusqu'à sa réponse, on garde l'ancienne règle.

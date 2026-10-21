@@ -40,6 +40,16 @@ Diagnostic du 19/10 : environ 1 abonné net par jour, et un hook sous 31 % sur t
 6. **Mesure.** À chaque cycle, regarder le hook (> 3 s), la durée moyenne vue par rapport à la durée de la vidéo, les partages et enregistrements pour 1 000 vues, et les abonnés gagnés. Vues des Trial Reels comparées à celles du fil. Ne juger qu'après 48 h.
 7. **Ce que la routine ne peut pas faire** : répondre aux commentaires, envoyer des messages, faire des collaborations, modifier la bio, modifier l'App Store. Ces actions sont listées dans `PLAN_FONDATRICE.md` : les rappeler dans le récap tant qu'elles ne sont pas faites.
 
+## 0 ter. Mandat du directeur de la croissance (fondatrice, 21/10/2026)
+
+- **Mission** : faire percer les vidéos, gagner des abonnés qualifiés, générer des téléchargements. Carte blanche sur les concepts, les hooks et les formats.
+- **Ce qu'on peut dire de l'app** : gratuit pour 1 cheval sans limite de durée ; 1 mois d'essai Premium ; sans pub ; Face ID ; carnet de santé en PDF. Premium : chevaux illimités, rappels illimités, coffre-fort documents, partage avec la DP, le coach ou le groom, suivi concours détaillé. Pas d'Android. Pas de conseil vétérinaire.
+- **Analyse** : pour chaque vidéo, relever vues, durée moyenne vue, % vu en entier, partages, enregistrements, commentaires, abonnés gagnés. **Partages, enregistrements et abonnés comptent plus que les vues.**
+- **Diagnostic** : classer les vidéos en **top 20 % et flop 20 %**. Pour chaque top : pourquoi elle a marché (hook, sujet, format, émotion, durée, heure). Pour chaque flop : le point de décrochage le plus probable (souvent les 2 premières secondes).
+- **Décision** : **70 % de formats qui ont fait leurs preuves** (déclinaisons, suites, séries), **30 % d'expériences nouvelles**. Cette règle remplace le 60/30/10 du § 3.
+- **Hook** : tout se joue en 1,5 s. Écrire **3 hooks par vidéo** et garder le plus fort. Tenir à jour `analyses/banque_hooks.md`. Types à tester : galère reconnaissable, question piège, chiffre choc, POV humour, « personne n'en parle », liste.
+- **Récap** : ce qui a marché, ce qu'on a appris, ce qu'on change, et **les 3 meilleures idées de la semaine**.
+
 ---
 
 ## 1. Collecte (Metricool)
