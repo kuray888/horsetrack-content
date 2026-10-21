@@ -35,6 +35,7 @@ Pour chaque nouvelle vidéo, écrire **3 hooks** et garder le plus fort, puis no
 | « Equita Lyon : ce que je dis vs la réalité » | Actu + dis vs réalité | 28/10 |
 
 ## Non testés (réserve)
+- « Tu sais quand ton cheval a été vermifugé pour la dernière fois ? » (question piège ; échéance seulement, renvoi au véto)
 - « Quand le maréchal te demande la date du dernier parage… »
 - « Personne ne te dit ça avant d'avoir un cheval »
 - « 3 trucs que j'aurais aimé savoir avant d'avoir mon premier cheval »

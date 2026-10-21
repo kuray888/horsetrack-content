@@ -72,7 +72,7 @@ Si on te demande de mettre en place ou d'exécuter la routine du lundi :
 5. Les vidéos avec voix ElevenLabs demandent que la fondatrice télécharge le MP3 elle-même : ne pas en prévoir sans lui demander.
 
 ## Règles de contenu (cavalière)
-- Pas de sujet « vermifuge ».
+- Vermifuge : autorisé depuis le 21/10/2026 (décision de la fondatrice), uniquement comme rendez-vous/échéance à ne pas oublier : jamais de produit, de molécule, de dose ni de fréquence conseillée — « demande à ton véto ».
 - Maréchal : toutes les 5 à 6 semaines.
 - Vaccins : tous les ans (compétitions nationales) ou tous les 6 mois (CSI). Vaccin pas à jour = pas de départ en concours.
 - L'app organise, elle ne soigne pas : renvoyer vers le vétérinaire pour la santé. iPhone uniquement, gratuit pour 1 cheval, Premium 3,99 €/mois ou 39,99 €/an.

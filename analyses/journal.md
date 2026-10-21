@@ -43,3 +43,5 @@
 - Conséquence pour jeudi : produire Floy ép. 5 et 6 (format gagnant), avec une fin qui pousse au partage (« envoie-le à ta DP »).
 - Le message de la fondatrice était coupé après « RÉTENTION : une ». Le reste est demandé.
 - Point à trancher par la fondatrice : la règle « pas de vermifuge » contredit son nouveau brief, qui donne un hook vermifuge en exemple. Jusqu'à sa réponse, on garde l'ancienne règle.
+
+- 21/10 : la fondatrice **lève l'interdiction du vermifuge**. Autorisé uniquement comme échéance à ne pas oublier : aucun produit, aucune dose, aucune fréquence conseillée, renvoi systématique au véto.

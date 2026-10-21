@@ -12,7 +12,7 @@ Objectif unique : **plus d'abonnés Instagram et plus de téléchargements de l'
 1. Marque Metricool **Horsetrack uniquement** (`blogId 7469064`, Instagram @horsetrack.app). Ne jamais toucher une autre marque (ex. « alfit.lifee »).
 2. Réseaux : Instagram. TikTok seulement s'il apparaît relié dans `getBrandSettings` (sinon, ne rien créer pour TikTok).
 3. Règles de contenu (voir aussi `INSTRUCTIONS_CLAUDE.md`) :
-   - pas de sujet « vermifuge » (ni dans le texte des vidéos) ;
+   - vermifuge autorisé depuis le 21/10/2026 (décision de la fondatrice), uniquement comme rendez-vous/échéance à ne pas oublier : jamais de produit, de molécule, de dose ni de fréquence conseillée — « demande à ton véto » ;
    - maréchal : 5–6 semaines ; vaccins : 1 an (national) ou 6 mois (CSI) ; vaccin pas à jour = pas de départ ;
    - l'app organise, elle ne soigne pas : pour la santé, renvoyer vers le véto ; aucun conseil médical chiffré inventé ;
    - ne promettre que des fonctions réelles : iPhone uniquement, gratuit pour 1 cheval, Premium 3,99 €/mois ou 39,99 €/an ; planning, séances, soins & rappels, concours, journal (ressenti, photo, météo auto), budget, documents ; partage DP/coach = Premium ;
