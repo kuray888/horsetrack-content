@@ -54,6 +54,7 @@ def notif():
     return np.concatenate([tone([1568], 0.12, 0.35), tone([2093], 0.28, 0.35)])
 S = {'boom': lambda: tone([110, 220], 0.6, 0.5, 6), 'whoosh': whoosh, 'scratch': scratch, 'tick': tick, 'notif': notif,
      'pop': lambda: tone([880, 1320], 0.18, 0.25, 20), 'soft': lambda: tone([660, 990], 0.5, 0.18, 8),
+     'recv': lambda: np.concatenate([tone([1320], 0.07, 0.35), tone([1760], 0.12, 0.35)]), 'send': lambda: tone([1046, 1568], 0.14, 0.3),
      'ding': lambda: np.concatenate([tone([1318], 0.12, 0.35), tone([1760, 2637], 0.7, 0.35, 5)])}
 for at, k in snd:
     s = S[k](); i = max(0, int(at * sr)); fx[i:i + len(s)] += s[:max(0, N - i)]

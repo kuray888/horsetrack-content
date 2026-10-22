@@ -1,0 +1,85 @@
+"""Génère un réel « conversation » (POV message) à partir de modeles/floy_chat.html.
+Usage : python3 scripts/make_chat.py  (construit tous les CONFIGS ci-dessous dans modeles/)
+Règle de hook v2 : le titre et le 1er message sont visibles dès t = 0 (pas de fondu depuis un écran vide)."""
+import json, re, os
+BASE = os.path.join(os.path.dirname(__file__), '..', 'modeles')
+src = open(os.path.join(BASE, 'floy_chat.html'), encoding='utf-8').read()
+
+CONFIGS = {
+ 'floy_ep5_dentiste': dict(
+  pov='POV : ton cheval<br><i>a ton numéro</i> 📱', ep='ÉPISODE 5 · LE DENTISTE 🦷',
+  name='Floy 🐴', avatar='<img src="../captures/avatar.png">',
+  msg=[['h','pourquoi y a un monsieur avec une râpe géante dans l’allée ? 😨',-0.4],
+       ['h','c’est pour qui ??',1.2],
+       ['m','c’est le dentiste mon cœur',2.5],
+       ['h','et tu l’as su quand ?',3.8],
+       ['m','ce matin… sur le groupe de l’écurie 🙃',5.1],
+       ['h','ma dernière visite c’était quand ?',6.6],
+       ['m','l’hiver dernier ? ou celui d’avant ?',8.0],
+       ['h','tu sais pas. j’en étais sûr 💀',9.5],
+       ['h','la prochaine fois tu notes tout dans Horsetrack',10.9],
+       ['img','../captures/sante_crop.png',12.1],
+       ['h','et tu reçois un rappel la veille. de rien 🙂',15.6]],
+  notif=13.8, notif_t='Horsetrack · Rappel', notif_b='Dentiste pour Floy De Tus demain 🦷', end_t=17.4,
+  e1='Envoie-le à celle<br><i>qui oublie toujours</i> 👇',
+  nx='Un rappel avant chaque soin · gratuit pour 1 cheval<br>Épisode 6 bientôt · abonne-toi'),
+ 'dp_23h': dict(
+  pov='23 h 04.<br><i>Ta DP t’écrit</i> 📱<br>', ep='LA GALÈRE DU SOIR 😬',
+  name='Léa · DP de Floy', avatar='<div style="width:100px;height:100px;border-radius:50%;background:#B8B0F2;display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:800;color:#231B6B">L</div>',
+  msg=[['h','il a perdu un fer 😬',-0.4],
+       ['h','arrière gauche',1.2],
+       ['m','NON. le maréchal passe quand déjà ??',2.5],
+       ['h','je sais pas, c’est toi qui gères 🙃',4.0],
+       ['m','attends je regarde',5.4],
+       ['img','../captures/sante_crop.png',6.5],
+       ['m','dans 30 jours… j’appelle le maréchal demain pour avancer 📞',9.6],
+       ['h','tu peux me partager la fiche, que je suive aussi ?',11.2],
+       ['m','je t’ajoute sur la fiche de Floy 👌',12.6],
+       ['h','enfin une propriétaire organisée 🥹',13.9]],
+  notif=None, notif_t='', notif_b='', end_t=15.6,
+  e1='Envoie-le<br><i>à ta DP</i> 👇',
+  nx='Partage avec ta DP : inclus dans Premium<br>Gratuit pour 1 cheval sur iPhone'),
+ 'floy_hs_heure': dict(
+  pov='POV : ton cheval<br><i>a ton numéro</i> 📱', ep='SPÉCIAL CHANGEMENT D’HEURE 🌚',
+  name='Floy 🐴', avatar='<img src="../captures/avatar.png">',
+  msg=[['h','il est quelle heure là ?',-0.4],
+       ['m','17 h 30 pourquoi',1.2],
+       ['h','il fait NUIT 🌚',2.4],
+       ['h','tu viens me voir quand maintenant ?',3.6],
+       ['m','à la frontale comme tout le monde 🔦',5.0],
+       ['h','génial. et ma séance alors ?',6.5],
+       ['m','je la cale samedi matin, quand il fait jour',7.9],
+       ['h','tu vas oublier.',9.3],
+       ['m','non, elle est dans le planning Horsetrack 📅',10.5],
+       ['h','…ok. j’ai rien dit 🙃',13.6]],
+  notif=11.9, notif_t='Horsetrack · Rappel', notif_b='Séance de Floy De Tus samedi à 10 h 📅', end_t=15.3,
+  e1='Tu montes le matin ☀️<br><i>ou le soir</i> 🌙 ? 👇',
+  nx='Ton planning d’écurie · gratuit pour 1 cheval<br>Floy a ton numéro · abonne-toi'),
+}
+
+for name, c in CONFIGS.items():
+    h = src
+    c['msg'] = [[w, t.replace(' ?', '\u00a0?').replace(' !', '\u00a0!') if w != 'img' else t, a] for w, t, a in c['msg']]
+    c['e1'] = c['e1'].replace(' 👇', '')
+    h = re.sub(r'<div class="abs" id="pov">.*?</div></div>',
+               f'<div class="abs" id="pov">{c["pov"]}<div id="ep">{c["ep"]}</div></div>', h, flags=re.S)
+    h = h.replace('<img src="../captures/avatar.png"><div><div class="n">Floy 🐴</div>',
+                  f'{c["avatar"]}<div><div class="n">{c["name"]}</div>')
+    h = h.replace('<div class="t">Horsetrack · Rappel</div><div class="b">Maréchal-ferrant pour Floy De Tus dans 3 jours 🔨</div>',
+                  f'<div class="t">{c["notif_t"]}</div><div class="b">{c["notif_b"]}</div>')
+    h = re.sub(r'<div class="abs" id="e1">.*?</div>', f'<div class="abs" id="e1">{c["e1"]}</div>', h, flags=re.S)
+    h = re.sub(r'<div class="abs" id="nx">.*?</div>', f'<div class="abs" id="nx">{c["nx"]}</div>', h, flags=re.S)
+    h = re.sub(r'const MSG=\[.*?\n\];', 'const MSG=' + json.dumps(c['msg'], ensure_ascii=False) + ';', h, flags=re.S)
+    notif = 'null' if c['notif'] is None else str(c['notif'])
+    h = h.replace('const NOTIF=14.2, END_T=18.6,', f'const NOTIF={notif}, END_T={c["end_t"]},')
+    h = h.replace(".concat([[NOTIF,'notif']]);", ".concat(NOTIF===null?[]:[[NOTIF,'notif']]).filter(s=>s[0]>=0);")
+    # hook visible à t=0 : plus de fondu d'opacité, juste une petite pulsation
+    h = h.replace("const hp=oB(P(t,0,0.45)); tf($('#pov'),{s:0.7+0.3*hp,o:P(t,0,0.1)});",
+                  "const hp=oB(P(t,0,0.45)); tf($('#pov'),{s:0.94+0.06*hp,o:1});")
+    h = h.replace("tf($('#head'),{y:(1-oC(P(t,0.1,0.4)))*-40,o:P(t,0.1,0.25)});", "tf($('#head'),{o:1});")
+    h = h.replace("const np=oB(P(t,NOTIF,0.5)), nq=io(P(t,NOTIF+1.35,0.35));",
+                  "const np=NOTIF===null?0:oB(P(t,NOTIF,0.5)), nq=NOTIF===null?0:io(P(t,NOTIF+1.35,0.35));")
+    h = h.replace("const buzz=(t>NOTIF&&t<NOTIF+0.4)", "const buzz=(NOTIF!==null&&t>NOTIF&&t<NOTIF+0.4)")
+    h = h.replace("window._ov=(window._ov===undefined?over:window._ov+(over-window._ov)*0.3)", "window._ov=(window._ov===undefined||t===0?over:window._ov+(over-window._ov)*0.3)")
+    open(os.path.join(BASE, name + '.html'), 'w', encoding='utf-8').write(h)
+    print('ok', name)
