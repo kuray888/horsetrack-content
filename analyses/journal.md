@@ -69,3 +69,5 @@
 7. Pas de vermifuge ce cycle (consigne de la tâche programmée plus stricte que la décision du 21/10 → on reste prudent). Pas de TikTok (toujours non relié).
 
 **À regarder lundi 26/10** : appel véto (21/10) vs maréchal ; carrousel c2 (enregistrements) ; Trial Reels 22/10 et 24/10 vs fil ; « Dis vs réalité » du 22/10 ; partages de Floy après l'ajout du « envoie-le à… ». Si DP 23 h ≈ Floy en hook → la mécanique conversation est le levier, on la décline (coach, maréchal, pension). Si un Trial Reel > 1,5 × la médiane → variante pour le fil + prévenir la fondatrice.
+
+- 22/10 : aimant « La fiche DP » créé (PDF + réel en brouillon le 31/10), puis **mis en pause** par la fondatrice. On reste sur la routine habituelle.

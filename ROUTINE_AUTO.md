@@ -50,7 +50,10 @@ Diagnostic du 19/10 : environ 1 abonné net par jour, et un hook sous 31 % sur t
 - **Hook** : tout se joue en 1,5 s. Écrire **3 hooks par vidéo** et garder le plus fort. Tenir à jour `analyses/banque_hooks.md`. Types à tester : galère reconnaissable, question piège, chiffre choc, POV humour, « personne n'en parle », liste.
 - **Récap** : ce qui a marché, ce qu'on a appris, ce qu'on change, et **les 3 meilleures idées de la semaine**.
 
-## 0 quater. Aimants à abonnés (22/10/2026, carte blanche de la fondatrice)
+## 0 quater. Aimants à abonnés — **EN PAUSE** (décision de la fondatrice, 22/10/2026 : « on réfléchira après »)
+
+> Ne rien produire ni publier sur ce sujet, et ne plus le rappeler dans les récaps, tant que la fondatrice ne relance pas l'idée. La fiche DP et le réel restent en stock.
+
 
 - **Principe** : un guide gratuit, utile et propre au monde du cheval, envoyé en message privé à toute personne qui commente un mot-clé. Le message demande de s'abonner. Le PDF contient un QR code vers l'App Store.
 - **Aimant n°1 : « La fiche DP »**, voir `analyses/aimant_fiche_dp.md`. Le réel `Horsetrack_Reel_AimantFicheDP.mp4` est programmé en **brouillon**, parce qu'il ne doit pas sortir avant que l'automatisation des messages soit active : sinon, des commentaires sans réponse.
