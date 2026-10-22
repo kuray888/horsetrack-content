@@ -6,7 +6,7 @@ Pour chaque nouvelle vidéo, écrire **3 hooks** et garder le plus fort, puis no
 ## Testés
 | Rang | Hook (1re image / 1re phrase) | Type | Format | Hook % | Durée moy. vue | Vues | Partages + enreg. | Date |
 |---|---|---|---|---|---|---|---|---|
-| 1 | « Floy a ton numéro, ép. 3 : la DP n'est jamais au courant » | POV humour, série | Conversation Floy | **44,4** *(< 48 h)* | **10,4 s** | 258 | 0 | 20/10 |
+| 1 | « Floy a ton numéro, ép. 3 : la DP n'est jamais au courant » | POV humour, série | Conversation Floy | **44,4** *(39 h)* | **10,4 s** | 258 | 0 | 20/10 |
 | 2 | « Floy a ton numéro, ép. 2 : la veille du concours » | POV humour, série | Conversation Floy | 31,6 | 7,2 s | 336 | 0 | 18/10 |
 | 3 | « Le maréchal arrive dans 10 min… et ton cheval est au fond du pré » | Galère reconnaissable | Court, voix off | 31,4 | 4,2 s | 473 | 2 | 17/10 |
 | 4 | « Tu fais laquelle ? 1, 2 ou 3 » | Choix / commentaire | Liste | 21,6 | 4,7 s | 390 | 1 | 12/10 |
@@ -33,6 +33,10 @@ Pour chaque nouvelle vidéo, écrire **3 hooks** et garder le plus fort, puis no
 | « Red flags 🚩 vs green flags 💚 d'une pension » | Liste / partage | 26/10 |
 | « 5 questions sur ton cheval, sans regarder ton téléphone » | Quiz | 27/10 |
 | « Equita Lyon : ce que je dis vs la réalité » | Actu + dis vs réalité | 28/10 |
+| « 23 h 04. Ta DP t'écrit : il a perdu un fer 😬 » | Galère + conversation (Trial Reel) | 23/10, 12 h |
+| « Floy a ton numéro · spécial changement d'heure : il fait NUIT 🌚 » | Série + actu (Trial Reel) | 25/10, 12 h |
+| « Floy ép. 5 : pourquoi y a un monsieur avec une râpe géante dans l'allée ? » | Série POV humour | 27/10, 19 h |
+| « Personne ne te dit ça avant d'avoir un cheval » | Personne n'en parle (Trial Reel) | 28/10, 12 h |
 
 ## Non testés (réserve)
 - « Tu sais quand ton cheval a été vermifugé pour la dernière fois ? » (question piège ; échéance seulement, renvoi au véto)
@@ -41,4 +45,6 @@ Pour chaque nouvelle vidéo, écrire **3 hooks** et garder le plus fort, puis no
 - « 3 trucs que j'aurais aimé savoir avant d'avoir mon premier cheval »
 - « Ta DP t'écrit à 23 h : "il boite un peu, c'est grave ?" » (renvoyer vers le véto)
 - « Ce que coûte VRAIMENT un cheval par an (pas par mois) »
-- « Floy a ton numéro, ép. 5 : le jour du dentiste »
+- (écartés le 22/10) DP : « Ta DP : "on a un souci" » ; « Message de ta DP à 23 h, tu ouvres ou pas ? »
+- (écartés le 22/10) Floy ép. 5 : « Ép. 5 : le dentiste arrive et personne ne m'a prévenu » ; « Floy découvre la râpe »
+- (écartés le 22/10) Liste : « 6 vérités sur la vie de propriétaire » ; « Ce qu'on ne t'a pas dit en t'achetant un cheval »

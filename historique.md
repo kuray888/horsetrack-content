@@ -20,3 +20,9 @@
 | 2026-10-28 18:30 | Instagram | Dis vs réalité · actu | Equita Lyon — programmé auto (remplace Mets pause quel cheval) |
 | 2026-10-22 12:30 | Instagram (Trial Reel) | Liste (nouveau) | Ce que seules les propriétaires comprennent — programmé auto |
 | 2026-10-24 18:00 | Instagram (Trial Reel) | Commentaires (nouveau) | Décris ton cheval en 3 emojis — programmé auto |
+| 2026-10-23 12:00 | Instagram (Trial Reel) | Conversation (nouveau hook) | 23 h 04, ta DP t'écrit : il a perdu un fer — programmé auto |
+| 2026-10-24 10:00 | Instagram | Actu | Changement d'heure — légende corrigée (fonction météo non confirmée retirée) |
+| 2026-10-25 12:00 | Instagram (Trial Reel) | Floy a ton numéro · hors-série | Changement d'heure — programmé auto |
+| 2026-10-27 12:30 | Instagram (Trial Reel) | Quiz | Tu connais vraiment ton cheval ? — déplacé du fil (19 h) vers Trial Reel |
+| 2026-10-27 19:00 | Instagram | Floy a ton numéro · ép. 5 | Le dentiste — programmé auto |
+| 2026-10-28 12:00 | Instagram (Trial Reel) | Liste « personne n'en parle » (nouveau) | Personne ne te dit ça avant d'avoir un cheval — programmé auto |

@@ -1,0 +1,111 @@
+{
+ "date_collecte": "2026-10-22T07:55+02:00",
+ "note": "Metricool n'a pas encore les données du 21/10 (carrousel c2, appel véto) ni des abonnés après le 20/10.",
+ "abonnes": {
+  "2026-10-15": 197,
+  "2026-10-16": 197,
+  "2026-10-17": 198,
+  "2026-10-18": 199,
+  "2026-10-19": 199,
+  "2026-10-20": 201
+ },
+ "reels": [
+  {
+   "date": "2026-10-20 17:03",
+   "titre": "Floy ép. 3 DP",
+   "vues": 258,
+   "portee": 164,
+   "hook_3s": 44.4,
+   "duree_moy_s": 10.41,
+   "partages": 0,
+   "enreg": 0,
+   "comm": 0,
+   "likes": 13
+  },
+  {
+   "date": "2026-10-18 16:31",
+   "titre": "Floy ép. 2 concours",
+   "vues": 336,
+   "portee": 202,
+   "hook_3s": 31.6,
+   "duree_moy_s": 7.19,
+   "partages": 0,
+   "enreg": 0,
+   "comm": 0,
+   "likes": 24
+  },
+  {
+   "date": "2026-10-18 08:05",
+   "titre": "Coût du cheval 680 €",
+   "vues": 427,
+   "portee": 296,
+   "hook_3s": 14.4,
+   "duree_moy_s": 3.07,
+   "partages": 1,
+   "enreg": 0,
+   "comm": 0,
+   "likes": 13
+  },
+  {
+   "date": "2026-10-17 16:03",
+   "titre": "Mets pause cavalière",
+   "vues": 437,
+   "portee": 302,
+   "hook_3s": 15.3,
+   "duree_moy_s": 2.65,
+   "partages": 1,
+   "enreg": 0,
+   "comm": 0,
+   "likes": 9
+  },
+  {
+   "date": "2026-10-17 08:04",
+   "titre": "Maréchal 10 min (voix off)",
+   "vues": 473,
+   "portee": 310,
+   "hook_3s": 31.4,
+   "duree_moy_s": 4.22,
+   "partages": 1,
+   "enreg": 1,
+   "comm": 0,
+   "likes": 19
+  },
+  {
+   "date": "2026-10-16 17:35",
+   "titre": "Floy ép. 4 couvertures",
+   "vues": 1127,
+   "portee": 835,
+   "hook_3s": 18.3,
+   "duree_moy_s": 5.03,
+   "partages": 3,
+   "enreg": 2,
+   "comm": 0,
+   "likes": 31
+  },
+  {
+   "date": "2026-10-12 16:20",
+   "titre": "Tu fais laquelle 1-2-3",
+   "vues": 390,
+   "portee": 257,
+   "hook_3s": 21.6,
+   "duree_moy_s": 4.74,
+   "partages": 1,
+   "enreg": 0,
+   "comm": 1,
+   "likes": 23
+  }
+ ],
+ "carrousels": [
+  {
+   "date": "2026-10-19 16:32",
+   "titre": "Prêt pour l'hiver (c1)",
+   "vues": 730,
+   "portee": 362,
+   "enreg": 1,
+   "partages": 2,
+   "comm": 0,
+   "likes": 26,
+   "abonnes_gagnes": 0
+  }
+ ]
+}

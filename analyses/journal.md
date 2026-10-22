@@ -45,3 +45,27 @@
 - Point à trancher par la fondatrice : la règle « pas de vermifuge » contredit son nouveau brief, qui donne un hook vermifuge en exemple. Jusqu'à sa réponse, on garde l'ancienne règle.
 
 - 21/10 : la fondatrice **lève l'interdiction du vermifuge**. Autorisé uniquement comme échéance à ne pas oublier : aucun produit, aucune dose, aucune fréquence conseillée, renvoi systématique au véto.
+
+## 2026-10-22 (jeudi) — Cycle 2
+**Données** : Metricool s'arrête au 20/10 (rien encore pour le carrousel c2 et l'appel véto du 21/10). Brutes dans `analyses/donnees_2026-10-22.json`.
+
+**Compte** : 201 abonnés le 20/10 (197 le 15/10, 198 le 17/10) → **+4 en 5 jours**, soit ~6/semaine. Objectif ≥ 15/semaine : pas atteint.
+
+**Top 20 %** (hook > 3 s / durée moyenne vue) :
+- Floy ép. 3 DP : **44,4 % / 10,4 s** (meilleur à ce jour, 39 h de vie). Pourquoi : conversation = chaque bulle relance l'attention, situation reconnaissable (la DP), humour du cheval qui parle.
+- Floy ép. 2 concours : 31,6 % / 7,2 s. Maréchal 10 min : 31,4 % / 4,2 s (galère reconnaissable).
+
+**Flop 20 %** : Mets pause cavalière (15,3 % / 2,7 s) et Coût 680 € (14,4 % / 3,1 s). Décrochage dans les 2 premières secondes : on demande un effort (mettre pause) ou on affiche un chiffre sans situation.
+
+**Ce qui manque** : partages + enregistrements quasi nuls sur les réels (Floy ép. 2 et 3 : 0). Le seul format qui en fait est le carrousel utile (hiver : 2 partages + 1 enreg. pour 730 vues ≈ 4/1 000) et la saison (couvertures : 5 pour 1 127).
+
+**Décisions**
+1. **70 % format gagnant** : 3 nouvelles vidéos « conversation » : Floy ép. 5 le dentiste (fil, mar. 27/10 19 h), Floy spécial changement d'heure (Trial Reel, dim. 25/10 12 h, le jour même), « 23 h 04, ta DP t'écrit : il a perdu un fer » (Trial Reel, ven. 23/10 12 h : même mécanique sans Floy, pour savoir si c'est la conversation ou le personnage qui retient).
+2. **Partage** : toutes les fins demandent d'envoyer à une personne précise (« à ta DP », « à celle qui oublie toujours »). On mesure si les partages décollent.
+3. **30 % nouveau** : liste « Personne ne te dit ça avant d'avoir un cheval » (Trial Reel, mer. 28/10 12 h ; type « personne n'en parle », jamais testé).
+4. **Quiz du 27/10 sorti du fil → Trial Reel 12 h 30** : concept non testé, mécanique « jeu » proche de Mets pause (flop) ; le créneau 19 h du fil va à Floy ép. 5. Le fil garde les formats éprouvés, les Trial Reels testent.
+5. **Correction** de la légende du 24/10 (changement d'heure) : elle promettait de « planifier avec la météo des prochains jours », fonction non confirmée → remplacée par « tu cales tes séances dans le planning, avec un rappel ».
+6. Hook v2 appliqué partout : titre + 1re bulle visibles dès t = 0, mouvement avant 0,5 s. Nouveau générateur `scripts/make_chat.py` (réels conversation à partir de `floy_chat.html`), sons `recv`/`send` ajoutés à `render_reel.py`.
+7. Pas de vermifuge ce cycle (consigne de la tâche programmée plus stricte que la décision du 21/10 → on reste prudent). Pas de TikTok (toujours non relié).
+
+**À regarder lundi 26/10** : appel véto (21/10) vs maréchal ; carrousel c2 (enregistrements) ; Trial Reels 22/10 et 24/10 vs fil ; « Dis vs réalité » du 22/10 ; partages de Floy après l'ajout du « envoie-le à… ». Si DP 23 h ≈ Floy en hook → la mécanique conversation est le levier, on la décline (coach, maréchal, pension). Si un Trial Reel > 1,5 × la médiane → variante pour le fil + prévenir la fondatrice.
