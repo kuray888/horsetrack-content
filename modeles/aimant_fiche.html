@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-400-italic.woff2);font-weight:400;font-style:italic}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#F6F4F0}
+body{font-family:Inter,"Noto Color Emoji",sans-serif;color:#1A1446}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden}
+.abs{position:absolute}
+#hook{left:50px;right:50px;top:120px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:96px;line-height:1.05;color:#231B6B;z-index:5}
+#hook i{font-weight:400;color:#6C5FD6}
+.pg{width:620px;left:230px;top:620px;border-radius:22px;box-shadow:0 30px 70px rgba(35,27,107,.25);transform-origin:50% 100%}
+#tag{left:0;right:0;top:1610px;text-align:center;z-index:6}
+#tag span{display:inline-block;background:#231B6B;color:#F6F4F0;font-size:44px;font-weight:800;padding:22px 44px;border-radius:60px}
+#lbl{left:0;right:0;top:500px;text-align:center;font-size:40px;font-weight:800;letter-spacing:.1em;color:#6C5FD6;z-index:6}
+#end{inset:0;background:#231B6B;z-index:30;display:none}
+#e1{left:60px;right:60px;top:430px;text-align:center;color:#F6F4F0;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:118px;line-height:1.05}
+#e1 i{font-weight:400;color:#B8B0F2}
+#kw{left:0;right:0;top:840px;text-align:center}
+#kw span{display:inline-block;background:#F6F4F0;color:#231B6B;font-family:Fraunces,serif;font-weight:700;font-size:150px;padding:20px 70px;border-radius:40px;letter-spacing:.04em}
+#e2{left:60px;right:60px;top:1130px;text-align:center;color:#DCD8F5;font-size:48px;font-weight:600;line-height:1.35}
+#e3{left:0;right:0;top:1420px;text-align:center;font-size:110px}
+#brand{left:0;right:0;top:1640px;text-align:center;color:#B8B0F2;font-size:38px;font-weight:700}
+</style></head><body>
+<div id="stage">
+  <div class="abs" id="hook">Ta DP a le numéro<br>de ton <i>véto</i>&nbsp;? 📞</div>
+  <div class="abs" id="lbl"></div>
+  <img class="abs pg" id="p3" src="../guides/fiche_dp_p-3.png">
+  <img class="abs pg" id="p2" src="../guides/fiche_dp_p-2.png">
+  <img class="abs pg" id="p1" src="../guides/fiche_dp_p-1.png">
+  <div class="abs" id="tag"><span>La fiche DP · gratuite 🐴</span></div>
+  <div class="abs" id="end">
+    <div class="abs" id="e1">Tu la veux&nbsp;?<br><i>Commente</i></div>
+    <div class="abs" id="kw"><span>FICHE</span></div>
+    <div class="abs" id="e2">et je te l’envoie en message 📩<br>3 pages à imprimer, à scotcher au box</div>
+    <div class="abs" id="e3">👇</div>
+    <div class="abs" id="brand">@horsetrack.app</div>
+  </div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const cl=v=>Math.min(1,Math.max(0,v)), P=(t,a,d)=>cl((t-a)/d);
+const oC=p=>1-Math.pow(1-p,3), io=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+const oB=p=>{const c1=1.8,c3=c1+1;return 1+c3*Math.pow(p-1,3)+c1*Math.pow(p-1,2)};
+function tf(el,{x=0,y=0,s=1,r=0,o=1}={}){el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;el.style.opacity=o}
+// phases : 0-2.2 fan ; puis chaque page passe devant avec son label
+const STEPS=[[2.2,'p1','QUI APPELER 📞'],[4.6,'p2','SON MODE D’EMPLOI 📖'],[7.0,'p3','LES DATES À NE PAS RATER 📅']];
+const END_T=9.6, END=END_T+4.2; window.END=END;
+window.SOUNDS=[[0,'boom']].concat(STEPS.map(s=>[s[0],'whoosh'])).concat([[END_T,'whoosh'],[END_T+0.9,'pop'],[END_T+1.4,'ding']]);
+const base={p1:{x:-40,r:-6},p2:{x:40,r:4},p3:{x:0,r:0}};
+function render(t){
+  tf($('#hook'),{s:1+0.02*Math.sin(t*5)});
+  let cur=-1; STEPS.forEach((s,i)=>{if(t>=s[0])cur=i;});
+  ['p1','p2','p3'].forEach((id,k)=>{
+    const b=base[id], el=$('#'+id);
+    const wob=Math.sin(t*2+k)*1.2;
+    let x=b.x, r=b.r+wob, s=0.92, y=0, z=3-k;
+    if(cur>=0){
+      const [st,sid]=STEPS[cur];
+      if(sid===id){const p=oB(P(t,st,0.45)); x=b.x*(1-p); r=(b.r+wob)*(1-p); s=0.92+0.12*p; y=-30*p; z=10;}
+      else {s=0.86; y=40; }
+    }
+    el.style.zIndex=z; tf(el,{x,y,s,r,o:1});
+  });
+  $('#lbl').textContent=cur>=0?STEPS[cur][2]:'TOUT CE QU’ELLE DOIT SAVOIR 👇'; tf($('#lbl'),{o:cur>=0?P(t,STEPS[cur][0],0.2):1});
+  tf($('#tag'),{s:1+0.03*Math.sin(t*4)});
+  const e=$('#end'); e.style.display=t>=END_T?'block':'none';
+  e.style.clipPath=`circle(${io(P(t,END_T,0.5))*2200}px at 50% 100%)`;
+  tf($('#e1'),{y:(1-oC(P(t,END_T+0.3,0.4)))*50,o:P(t,END_T+0.3,0.3)});
+  tf($('#kw'),{s:0.5+0.5*oB(P(t,END_T+0.9,0.45))*(t>END_T+1.6?1+0.04*Math.sin((t-END_T)*6):1),o:P(t,END_T+0.9,0.1)});
+  tf($('#e2'),{o:P(t,END_T+1.4,0.4)}); tf($('#e3'),{y:Math.sin((t-END_T)*5)*14,o:P(t,END_T+1.8,0.3)}); tf($('#brand'),{o:P(t,END_T+2,0.4)});
+}
+window.render=render; render(0);
+</script></body></html>

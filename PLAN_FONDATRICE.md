@@ -3,6 +3,7 @@
 La routine automatique produit et publie les réels deux fois par semaine. Ces actions-ci, elle ne peut pas les faire. Elles sont classées par impact sur les abonnés et les téléchargements, rapporté au temps qu'elles demandent.
 
 ## Cette semaine (environ 2 h en tout)
+- [ ] **NOUVEAU — Activer l'aimant « La fiche DP »** (20 min) : mettre en place la réponse automatique « commente FICHE → message privé ». Essayer d'abord Meta Business Suite (gratuit), sinon ManyChat. Mettre le PDF sur horsetrack.fr/fiche. Tout est expliqué dans `analyses/aimant_fiche_dp.md`. Quand c'est fait, dis-le-moi : le réel est prêt en brouillon pour le 31/10.
 - [ ] **Répondre à chaque commentaire dans l'heure qui suit un post** (10 min par jour). C'est le levier gratuit le plus fort sur la portée.
 - [ ] **Envoyer 5 messages de collab gratuite** (Premium offert à vie + code perso) : @manon.hellady, @elo_equestrian, @les.crins.de.verdure, @yes_captain, @lesponeysdelelou. Les modèles de messages sont dans `analyses/createurs_2026-10-19.md`. Vérifie chaque profil avant d'écrire.
 - [ ] **Créer un lien de campagne App Store** (`ct=ig_bio`) et le mettre en lien de bio Instagram. Sans ça, on ne saura jamais combien de téléchargements viennent d'Instagram.

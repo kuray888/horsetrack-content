@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<title>La fiche DP · Horsetrack</title>
+<style>
+@font-face{font-family:Fraunces;src:url(../modeles/polices/fraunces-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Fraunces;src:url(../modeles/polices/fraunces-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Fraunces;src:url(../modeles/polices/fraunces-latin-400-italic.woff2);font-weight:400;font-style:italic}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,"Noto Color Emoji",sans-serif;color:#1A1446;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;padding:14mm 15mm 12mm;background:#F6F4F0;position:relative;page-break-after:always;overflow:hidden}
+.page:last-child{page-break-after:auto}
+h1{font-family:Fraunces,serif;font-weight:700;font-size:34pt;line-height:1.02;color:#231B6B}
+h1 i,h2 i{font-weight:400;color:#6C5FD6}
+h2{font-family:Fraunces,serif;font-weight:700;font-size:17pt;color:#231B6B;margin:0 0 3mm}
+.kick{display:inline-block;background:#6C5FD6;color:#fff;font-weight:800;font-size:8pt;letter-spacing:.14em;padding:1.6mm 3.5mm;border-radius:20mm;margin-bottom:4mm}
+.lead{font-size:10.5pt;line-height:1.45;color:#4A4566;margin:3.5mm 0 6mm;max-width:150mm}
+.card{background:#fff;border-radius:5mm;padding:5mm 6mm;margin-bottom:5mm;box-shadow:0 1mm 3mm rgba(35,27,107,.06)}
+.row{display:flex;gap:4mm;margin-bottom:2.6mm;align-items:flex-end}
+.row:last-child{margin-bottom:0}
+.f{flex:1;display:flex;align-items:flex-end;gap:2mm;font-size:9.5pt;font-weight:600;color:#231B6B;white-space:nowrap}
+.f span.l{flex:1;border-bottom:.35mm dotted #B8B0F2;height:5.5mm}
+.cols{display:flex;gap:5mm}.cols>.card{flex:1}
+table{width:100%;border-collapse:collapse;font-size:9.5pt}
+th{text-align:left;font-size:8pt;letter-spacing:.08em;text-transform:uppercase;color:#6C5FD6;padding:0 2mm 2mm}
+td{border-top:.3mm solid #E4E0EF;height:9mm;padding:0 2mm;font-weight:600;color:#231B6B}
+td.e{color:transparent}
+.week td{text-align:center;height:11mm}
+.week td:first-child{text-align:left}
+.note{font-size:8.5pt;color:#6E6A86;line-height:1.4;margin-top:2.5mm}
+.alert{background:#231B6B;color:#F6F4F0;border-radius:5mm;padding:5mm 6mm;margin-bottom:5mm;font-size:10pt;line-height:1.45}
+.alert b{color:#B8B0F2}
+.lines span{display:block;border-bottom:.35mm dotted #B8B0F2;height:7mm}
+.foot{position:absolute;left:15mm;right:15mm;bottom:8mm;display:flex;justify-content:space-between;font-size:7.5pt;color:#8A86A0}
+.cta{background:#231B6B;border-radius:6mm;padding:7mm;color:#F6F4F0;display:flex;gap:7mm;align-items:center}
+.cta h2{color:#F6F4F0;font-size:19pt}
+.cta h2 i{color:#B8B0F2}
+.cta p{font-size:10pt;line-height:1.5;color:#DCD8F5;margin-top:2mm}
+.cta img{width:34mm;height:34mm;border-radius:3mm;background:#fff;padding:2mm;flex:none}
+.tick{font-size:9.5pt;line-height:1.9;color:#231B6B;font-weight:600}
+.tick div::before{content:"☐  ";color:#6C5FD6;font-weight:400}
+</style></head><body>
+
+<!-- PAGE 1 -->
+<div class="page">
+  <div class="kick">GRATUIT · À IMPRIMER · À SCOTCHER DANS LE CASIER</div>
+  <h1>La fiche <i>DP</i> 🐴</h1>
+  <p class="lead">Tout ce que ta demi-pensionnaire (ou la pension, ou la copine qui te dépanne) doit savoir sur ton cheval… sans t’appeler à 23 h. Remplis-la une fois, laisse-la au box, et c’est réglé.</p>
+
+  <div class="card">
+    <h2>Son cheval, <i>c’est lui</i></h2>
+    <div class="row"><div class="f">Nom <span class="l"></span></div><div class="f">Surnom <span class="l"></span></div></div>
+    <div class="row"><div class="f">Âge <span class="l"></span></div><div class="f">Race <span class="l"></span></div><div class="f">Robe <span class="l"></span></div></div>
+    <div class="row"><div class="f">N° SIRE / UELN <span class="l"></span></div><div class="f">Box / pré n° <span class="l"></span></div></div>
+  </div>
+
+  <div class="card">
+    <h2>Qui appeler</h2>
+    <table>
+      <tr><th style="width:30%"></th><th style="width:35%">Nom</th><th>Téléphone</th></tr>
+      <tr><td>Moi (propriétaire)</td><td class="e">.</td><td class="e">.</td></tr>
+      <tr><td>Vétérinaire</td><td class="e">.</td><td class="e">.</td></tr>
+      <tr><td>Véto de garde (nuit, week-end)</td><td class="e">.</td><td class="e">.</td></tr>
+      <tr><td>Maréchal-ferrant</td><td class="e">.</td><td class="e">.</td></tr>
+      <tr><td>Gérant·e de la pension</td><td class="e">.</td><td class="e">.</td></tr>
+      <tr><td>Coach / moniteur</td><td class="e">.</td><td class="e">.</td></tr>
+      <tr><td>Assurance (n° de contrat)</td><td class="e">.</td><td class="e">.</td></tr>
+    </table>
+  </div>
+
+  <div class="alert">🚨 <b>Si tu as le moindre doute sur sa santé</b> (boiterie, coliques, plaie, il ne mange pas…) : <b>tu appelles le véto</b>, puis tu me préviens. On ne cherche pas sur Internet, on ne donne rien sans l’avis du véto.<br>Son carnet de santé / passeport est rangé : <span style="display:inline-block;width:70mm;border-bottom:.35mm dotted #B8B0F2"></span></div>
+
+  <div class="foot"><span>La fiche DP · Horsetrack</span><span>1 / 3</span></div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+  <h1 style="font-size:26pt">Son mode <i>d’emploi</i> 📖</h1>
+  <p class="lead" style="margin-bottom:5mm">Ce que tu sais par cœur et que personne d’autre ne sait. C’est la page qui évite le plus de galères.</p>
+
+  <div class="cols">
+    <div class="card">
+      <h2 style="font-size:13pt">Son caractère</h2>
+      <div class="tick" style="margin-bottom:2mm"><div>Calme</div><div>Joueur</div><div>Peureux</div><div>Gourmand (très)</div></div>
+      <div class="lines"><span></span><span></span></div>
+    </div>
+    <div class="card">
+      <h2 style="font-size:13pt">Ce qu’il n’aime pas</h2>
+      <div class="note" style="margin:0 0 1mm">(la tondeuse, les bâches, le maréchal, la pluie…)</div>
+      <div class="lines"><span></span><span></span><span></span><span></span></div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="card">
+      <h2 style="font-size:13pt">Au quotidien</h2>
+      <div class="row"><div class="f">Sorties au pré <span class="l"></span></div></div>
+      <div class="row"><div class="f">Couverture : à partir de <span class="l"></span>°C</div></div>
+      <div class="row"><div class="f">Ration / compléments <span class="l"></span></div></div>
+      <div class="row"><div class="f"><span class="l"></span></div></div>
+      <div class="note">La ration se décide avec la pension et le véto, pas à la louche 😉</div>
+    </div>
+    <div class="card">
+      <h2 style="font-size:13pt">Où est quoi</h2>
+      <div class="row"><div class="f">Selle & filet <span class="l"></span></div></div>
+      <div class="row"><div class="f">Couvertures <span class="l"></span></div></div>
+      <div class="row"><div class="f">Pharmacie <span class="l"></span></div></div>
+      <div class="row"><div class="f">Cadenas / code <span class="l"></span></div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="font-size:13pt">Qui le monte, <i>quand</i></h2>
+    <table class="week">
+      <tr><th></th><th>Lun</th><th>Mar</th><th>Mer</th><th>Jeu</th><th>Ven</th><th>Sam</th><th>Dim</th></tr>
+      <tr><td>Moi</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td>DP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2 style="font-size:13pt">Nos règles <i>entre nous</i></h2>
+    <div class="tick"><div>On se prévient si on échange un jour</div><div>On se dit tout ce qu’on a remarqué (même un petit truc)</div><div>Sauts / extérieur : ok ☐ seul·e ☐ accompagné·e ☐ pas pour l’instant</div><div>Frais partagés (maréchal, cours…) : on en parle avant</div></div>
+  </div>
+  <div class="foot"><span>La fiche DP · Horsetrack</span><span>2 / 3</span></div>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page">
+  <h1 style="font-size:26pt">Les dates <i>à ne pas rater</i> 📅</h1>
+  <p class="lead" style="margin-bottom:5mm">Remplis la dernière date et la prochaine. Pour savoir à quel rythme, c’est ton véto et ton maréchal qui décident.</p>
+  <div class="card">
+    <table>
+      <tr><th style="width:30%">Rendez-vous</th><th>Dernière fois</th><th>Prochaine fois</th><th>Avec qui</th></tr>
+      <tr><td>🔨 Maréchal</td><td></td><td></td><td></td></tr>
+      <tr><td>💉 Vaccins</td><td></td><td></td><td></td></tr>
+      <tr><td>🦷 Dentiste</td><td></td><td></td><td></td></tr>
+      <tr><td>🦴 Ostéo</td><td></td><td></td><td></td></tr>
+      <tr><td>🩺 Visite véto</td><td></td><td></td><td></td></tr>
+      <tr><td>🏆 Concours</td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+    </table>
+    <div class="note">Bon à savoir : en concours, un vaccin pas à jour = pas de départ. Vérifie les dates avant de t’engager.</div>
+  </div>
+
+  <div class="card" style="margin-bottom:7mm">
+    <h2 style="font-size:13pt">Notes de la semaine</h2>
+    <div class="lines"><span></span><span></span><span></span><span></span></div>
+  </div>
+
+  <div class="cta">
+    <div>
+      <h2>Le papier, c’est bien. <i>Mais il ne te prévient pas la veille.</i></h2>
+      <p>Horsetrack, c’est cette fiche dans ton iPhone : les dates, les contacts, les séances, et un rappel avant chaque rendez-vous. Gratuit pour 1 cheval. Avec Premium, tu partages la fiche de ton cheval avec ta DP.</p>
+      <p style="color:#B8B0F2;font-weight:700;margin-top:3mm">Scanne pour télécharger · @horsetrack.app</p>
+    </div>
+    <img src="qr_appstore.png">
+  </div>
+  <div class="foot"><span>Horsetrack organise, il ne soigne pas : pour la santé de ton cheval, c’est ton vétérinaire.</span><span>3 / 3</span></div>
+</div>
+</body></html>
