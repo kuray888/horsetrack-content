@@ -26,3 +26,6 @@
 | 2026-10-27 12:30 | Instagram (Trial Reel) | Quiz | Tu connais vraiment ton cheval ? — déplacé du fil (19 h) vers Trial Reel |
 | 2026-10-27 19:00 | Instagram | Floy a ton numéro · ép. 5 | Le dentiste — programmé auto |
 | 2026-10-28 12:00 | Instagram (Trial Reel) | Liste « personne n'en parle » (nouveau) | Personne ne te dit ça avant d'avoir un cheval — programmé auto |
+| 2026-10-25 | Instagram | Correction | Trial Reels du 27 et 28/10 repassés en réels du fil |
+| 2026-10-31 | Instagram | Court-métrage (nouveau) | Le vrai film d'horreur des propriétaires (Halloween) — programmé |
+| 2026-11-01 | Instagram | Carrousel | Novembre : la checklist — programmé |

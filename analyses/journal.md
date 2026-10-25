@@ -71,3 +71,26 @@
 **À regarder lundi 26/10** : appel véto (21/10) vs maréchal ; carrousel c2 (enregistrements) ; Trial Reels 22/10 et 24/10 vs fil ; « Dis vs réalité » du 22/10 ; partages de Floy après l'ajout du « envoie-le à… ». Si DP 23 h ≈ Floy en hook → la mécanique conversation est le levier, on la décline (coach, maréchal, pension). Si un Trial Reel > 1,5 × la médiane → variante pour le fil + prévenir la fondatrice.
 
 - 22/10 : aimant « La fiche DP » créé (PDF + réel en brouillon le 31/10), puis **mis en pause** par la fondatrice. On reste sur la routine habituelle.
+
+## 2026-10-25 (dimanche) — Analyse demandée par la fondatrice (« plus rien sur le compte »)
+**Compte** : 207 abonnés le 24/10 (197 le 16/10) → **+10 en 8 jours** (~9/semaine). Objectif ≥ 15/semaine : pas atteint.
+
+**Cause du « compte vide »** : depuis le 22/10, la moitié des vidéos partaient en **Trial Reels**. Ils n'apparaissent pas sur le profil (une visiteuse voit un compte qui ne publie plus) et ont touché seulement 102–112 personnes chacun, contre 160–2 246 pour les réels du fil. → **Trial Reels arrêtés.** Les 2 encore programmés (quiz 27/10, « Personne ne te dit » 28/10) sont repassés en réels du fil.
+
+**Top** (hook > 3 s / durée moyenne vue) :
+- Conversation : Floy spécial heure (Trial) **58,7 % / 7,9 s**, DP 23 h (Trial) **51,4 % / 8,3 s**, Floy ép. 3 DP **45,3 % / 11,0 s**. → la mécanique conversation/histoire est confirmée (3 vidéos sur 3, avec et sans Floy).
+- Portée : appel véto (21/10, 12 h 30) **2 246 personnes**, Floy ép. 4 couvertures 838. Mais hook faible (13,5 % et 18,4 %) : Instagram les a poussées, les gens ont peu regardé.
+- Carrousels : hiver 378 personnes · 2 partages · 1 enreg. ; rendez-vous 525 · 3 partages. Meilleure portée moyenne que les réels (~250).
+
+**Flop** : mets pause (15 %), coût 680 € (14,5 %), dis vs réalité (22,7 %), changement d'heure classique (23,6 %), 3 emojis (31 %, 103 personnes).
+
+**Constat** : les partages, enregistrements et abonnés restent très faibles partout. Le hook n'est pas le seul problème : il faut des formats qu'on a envie d'envoyer (histoires où la DP ou la copine se reconnaît) et des carrousels qu'on garde.
+
+**Décisions**
+1. Plus de Trial Reels ; 2 publications par jour dans le fil ; **6 jours d'avance minimum** à chaque cycle.
+2. Nouveau format **court-métrage en chapitres** (histoire en 4 scènes + fin alternative Horsetrack) : 1er épisode « Le vrai film d'horreur des propriétaires » pour Halloween, sam. 31/10 19 h.
+3. **Carrousels : 2 par semaine.** Nouveau carrousel « Novembre : la checklist », dim. 1/11 10 h (Toussaint, gens disponibles le matin).
+4. Formats à abandonner : mets pause, chiffre seul, listes sans histoire.
+5. Action fondatrice : partager avec ses abonnés, depuis l'app Instagram, les 2 Trial Reels qui ont le meilleur hook (DP 23 h et Floy spécial heure), pour qu'ils apparaissent sur le profil.
+
+**À regarder au cycle du 26/10** : partages et commentaires du réel écran verrouillé (25/10), hook du quiz et de Floy ép. 5 ; au cycle du 2/11 : court-métrage vs conversation classique, carrousel novembre (enregistrements).

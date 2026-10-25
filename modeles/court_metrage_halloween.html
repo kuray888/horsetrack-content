@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-400-italic.woff2);font-weight:400;font-style:italic}
+:root{--bg:#F6F4F0;--navy:#231B6B;--ink:#1A1446;--muted:#6E6A86;--lav:#B8B0F2;--vio:#6C5FD6;--red:#E5533D;--night:#0F0B2E}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--night)}
+body{font-family:Inter,"Noto Color Emoji",sans-serif;-webkit-font-smoothing:antialiased}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:radial-gradient(90% 60% at 50% 40%,#2A2170 0%,#140F3D 55%,#0A0726 100%)}
+.abs{position:absolute}
+#grain{inset:0;opacity:.07;background-image:repeating-linear-gradient(0deg,#fff 0 1px,transparent 1px 3px);z-index:30;pointer-events:none}
+#vig{inset:0;box-shadow:inset 0 0 260px 80px rgba(0,0,0,.75);z-index:29;pointer-events:none}
+.bar{left:0;right:0;height:150px;background:#000;z-index:28}
+/* title */
+#title{left:60px;right:60px;top:560px;text-align:center;color:var(--bg)}
+#title .pre{font-size:38px;font-weight:700;letter-spacing:.3em;color:var(--lav)}
+#title .t{font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:104px;line-height:1.04;margin-top:30px}
+#title .t i{font-weight:400;color:#FF9F6B}
+#title .s{font-family:Fraunces,serif;font-style:italic;font-size:44px;color:rgba(246,244,240,.7);margin-top:40px}
+/* chapter label */
+#chap{left:0;right:0;top:250px;text-align:center;z-index:6}
+#chap span{display:inline-block;font-size:34px;font-weight:800;letter-spacing:.22em;color:var(--lav);border:3px solid rgba(184,176,242,.5);padding:14px 30px;border-radius:12px}
+#cap{left:70px;right:70px;top:360px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:76px;line-height:1.1;color:var(--bg);z-index:6}
+#cap i{font-weight:400;color:#FF9F6B}
+/* phone-like content */
+.card{position:absolute;left:90px;right:90px;border-radius:44px;background:rgba(246,244,240,.96);box-shadow:0 30px 80px rgba(0,0,0,.5);padding:34px 40px;z-index:5}
+.who{display:flex;align-items:center;gap:22px;font-size:34px;font-weight:700;color:var(--ink)}
+.av{width:84px;height:84px;border-radius:50%;background:var(--lav);display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:800;color:var(--navy);overflow:hidden}
+.av img{width:100%;height:100%;object-fit:cover}
+.who small{display:block;font-size:26px;font-weight:600;color:#3BA55C}
+.bub{margin-top:26px;display:inline-block;background:#EEEBFB;color:var(--ink);font-size:46px;line-height:1.25;padding:24px 32px;border-radius:34px 34px 34px 10px;max-width:100%}
+.bub.me{background:var(--navy);color:var(--bg);border-radius:34px 34px 10px 34px;float:right}
+.typing{margin-top:26px;display:inline-block;background:#EEEBFB;padding:22px 30px;border-radius:30px;font-size:46px;letter-spacing:6px;color:var(--muted)}
+.ntf{position:absolute;left:60px;right:60px;height:180px;background:rgba(246,244,240,.95);border-radius:44px;padding:28px 30px 0 150px;box-shadow:0 30px 70px rgba(0,0,0,.5);z-index:5}
+.ntf .ic{position:absolute;left:30px;top:36px;width:92px;height:92px;border-radius:22px;background:#fff;font-size:56px;line-height:92px;text-align:center}
+.ntf .ap{font-size:26px;font-weight:600;color:var(--muted)}
+.ntf .ti{font-size:38px;font-weight:700;color:var(--ink);margin-top:6px}
+.ntf .bo{font-size:44px;font-weight:800;color:var(--red);margin-top:2px}
+.src{position:absolute;left:120px;right:120px;height:150px;border-radius:36px;background:rgba(246,244,240,.94);display:flex;align-items:center;gap:30px;padding:0 40px;font-size:44px;font-weight:700;color:var(--ink);box-shadow:0 20px 50px rgba(0,0,0,.45);z-index:5}
+.src b{font-size:70px}
+.src .x{margin-left:auto;font-size:56px}
+#rule{left:80px;right:80px;top:1420px;text-align:center;z-index:6}
+#rule span{display:inline-block;background:var(--red);color:#fff;font-size:46px;font-weight:800;padding:22px 36px;border-radius:24px;box-shadow:0 20px 50px rgba(229,83,61,.4)}
+/* twist */
+#twist{inset:0;background:var(--bg);z-index:20;display:none}
+#tw1{left:0;right:0;top:170px;text-align:center}
+#tw1 span{display:inline-block;background:var(--navy);color:var(--bg);font-size:34px;font-weight:800;letter-spacing:.2em;padding:14px 30px;border-radius:40px}
+#tw2{left:60px;right:60px;top:270px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:80px;line-height:1.06;color:var(--navy)}
+#tw2 i{font-weight:400;color:var(--vio)}
+#phone{left:300px;top:520px;width:480px;height:1025px;border-radius:72px;background:#121614;padding:12px;box-shadow:0 40px 90px rgba(35,27,107,.28)}
+#screen{width:100%;height:100%;border-radius:60px;overflow:hidden;background:#e7ecef}
+#screen img{width:100%;display:block;transform-origin:50% 40%}
+.ac{position:absolute;background:var(--navy);color:var(--bg);font-size:38px;font-weight:700;padding:22px 32px;border-radius:26px;box-shadow:0 18px 40px rgba(35,27,107,.3);white-space:nowrap;z-index:21}
+/* end */
+#end{inset:0;background:var(--night);z-index:25;display:none}
+#e0{left:0;right:0;top:300px;text-align:center;font-size:140px}
+#e1{left:60px;right:60px;top:520px;text-align:center;color:var(--bg);font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:92px;line-height:1.08}
+#e1 i{font-weight:400;color:#FF9F6B}
+#brand{left:150px;right:150px;top:1050px;background:var(--bg);border-radius:60px;padding:38px 0;text-align:center}
+#brand .w{font-family:Fraunces,serif;font-weight:700;font-size:70px;color:var(--navy)}
+#brand .s{font-size:30px;font-weight:600;color:var(--muted);margin-top:6px}
+#url{left:0;right:0;top:1310px;text-align:center;color:var(--lav);font-size:42px;font-weight:600}
+</style></head><body>
+<div id="stage">
+  <div class="abs bar" style="top:0"></div><div class="abs bar" style="bottom:0"></div>
+  <div class="abs" id="title"><div class="pre">🎃 UN COURT-MÉTRAGE D’HALLOWEEN</div><div class="t">Le vrai film d’horreur<br><i>des propriétaires</i></div><div class="s">inspiré de faits réels (les tiens)</div></div>
+  <div class="abs" id="chap"><span>CHAPITRE 1</span></div>
+  <div class="abs" id="cap"></div>
+  <!-- s1 -->
+  <div class="card" id="s1" style="top:720px"><div class="who"><div class="av">L</div><div>Léa · ta DP<small>en ligne</small></div></div><div class="bub">il a ENCORE perdu un fer 😬</div><br><div class="bub">arrière gauche. dans la boue.</div></div>
+  <!-- s2 -->
+  <div class="ntf" id="s2" style="top:800px"><div class="ic">🏥</div><div class="ap">MAIL · CLINIQUE VÉTÉRINAIRE</div><div class="ti">Votre facture est disponible</div><div class="bo">Total : 320,00 €</div></div>
+  <!-- s3 -->
+  <div class="card" id="s3" style="top:700px"><div class="who"><div class="av">C</div><div>Coach<small>en ligne</small></div></div><div class="bub">dimanche concours 🏆</div><br><div class="bub">ses vaccins sont à jour hein ?</div><div style="clear:both"></div><div class="typing" id="ty" style="float:right;background:var(--navy);color:var(--lav)">• • •</div><div style="clear:both"></div></div>
+  <div class="abs" id="rule"><span>Vaccin pas à jour = pas de départ 😱</span></div>
+  <!-- s4 -->
+  <div class="src" id="q1" style="top:640px"><b>📝</b>Notes<span class="x">❌</span></div>
+  <div class="src" id="q2" style="top:830px"><b>📸</b>12 483 photos<span class="x">❌</span></div>
+  <div class="src" id="q3" style="top:1020px"><b>📧</b>Mails<span class="x">❌</span></div>
+  <div class="src" id="q4" style="top:1210px"><b>📒</b>Carnet… resté à l’écurie<span class="x">💀</span></div>
+  <!-- twist -->
+  <div class="abs" id="twist">
+    <div class="abs" id="tw1"><span>✨ FIN ALTERNATIVE</span></div>
+    <div class="abs" id="tw2">Tout était noté<br><i>au même endroit</i> 😮‍💨</div>
+    <div class="abs" id="phone"><div id="screen"><img src="../captures/s4.png"></div></div>
+    <div class="ac" id="c1" style="left:40px;top:1160px">💉 Vaccins · à jour ✅</div>
+    <div class="ac" id="c2" style="right:40px;top:1320px">🔨 Maréchal · rappel demain</div>
+  </div>
+  <div class="abs" id="end">
+    <div class="abs" id="e0">🎃</div>
+    <div class="abs" id="e1">Ton pire film<br>d’horreur d’écurie&nbsp;?<br><i>Raconte</i> 👇</div>
+    <div class="abs" id="brand"><div class="w">Horsetrack</div><div class="s">Gratuit pour 1 cheval · iPhone</div></div>
+    <div class="abs" id="url">Lien dans la bio</div>
+  </div>
+  <div class="abs" id="vig"></div><div class="abs" id="grain"></div>
+</div>
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const cl=v=>Math.min(1,Math.max(0,v)), P=(t,a,d)=>cl((t-a)/d);
+const oC=p=>1-Math.pow(1-p,3), io=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+const oB=p=>{const c1=1.8,c3=c1+1;return 1+c3*Math.pow(p-1,3)+c1*Math.pow(p-1,2)};
+function tf(el,{x=0,y=0,s=1,r=0,o=1}={}){el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;el.style.opacity=o}
+// timeline
+const S1=2.4, S2=5.9, S3=8.9, S4=13.6, TW=17.8, END_T=22.6, END=END_T+3.6; window.END=END;
+const CH=[[S1,'CHAPITRE 1 · 23 H 47','Un message.<br><i>À cette heure-là…</i>'],[S2,'CHAPITRE 2 · LE COURRIER','Puis le mail<br><i>que tu redoutais</i>'],[S3,'CHAPITRE 3 · VENDREDI SOIR','Le coach<br><i>pose LA question</i>'],[S4,'CHAPITRE 4 · LA RECHERCHE','Tu cherches<br><i>la date du vaccin…</i>']];
+window.SOUNDS=[[0,'boom'],[S1,'whoosh'],[S1+0.5,'notif'],[S1+1.6,'notif'],[S2,'whoosh'],[S2+0.4,'scratch'],[S3,'whoosh'],[S3+0.4,'notif'],[S3+1.4,'notif'],[S3+3.0,'boom'],[S4,'whoosh'],[S4+0.4,'tick'],[S4+1.1,'tick'],[S4+1.8,'tick'],[S4+2.5,'scratch'],[TW,'ding'],[TW+1.4,'pop'],[TW+1.9,'pop'],[END_T,'whoosh']];
+function chapAt(t){let c=null;CH.forEach(x=>{if(t>=x[0])c=x});return c}
+let lastC='';
+function render(t){
+  // title: visible from t=0, gentle flicker + push in
+  const fl=t<S1?(0.9+0.1*Math.sin(t*37)*Math.sin(t*11)):1;
+  tf($('#title'),{s:1.06-0.06*P(t,0,S1),o:fl*(1-P(t,S1-0.3,0.3))});
+  const c=chapAt(t);
+  if(c&&c[1]!==lastC){lastC=c[1];$('#chap span').textContent=c[1];$('#cap').innerHTML=c[2];}
+  const cin=c?oC(P(t,c[0],0.4)):0, cout=1-P(t,TW-0.2,0.2);
+  tf($('#chap'),{y:(1-cin)*-30,o:c?P(t,c[0],0.2)*cout:0});
+  tf($('#cap'),{y:(1-cin)*30,o:c?P(t,c[0]+0.1,0.3)*cout:0});
+  // s1
+  const s1in=oB(P(t,S1+0.3,0.45)), s1o=P(t,S1+0.3,0.1)*(1-P(t,S2-0.25,0.25));
+  tf($('#s1'),{y:(1-s1in)*200,s:0.9+0.1*s1in,o:s1o});
+  $$('#s1 .bub').forEach((b,k)=>{b.style.opacity=P(t,S1+0.5+k*1.1,0.15);});
+  // s2
+  const s2in=oB(P(t,S2+0.3,0.45)), sh2=(t>S2+0.4&&t<S2+0.75)?Math.sin(t*140)*14:0;
+  tf($('#s2'),{x:sh2,y:(1-s2in)*-200,s:0.9+0.1*s2in,o:P(t,S2+0.3,0.1)*(1-P(t,S3-0.25,0.25))});
+  // s3
+  const s3in=oB(P(t,S3+0.3,0.45));
+  tf($('#s3'),{y:(1-s3in)*200,s:0.9+0.1*s3in,o:P(t,S3+0.3,0.1)*(1-P(t,S4-0.25,0.25))});
+  $$('#s3 .bub').forEach((b,k)=>{b.style.opacity=P(t,S3+0.4+k*1.0,0.15);});
+  $('#ty').style.opacity=P(t,S3+2.3,0.15)*(0.6+0.4*Math.abs(Math.sin(t*5)));
+  const ru=oB(P(t,S3+3.0,0.4));
+  tf($('#rule'),{s:0.5+0.5*ru,r:-2*ru,o:P(t,S3+3.0,0.06)*(1-P(t,S4-0.25,0.25))});
+  // stage shake on rule
+  const shk=(t>S3+3.0&&t<S3+3.35)?Math.sin(t*120)*12:0;
+  // s4
+  ['#q1','#q2','#q3','#q4'].forEach((id,k)=>{const st=S4+0.4+k*0.7, p=oB(P(t,st,0.35));
+    tf($(id),{x:(1-p)*(k%2?900:-900),r:(k%2?1.5:-1.5)*p,o:P(t,st,0.05)*(1-P(t,TW-0.2,0.2))});});
+  $('#stage').style.transform=`translateX(${shk}px)`;
+  // twist: flash to light
+  const w=$('#twist'); w.style.display=t>=TW&&t<END_T+0.6?'block':'none';
+  w.style.clipPath=`circle(${io(P(t,TW,0.6))*2200}px at 50% 50%)`;
+  tf($('#tw1'),{s:0.6+0.4*oB(P(t,TW+0.2,0.4)),o:P(t,TW+0.2,0.1)});
+  tf($('#tw2'),{y:(1-oC(P(t,TW+0.35,0.4)))*30,o:P(t,TW+0.35,0.3)});
+  tf($('#phone'),{y:(1-oC(P(t,TW+0.3,0.6)))*1100});
+  $('#screen img').style.transform=`scale(${1+0.05*P(t,TW,4.5)})`;
+  [['#c1',1.4],['#c2',1.9]].forEach(([id,d],k)=>{const p=oB(P(t,TW+d,0.4));tf($(id),{s:0.4+0.6*p,r:(k?3:-3)*p,o:P(t,TW+d,0.08)});});
+  // end
+  const e=$('#end'); e.style.display=t>=END_T?'block':'none';
+  e.style.clipPath=`circle(${io(P(t,END_T,0.5))*2200}px at 50% 100%)`;
+  tf($('#e0'),{s:0.5+0.5*oB(P(t,END_T+0.2,0.4)),r:8*Math.sin((t-END_T)*3),o:P(t,END_T+0.2,0.1)});
+  tf($('#e1'),{s:0.7+0.3*oB(P(t,END_T+0.35,0.45)),o:P(t,END_T+0.35,0.1)});
+  const b=oB(P(t,END_T+1.1,0.45)), pulse=t>END_T+1.7?1+0.03*Math.sin((t-END_T)*6):1;
+  tf($('#brand'),{s:(0.6+0.4*b)*pulse,o:P(t,END_T+1.1,0.1)}); tf($('#url'),{o:P(t,END_T+1.4,0.4)});
+  // bars + vignette stay except light twist
+  const light=t>=TW&&t<END_T; $$('.bar').forEach(x=>x.style.opacity=light?0:1); $('#vig').style.opacity=light?0.15:1;
+}
+window.render=render; render(0);
+</script></body></html>
