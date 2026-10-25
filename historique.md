@@ -28,4 +28,7 @@
 | 2026-10-28 12:00 | Instagram (Trial Reel) | Liste « personne n'en parle » (nouveau) | Personne ne te dit ça avant d'avoir un cheval — programmé auto |
 | 2026-10-25 | Instagram | Correction | Trial Reels du 27 et 28/10 repassés en réels du fil |
 | 2026-10-31 | Instagram | Court-métrage (nouveau) | Le vrai film d'horreur des propriétaires (Halloween) — programmé |
-| 2026-11-01 | Instagram | Carrousel | Novembre : la checklist — programmé |
+| 2026-11-02 | Instagram | Carrousel | Novembre : la checklist — programmé (déplacé du 1/11) |
+| 2026-10-31 | Instagram | Conversation | Floy ép. 6 · les vacances — programmé |
+| 2026-11-01 | Instagram | Conversation | Dimanche midi, ta mère t'écrit — programmé |
+| 2026-11-01 | Instagram | Court-métrage | Ta première année avec lui — programmé |

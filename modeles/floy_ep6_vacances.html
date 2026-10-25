@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-400-italic.woff2);font-weight:400;font-style:italic}
+:root{--bg:#F6F4F0;--navy:#231B6B;--ink:#1A1446;--muted:#6E6A86;--lav:#B8B0F2;--line:#E4E0EF}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+body{font-family:Inter,"Noto Color Emoji",sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.abs{position:absolute}
+#pov{left:60px;right:60px;top:110px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:78px;line-height:1.08;color:var(--navy);z-index:5}
+#ep{display:inline-block;margin-top:14px;font-family:Inter,sans-serif;font-size:26px;font-weight:800;letter-spacing:.12em;color:#fff;background:#6C5FD6;padding:10px 24px;border-radius:30px}
+#pov i{font-weight:400;color:#6C5FD6}
+#head{left:60px;right:60px;top:400px;height:150px;background:#fff;border-radius:40px;display:flex;align-items:center;gap:26px;padding:0 34px;box-shadow:0 14px 40px rgba(35,27,107,.08);z-index:5}
+#head img{width:100px;height:100px;border-radius:50%;object-fit:cover}
+#head .n{font-size:44px;font-weight:700;color:var(--ink)}
+#head .s{font-size:28px;color:#3BA55C;font-weight:600;margin-top:2px}
+#head .s.ty{color:var(--muted)}
+#chatWin{left:0;right:0;top:570px;height:1030px;overflow:hidden;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 70px)}
+#chat{position:absolute;left:60px;right:60px;top:0;display:flex;flex-direction:column;gap:18px;padding-top:80px}
+.m{max-width:780px;padding:26px 36px;border-radius:44px;font-size:46px;line-height:1.25;font-weight:500;transform-origin:0 100%}
+.h{align-self:flex-start;background:#fff;color:var(--ink);border-bottom-left-radius:12px;box-shadow:0 6px 18px rgba(35,27,107,.06)}
+.me{align-self:flex-end;background:var(--navy);color:var(--bg);border-bottom-right-radius:12px;transform-origin:100% 100%}
+.img{max-width:none;padding:12px;border-radius:44px;border-bottom-left-radius:12px}
+.img img{width:820px;display:block;border-radius:34px}
+.typing{display:flex;gap:12px;padding:34px 38px}
+.typing i{width:20px;height:20px;border-radius:50%;background:#B7B3C8;display:block}
+#notif{left:40px;right:40px;top:-260px;background:rgba(255,255,255,.98);border-radius:44px;padding:30px 34px;display:flex;gap:26px;align-items:center;box-shadow:0 24px 60px rgba(35,27,107,.25);z-index:20}
+#notif .ic{width:96px;height:96px;border-radius:24px;background:var(--navy);flex:none;display:flex;align-items:center;justify-content:center}
+#notif .t{font-size:32px;font-weight:700;color:var(--ink)}
+#notif .b{font-size:36px;color:#333;margin-top:4px;line-height:1.25}
+#notif .w{font-size:26px;color:var(--muted);align-self:flex-start}
+#end{inset:0;background:var(--navy);z-index:30;display:none}
+#e1{left:70px;right:70px;top:380px;text-align:center;color:var(--bg);font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:104px;line-height:1.08}
+#e1 i{font-weight:400;color:var(--lav)}
+#e2{left:0;right:0;top:880px;text-align:center;font-size:120px}
+#brand{left:150px;right:150px;top:1120px;background:var(--bg);border-radius:60px;padding:40px 0;text-align:center}
+#brand .w{font-family:Fraunces,serif;font-weight:700;font-size:72px;color:var(--navy)}
+#brand .s{font-size:32px;font-weight:600;color:var(--muted);margin-top:6px}
+#nx{left:0;right:0;top:1490px;text-align:center;color:rgba(246,244,240,.7);font-size:34px;font-weight:600}
+#url{left:0;right:0;top:1390px;text-align:center;color:var(--lav);font-size:44px;font-weight:600;letter-spacing:.04em}
+</style></head><body>
+<div id="stage">
+  <div class="abs" id="pov">POV : ton cheval<br><i>a ton numéro</i> 📱<div id="ep">ÉPISODE 6 · LES VACANCES 🧳</div></div>
+  <div class="abs" id="head"><img src="../captures/avatar.png"><div><div class="n">Floy 🐴</div><div class="s" id="stat">en ligne</div></div></div>
+  <div class="abs" id="chatWin"><div id="chat"></div></div>
+  <div class="abs" id="notif">
+    <div class="ic"><svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#F6F4F0" stroke-width="2.3" stroke-linecap="round"><path d="M6 17V11a6 6 0 0 1 12 0v6l2 2H4z"/><path d="M10 21h4"/></svg></div>
+    <div style="flex:1"><div class="t"></div><div class="b"></div></div>
+    <div class="w">maint.</div>
+  </div>
+  <div class="abs" id="end">
+    <div class="abs" id="e1">Envoie-le à ta DP<br><i>avant de partir</i></div>
+    <div class="abs" id="e2">👇</div>
+    <div class="abs" id="brand"><div class="w">Horsetrack</div><div class="s">Gratuit sur iPhone · App Store</div></div>
+    <div class="abs" id="url">horsetrack.fr</div>
+    <div class="abs" id="nx">Partage avec ta DP : inclus dans Premium<br>Gratuit pour 1 cheval · Floy a ton numéro</div>
+  </div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const cl=v=>Math.min(1,Math.max(0,v)), P=(t,a,d)=>cl((t-a)/d);
+const oC=p=>1-Math.pow(1-p,3), io=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+const oB=p=>{const c1=1.9,c3=c1+1;return 1+c3*Math.pow(p-1,3)+c1*Math.pow(p-1,2)};
+function tf(el,{x=0,y=0,s=1,o=1}={}){el.style.transform=`translate(${x}px,${y}px) scale(${s})`;el.style.opacity=o}
+// [who, text, time]  who: h=horse, m=me, img
+const MSG=[["h", "pourquoi t’as une valise ? 🧳", -0.4], ["h", "tu pars ??", 1.2], ["m", "juste 4 jours pour la Toussaint 🙈", 2.5], ["h", "et qui me nourrit ? qui me sort ? qui me fait des bisous ?", 3.9], ["m", "Léa, ta DP 💜", 5.5], ["h", "elle sait que j’ai peur des bâches ?", 6.8], ["h", "elle sait quand passe le maréchal ??", 8.1], ["m", "je lui ai partagé ta fiche, elle a tout 👇", 9.5], ["img", "../captures/partage_crop.png", 10.7], ["h", "ok. mais tu me ramènes des carottes 🥕", 14.0]];
+const NOTIF=null, END_T=15.8, END=END_T+3.6; window.END=END;
+const chat=$('#chat'); const nodes=[];
+MSG.forEach(([w,txt])=>{
+  if(w!=='m'){const ty=document.createElement('div');ty.className='m h typing';ty.innerHTML='<i></i><i></i><i></i>';chat.appendChild(ty);nodes.push(ty);} else nodes.push(null);
+  const d=document.createElement('div');
+  if(w==='img'){d.className='m h img';d.innerHTML=`<img src="${txt}">`;} else {d.className='m '+(w==='m'?'me':'h');d.textContent=txt;}
+  chat.appendChild(d);nodes.push(d);
+});
+window.SOUNDS=MSG.map(m=>[m[2],m[0]==='m'?'send':'recv']).concat(NOTIF===null?[]:[[NOTIF,'notif']]).filter(s=>s[0]>=0);
+const TY=0.8, WINH=1030;
+function render(t){
+  let typingNow=false;
+  MSG.forEach(([w,,at],i)=>{
+    const ty=nodes[i*2], b=nodes[i*2+1];
+    if(ty){const on=t>=at-TY&&t<at; ty.style.display=on?'flex':'none'; if(on){typingNow=true;const p=oC(P(t,at-TY,0.2));tf(ty,{s:0.6+0.4*p,o:p});
+      [...ty.children].forEach((d,k)=>{d.style.transform=`translateY(${-10*Math.max(0,Math.sin((t*7)-k*0.9))}px)`;});}}
+    const vis=t>=at; b.style.display=vis?'block':'none';
+    if(vis){const p=oB(P(t,at,0.32));tf(b,{s:0.5+0.5*p,o:P(t,at,0.08)});}
+  });
+  $('#stat').textContent=typingNow?'écrit…':'en ligne'; $('#stat').classList.toggle('ty',typingNow);
+  // auto-scroll: keep content bottom inside window
+  const h=chat.scrollHeight; const over=Math.max(0,h-WINH+30);
+  window._ov=(window._ov===undefined||t===0?over:window._ov+(over-window._ov)*0.3); chat.style.top=(-window._ov)+'px';
+  // hook pop
+  const hp=oB(P(t,0,0.45)); tf($('#pov'),{s:0.94+0.06*hp,o:1});
+  tf($('#head'),{o:1});
+  // notification
+  const np=NOTIF===null?0:oB(P(t,NOTIF,0.5)), nq=NOTIF===null?0:io(P(t,NOTIF+1.35,0.35));
+  $('#notif').style.top=(-260+np*400-nq*400)+'px';
+  // phone buzz on notif
+  const buzz=(NOTIF!==null&&t>NOTIF&&t<NOTIF+0.4)?Math.sin(t*90)*6:0; $('#stage').style.transform=`translateX(${buzz}px)`;
+  // end card
+  const e=$('#end'); e.style.display=t>=END_T?'block':'none';
+  e.style.clipPath=`circle(${io(P(t,END_T,0.55))*2200}px at 50% 100%)`;
+  tf($('#e1'),{y:(1-oC(P(t,END_T+0.3,0.5)))*60,o:P(t,END_T+0.3,0.35)});
+  tf($('#e2'),{y:Math.sin((t-END_T)*5)*14,o:P(t,END_T+0.7,0.3)});
+  const b=oB(P(t,END_T+1.0,0.5)); tf($('#brand'),{s:0.6+0.4*b,o:P(t,END_T+1.0,0.15)});
+  tf($('#url'),{o:P(t,END_T+1.3,0.4)}); tf($('#nx'),{o:P(t,END_T+1.6,0.4)});
+}
+window.render=render; render(0);
+</script></body></html>

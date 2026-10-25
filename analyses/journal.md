@@ -94,3 +94,4 @@
 5. Action fondatrice : partager avec ses abonnés, depuis l'app Instagram, les 2 Trial Reels qui ont le meilleur hook (DP 23 h et Floy spécial heure), pour qu'ils apparaissent sur le profil.
 
 **À regarder au cycle du 26/10** : partages et commentaires du réel écran verrouillé (25/10), hook du quiz et de Floy ép. 5 ; au cycle du 2/11 : court-métrage vs conversation classique, carrousel novembre (enregistrements).
+- 25/10 (suite) — **Nouvelle règle de la fondatrice : au moins 1 vidéo par jour, 2 le mercredi, le samedi et le dimanche.** Contrôle du 26/10 au 1/11 : il manquait 1 vidéo le samedi 31 et 2 le dimanche 1/11. Ajouts : Floy ép. 6 les vacances (sam. 31, 12 h), « Dimanche midi, ta mère t'écrit » (dim. 1/11, 11 h, conversation sans Floy), court-métrage n° 2 « Ta première année avec lui » (dim. 1/11, 18 h 30, émotion + journal). Le carrousel novembre passe au lun. 2/11, 12 h 30.
