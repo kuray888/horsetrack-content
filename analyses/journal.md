@@ -95,3 +95,28 @@
 
 **À regarder au cycle du 26/10** : partages et commentaires du réel écran verrouillé (25/10), hook du quiz et de Floy ép. 5 ; au cycle du 2/11 : court-métrage vs conversation classique, carrousel novembre (enregistrements).
 - 25/10 (suite) — **Nouvelle règle de la fondatrice : au moins 1 vidéo par jour, 2 le mercredi, le samedi et le dimanche.** Contrôle du 26/10 au 1/11 : il manquait 1 vidéo le samedi 31 et 2 le dimanche 1/11. Ajouts : Floy ép. 6 les vacances (sam. 31, 12 h), « Dimanche midi, ta mère t'écrit » (dim. 1/11, 11 h, conversation sans Floy), court-métrage n° 2 « Ta première année avec lui » (dim. 1/11, 18 h 30, émotion + journal). Le carrousel novembre passe au lun. 2/11, 12 h 30.
+
+## 2026-10-26 (lundi) — Cycle 3
+**Données** : Metricool n'a rien de neuf depuis l'analyse du 25/10 (abonnés arrêtés au 24/10 : **207**, +10 depuis le 16/10, ~9/semaine ; objectif ≥ 15 pas atteint). Le réel écran verrouillé (25/10) n'est pas encore remonté. Brutes dans `analyses/donnees_2026-10-26.json`.
+
+**Ce qui confirme le 25/10** :
+- Conversation = meilleur hook, 3 vidéos sur 3 : Floy HS heure 58,7 % / 7,9 s ; DP 23 h 51,4 % / 8,3 s (+1 enregistrement) ; Floy ép. 3 45,3 % / 11,0 s.
+- Nouveau point : le court **vaccins** (voix off) fait 41 % de hook mais seulement 3,9 s vues → bon début, décroche ensuite.
+- Flop : changement d'heure classique 23,6 %, dis vs réalité 22,7 %, appel véto 13,5 % (malgré 2 246 personnes touchées).
+- Carrousels : seuls formats avec partages réguliers (2–3) et ~380–525 personnes touchées.
+- Toujours ~0 partage/enregistrement sur les réels : le passage aux fins « envoie-le à… » n'a pas encore produit d'effet mesurable (échantillon trop petit, 100–300 vues).
+
+**Contrôle de la semaine (26/10 → 2/11, `draft: false`)** : 1 publication le lun. 26, 2 le mar., 2 le mer., 1 le jeu. 29, 1 le ven. 30, 2 le sam., 2 le dim., 1 le lun. 2/11 (carrousel seul, donc pas de vidéo ce jour-là) ; **aucun carrousel** entre le 22/10 et le 1/11. Règles à corriger.
+
+**Décisions**
+1. **Ven. 30/10 19 h : « Dis vs réalité concours » remplacé** par **Floy a ton numéro · spécial Equita Lyon** (nouvelle vidéo). Raison : dis vs réalité = format flop (22,7 %), et Floy hors-série d'actu = meilleur hook du compte (58,7 %). Equita Lyon vérifié : 28/10 → 1/11. La vidéo « dis vs réalité concours » retourne en stock.
+2. **Jeu. 29/10 12 h 30 : nouveau carrousel « Le coffre de concours : la checklist »** (c4, enregistre-le, aucune info médicale à part « vaccin pas à jour = pas de départ » et « trousse préparée avec ton véto »). Avec c3 le 2/11, ça fait 2 carrousels sur 7 jours glissants.
+3. **Lun. 2/11 19 h : nouvelle vidéo « 7 h 12. La pension t'écrit »** (couverture déchirée dans la boue). Même mécanique que DP 23 h (51,4 %) mais sur un nouveau sujet de saison (novembre, boue, couvertures). Teste si la mécanique « message de quelqu'un d'autre que Floy » tient aussi le matin. Fonction montrée : budget.
+4. CTA de commentaire en **chiffre** (« combien de tapis / de couvertures ? ») : plus facile que « raconte », à comparer aux CTA « 1 emoji ».
+5. Technique : les scripts trouvent maintenant Chromium tout seuls (le chemin `chromium-1194` n'existait plus). Les aperçus `render_reel.py preview` des réels conversation sont trompeurs (défilement lissé) : faire le contrôle qualité sur des images extraites de la vidéo finale (ffmpeg).
+
+**3 hooks écrits par vidéo** (gardé en premier) :
+- Equita : « POV : ton cheval a ton numéro · spécial Equita Lyon » / « Floy a vu tes stories d'Equita 👀 » / « Tu rentres d'Equita. Ton cheval a des questions. »
+- Pension : « 7 h 12. La pension t'écrit 📱 » / « Le message que tu ne veux pas lire à 7 h » / « Ta couverture neuve a tenu 1 nuit »
+
+**À regarder jeudi 29/10** : écran verrouillé (25/10), red flags pension (26/10), quiz et Floy ép. 5 (27/10) ; abonnés du 25 au 28/10. Si le quiz est < 30 %, abandonner les jeux définitivement. Prévoir mar. 3/11 et mer. 4/11 (2 vidéos le mercredi).

@@ -37,8 +37,13 @@ Pour chaque nouvelle vidéo, écrire **3 hooks** et garder le plus fort, puis no
 | « Floy a ton numéro · spécial changement d'heure : il fait NUIT 🌚 » | Série + actu (Trial Reel) | 25/10, 12 h |
 | « Floy ép. 5 : pourquoi y a un monsieur avec une râpe géante dans l'allée ? » | Série POV humour | 27/10, 19 h |
 | « Personne ne te dit ça avant d'avoir un cheval » | Personne n'en parle (Trial Reel) | 28/10, 12 h |
+| « Floy a ton numéro · spécial Equita Lyon : t'es où ? ça fait 2 jours » | Série + actu | 30/10, 19 h |
+| « 7 h 12. La pension t'écrit 📱 » (couverture déchirée) | Galère + conversation | 2/11, 19 h |
 
 ## Non testés (réserve)
+- (écartés le 26/10) Equita : « Floy a vu tes stories d'Equita 👀 » ; « Tu rentres d'Equita. Ton cheval a des questions. »
+- (écartés le 26/10) Pension : « Le message que tu ne veux pas lire à 7 h » ; « Ta couverture neuve a tenu 1 nuit »
+- Résultats 23–25/10 : Floy HS heure 58,7 % ; DP 23 h 51,4 % ; vaccins (voix off) 41 % ; seules les propriétaires 36,6 % ; 3 emojis 31,4 % ; changement d'heure 23,6 % ; dis vs réalité 22,7 % ; appel véto 13,5 %.
 - « Tu sais quand ton cheval a été vermifugé pour la dernière fois ? » (question piège ; échéance seulement, renvoi au véto)
 - « Quand le maréchal te demande la date du dernier parage… »
 - « Personne ne te dit ça avant d'avoir un cheval »

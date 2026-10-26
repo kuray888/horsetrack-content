@@ -1,0 +1,140 @@
+{
+ "date_collecte": "2026-10-26T07:55+01:00",
+ "note": "Abonnés Metricool disponibles jusqu'au 24/10 seulement ; réel écran verrouillé (25/10 18 h 30) pas encore remonté.",
+ "abonnes": {
+  "2026-10-15": 197,
+  "2026-10-16": 197,
+  "2026-10-17": 198,
+  "2026-10-18": 199,
+  "2026-10-19": 199,
+  "2026-10-20": 201,
+  "2026-10-21": 203,
+  "2026-10-22": 205,
+  "2026-10-23": 207,
+  "2026-10-24": 207
+ },
+ "portee_compte": {
+  "2026-10-21": 1320,
+  "2026-10-22": 1855,
+  "2026-10-23": 333,
+  "2026-10-24": 313
+ },
+ "reels_nouveaux_depuis_22_10": [
+  {
+   "date": "2026-10-25 12:02",
+   "titre": "Floy HS changement d'heure (Trial)",
+   "portee": 102,
+   "vues": 114,
+   "hook_3s": 58.7,
+   "duree_moy_s": 7.87,
+   "partages": 0,
+   "enreg": 0,
+   "comm": 0,
+   "likes": 4
+  },
+  {
+   "date": "2026-10-24 18:06",
+   "titre": "Cheval en 3 emojis (Trial)",
+   "portee": 103,
+   "vues": 110,
+   "hook_3s": 31.4,
+   "duree_moy_s": 3.69,
+   "partages": 0,
+   "enreg": 0,
+   "comm": 0,
+   "likes": 3
+  },
+  {
+   "date": "2026-10-24 10:04",
+   "titre": "Changement d'heure (fil)",
+   "portee": 195,
+   "vues": 271,
+   "hook_3s": 23.6,
+   "duree_moy_s": 3.92,
+   "partages": 0,
+   "enreg": 0,
+   "comm": 0,
+   "likes": 9
+  },
+  {
+   "date": "2026-10-23 18:07",
+   "titre": "Vaccins court voix off (fil)",
+   "portee": 160,
+   "vues": 209,
+   "hook_3s": 41.0,
+   "duree_moy_s": 3.89,
+   "partages": 0,
+   "enreg": 0,
+   "comm": 0,
+   "likes": 10
+  },
+  {
+   "date": "2026-10-23 12:04",
+   "titre": "DP 23 h fer perdu (Trial)",
+   "portee": 105,
+   "vues": 120,
+   "hook_3s": 51.4,
+   "duree_moy_s": 8.33,
+   "partages": 0,
+   "enreg": 1,
+   "comm": 0,
+   "likes": 4
+  },
+  {
+   "date": "2026-10-22 19:07",
+   "titre": "Dis vs réalité (fil)",
+   "portee": 300,
+   "vues": 425,
+   "hook_3s": 22.7,
+   "duree_moy_s": 4.01,
+   "partages": 1,
+   "enreg": 0,
+   "comm": 0,
+   "likes": 16
+  },
+  {
+   "date": "2026-10-22 12:31",
+   "titre": "Seules les propriétaires (Trial)",
+   "portee": 112,
+   "vues": 124,
+   "hook_3s": 36.6,
+   "duree_moy_s": 4.22,
+   "partages": 0,
+   "enreg": 0,
+   "comm": 0,
+   "likes": 4
+  },
+  {
+   "date": "2026-10-21 12:31",
+   "titre": "Appel véto (fil)",
+   "portee": 2246,
+   "vues": 2508,
+   "hook_3s": 13.5,
+   "duree_moy_s": 2.39,
+   "partages": 1,
+   "enreg": 0,
+   "comm": 1,
+   "likes": 20
+  }
+ ],
+ "carrousels": [
+  {
+   "date": "2026-10-21 18:32",
+   "titre": "Rendez-vous par an (c2)",
+   "portee": 525,
+   "vues": 853,
+   "partages": 3,
+   "enreg": 0,
+   "abonnes": 0
+  },
+  {
+   "date": "2026-10-19 18:32",
+   "titre": "Checklist hiver (c1)",
+   "portee": 378,
+   "vues": 781,
+   "partages": 2,
+   "enreg": 1,
+   "abonnes": 0
+  }
+ ]
+}

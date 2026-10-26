@@ -32,3 +32,6 @@
 | 2026-10-31 | Instagram | Conversation | Floy ép. 6 · les vacances — programmé |
 | 2026-11-01 | Instagram | Conversation | Dimanche midi, ta mère t'écrit — programmé |
 | 2026-11-01 | Instagram | Court-métrage | Ta première année avec lui — programmé |
+| 2026-10-29 12:30 | Instagram | Carrousel (c4) | Le coffre de concours : la checklist — programmé auto |
+| 2026-10-30 19:00 | Instagram | Floy a ton numéro · hors-série | Spécial Equita Lyon — programmé auto (remplace Dis vs réalité concours, remis en stock) |
+| 2026-11-02 19:00 | Instagram | Conversation (nouveau sujet) | 7 h 12, la pension t'écrit : la couverture — programmé auto |
