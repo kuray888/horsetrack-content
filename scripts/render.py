@@ -8,7 +8,7 @@ out = os.path.join(here, os.environ.get("FR","frames"))
 os.makedirs(out, exist_ok=True)
 
 with sync_playwright() as p:
-    b = p.chromium.launch(executable_path="/opt/pw-browsers/chromium-1194/chrome-linux/chrome",
+    b = p.chromium.launch(executable_path=sorted(__import__("glob").glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"))[-1],
                           args=["--allow-file-access-from-files"])
     pg = b.new_page(viewport={"width": 1080, "height": 1920})
     pg.goto("file://" + os.path.join(here, os.environ.get("HTML","reel.html")))

@@ -8,7 +8,7 @@ import numpy as np, soundfile as sf
 from playwright.sync_api import sync_playwright
 
 FPS = 30
-CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
+CHROME = sorted(__import__("glob").glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"))[-1]
 mode, html = sys.argv[1], os.path.abspath(sys.argv[2])
 
 def page(p):

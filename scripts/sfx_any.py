@@ -2,7 +2,7 @@ import sys,numpy as np,soundfile as sf
 from playwright.sync_api import sync_playwright
 html,out=sys.argv[1],sys.argv[2]
 with sync_playwright() as p:
-    b=p.chromium.launch(executable_path="/opt/pw-browsers/chromium-1194/chrome-linux/chrome")
+    b=p.chromium.launch(executable_path=sorted(__import__("glob").glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"))[-1])
     pg=b.new_page(); pg.goto(f"file:///home/claude/reel/{html}"); snd=pg.evaluate("SOUNDS"); end=pg.evaluate("END"); b.close()
 sr=44100; n=int(end*sr); y=np.zeros(n); rng=np.random.default_rng(9)
 def tone(fs,d,vol,dec=26):

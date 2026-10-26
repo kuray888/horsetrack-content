@@ -1,0 +1,10 @@
+{"slides": [
+ {"tag": "CHECKLIST CONCOURS", "h1": "Le coffre de concours : <i>la checklist</i>", "sub": "Pour ne plus rien oublier sur le parking à 7 h du matin.", "box": "🔖 Enregistre-le pour ton prochain concours", "swipe": "Glisse →"},
+ {"emoji": "📘", "tag": "1 · LES PAPIERS", "h2": "Le passeport, <i>toujours</i>", "body": "Avec les vaccins à jour dedans : vaccin pas à jour = pas de départ. Et ta licence sur ton téléphone."},
+ {"emoji": "🧽", "tag": "2 · LE PANSAGE", "h2": "La caisse <i>de pansage</i>", "body": "Brosses, cure-pied, éponge, chiffon, démêlant… et des élastiques à tresses (prends-en le double)."},
+ {"emoji": "🐴", "tag": "3 · POUR LUI", "h2": "Son matériel <i>de A à Z</i>", "body": "Selle, filet, tapis, protections, licol, longe. Et sa couverture ou sa chemise selon la météo."},
+ {"emoji": "💧", "tag": "4 · EAU & FOIN", "h2": "Seau, eau <i>et filet à foin</i>", "body": "Un seau, un bidon d’eau de l’écurie s’il fait le difficile, et son foin habituel pour la journée."},
+ {"emoji": "👢", "tag": "5 · POUR TOI", "h2": "Ta tenue <i>de concours</i>", "body": "Veste, chemise ou polo, gants, culotte claire, bombe, bottes cirées la veille. Et un gros pull pour l’attente."},
+ {"emoji": "🧰", "tag": "6 · AU CAS OÙ", "h2": "Le kit <i>«&nbsp;au&nbsp;cas&nbsp;où&nbsp;»</i>", "body": "Ficelle, ciseaux, scotch, sacs poubelle, frontale, chargeur. Et la trousse de soins préparée avec ton véto."},
+ {"dark": true, "tag": "7 · LE BON RÉFLEXE", "h2": "Tes concours, <i>au même endroit</i>", "body": "Dans Horsetrack, tu notes tes concours à venir avec un rappel, puis tes résultats après.", "img": "../captures/concours_crop.png", "cta": "Gratuit pour 1 cheval · lien en bio"}
+]}
