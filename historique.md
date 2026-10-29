@@ -38,3 +38,8 @@
 | 2026-11-03 19:00 | Instagram | Floy a ton numéro · ép. 7 | La tonte (épisode 8 voté en commentaire) — programmé auto |
 | 2026-11-04 12:30 | Instagram | POV appel v2 (expérience) | Le maréchal t'appelle : « il a été ferré quand ? » — programmé auto |
 | 2026-11-04 18:30 | Instagram | Conversation de groupe (nouveau) | 7 h 03, le groupe de l'écurie : qui a laissé le pré ouvert ? — programmé auto |
+| 2026-10-29 19:00 | Instagram | Journal / souvenirs | Remis en brouillon (ancien modèle) |
+| 2026-10-29 20:00 | Instagram | Photos réelles (nouveau) | Ce que ton cheval veut vraiment dire — programmé |
+| 2026-11-05 19:00 | Instagram | Photo annotée (nouveau) | Mode d'emploi de mon cheval — programmé |
+| 2026-11-06 19:00 | Instagram | Conversation | 19 h 40, ton copain t'écrit — programmé |
+| 2026-11-07 12:00 | Instagram | Meme + conversation (nouveau) | Fer perdu : les 5 étapes du deuil — programmé |

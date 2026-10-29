@@ -147,3 +147,10 @@
 - Maréchal : « POV : le maréchal t'appelle 📞 » / « "Il a été ferré quand déjà ?" » / « Le maréchal passe demain. Tu le savais ? »
 
 **À regarder lundi 2/11** : commentaires et partages des réels du 28/10 au 1/11 (Equita, Halloween, Floy ép. 6, maman, première année), carrousels c4 et c3 (enregistrements), abonnés gagnés pendant les vacances. Si un des formats « identifie / groupe » dépasse 500 personnes avec un hook > 40 %, on en fait la base de la semaine. Programmer jusqu'au dim. 8/11 et lancer l'épisode 8 selon le vote.
+
+### 2026-10-29 (soir) — Demande de la fondatrice : nouveaux concepts, sortir du design + emojis
+- Nouvelle donnée : « Personne ne te dit ça » (28/10, 12 h) : hook 21,5 %, mais 2 partages + 1 enregistrement (mieux que les conversations sur la diffusion). Floy ép. 5 confirmé à 50,9 %. 210 abonnés le 28/10.
+- **Réel « journal / première séance » de 19 h remis en brouillon** (ancien modèle, hook v1) et remplacé par un nouveau concept **en vraies photos de Floy** : « Ce que ton cheval veut vraiment dire » (29/10, 20 h ; teste aussi le créneau 20 h).
+- 3 nouvelles vidéos : notice du cheval (photo annotée, 5/11 19 h), copain 19 h 40 (conversation, 6/11 19 h), 5 étapes du deuil (fer perdu, 7/11 12 h).
+- Détail et demandes à la fondatrice (photos/vidéos de Floy, vidéo face caméra, enregistrement d'écran) : `analyses/concepts_v3.md`.
+- À juger : photos réelles vs design (hook, partages) ; si traduction ≥ 40 % de hook ou ≥ 3 partages → série.
