@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-400-italic.woff2);font-weight:400;font-style:italic}
+:root{--bg:#F6F4F0;--navy:#231B6B;--ink:#1A1446;--muted:#6E6A86;--lav:#B8B0F2;--vio:#6C5FD6}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+body{font-family:Inter,"Noto Color Emoji",sans-serif;-webkit-font-smoothing:antialiased;color:var(--ink)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.abs{position:absolute}
+#hook{left:40px;right:40px;top:90px;text-align:center;color:var(--navy);font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:92px;line-height:1.02}
+#hook i{font-weight:400;color:var(--vio)}
+#tag{left:0;right:0;top:310px;text-align:center}
+#tag span{display:inline-block;background:var(--navy);color:var(--bg);font-size:30px;font-weight:800;letter-spacing:3px;padding:10px 26px;border-radius:30px}
+#card{left:60px;top:400px;width:960px;height:960px;border-radius:44px;overflow:hidden;box-shadow:0 30px 70px rgba(35,27,107,.25)}
+#card img{width:100%;height:100%;object-fit:cover;display:block;transform-origin:50% 40%}
+#ov{position:absolute;inset:0}
+.dot{position:absolute;width:34px;height:34px;margin:-17px 0 0 -17px;border-radius:50%;background:var(--vio);border:6px solid #fff;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.lab{position:absolute;max-width:470px;background:#fff;border-radius:26px;padding:16px 24px;box-shadow:0 12px 30px rgba(0,0,0,.3);font-size:40px;font-weight:600;line-height:1.2;color:var(--ink)}
+.lab b{display:block;font-size:30px;letter-spacing:2px;color:var(--vio);font-weight:800}
+#cnt{left:0;right:0;top:1420px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-style:italic;font-size:54px;color:var(--navy)}
+#app{inset:0;background:var(--navy);z-index:8;display:none}
+#aT{left:60px;right:60px;top:150px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:76px;line-height:1.08;color:var(--bg)}
+#aT i{font-weight:400;color:var(--lav)}
+#phone{left:270px;top:500px;width:540px;height:960px;border-radius:72px;background:#121614;padding:12px;box-shadow:0 40px 90px rgba(0,0,0,.4)}
+#screen{width:100%;height:100%;border-radius:60px;overflow:hidden;background:#e7ecef}
+#screen img{width:100%;display:block}
+.ac{position:absolute;background:var(--bg);color:var(--navy);font-size:38px;font-weight:700;padding:22px 32px;border-radius:26px;box-shadow:0 18px 40px rgba(0,0,0,.3);white-space:nowrap}
+#end{inset:0;background:var(--navy);z-index:9;display:none}
+#e1{left:50px;right:50px;top:400px;text-align:center;color:var(--bg);font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:92px;line-height:1.1}
+#e1 i{font-weight:400;color:var(--lav)}
+#brand{left:150px;right:150px;top:1060px;background:var(--bg);border-radius:60px;padding:38px 0;text-align:center}
+#brand .w{font-family:Fraunces,serif;font-weight:700;font-size:70px;color:var(--navy)}
+#brand .su{font-size:30px;font-weight:600;color:var(--muted);margin-top:6px}
+#url{left:0;right:0;top:1320px;text-align:center;color:var(--lav);font-size:40px;font-weight:600}
+</style></head><body>
+<div id="stage">
+  <div class="abs" id="hook">Mode d’emploi<br><i>de mon cheval</i> 📖</div>
+  <div class="abs" id="tag"><span>NOTICE · FLOY DE TUS · 11 ANS</span></div>
+  <div class="abs" id="card"><img src="../captures/photos/p2_tete.jpg"><svg id="ov" viewBox="0 0 960 960"></svg><div id="labs"></div></div>
+  <div class="abs" id="cnt"></div>
+  <div class="abs" id="app">
+    <div class="abs" id="aT">La vraie notice,<br><i>ta DP l’a sur son téléphone</i></div>
+    <div class="abs" id="phone"><div id="screen"><img src="../captures/fiche_crop.png"></div></div>
+    <div class="ac" id="c1" style="left:40px;top:1300px">👥 Fiche partagée avec ta DP</div>
+    <div class="ac" id="c2" style="right:40px;top:1470px">🔨 Maréchal, véto, soins</div>
+  </div>
+  <div class="abs" id="end">
+    <div class="abs" id="e1">Fais la notice<br>de ton cheval<br><i>en commentaire</i></div>
+    <div class="abs" id="brand"><div class="w">Horsetrack</div><div class="su">Gratuit pour 1 cheval · iPhone</div></div>
+    <div class="abs" id="url">Partage avec ta DP : inclus dans Premium</div>
+  </div>
+</div>
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const cl=v=>Math.min(1,Math.max(0,v)), P=(t,a,d)=>cl((t-a)/d);
+const oC=p=>1-Math.pow(1-p,3), io=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+const oB=p=>{const c1=1.8,c3=c1+1;return 1+c3*Math.pow(p-1,3)+c1*Math.pow(p-1,2)};
+function tf(el,{x=0,y=0,s=1,r=0,o=1}={}){el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;el.style.opacity=o}
+// [point x,y][label x,y][titre][texte]
+const IT=[[[500,170],[40,60],'OREILLES','radar à carottes,<br>portée 300 m'],
+ [[528,410],[540,250],'ŒIL','repère une bâche<br>à 2 km'],
+ [[300,700],[20,500],'NASEAUX','soufflent sur ta veste<br>propre, exprès'],
+ [[690,640],[400,790],'TA MAIN','distributeur officiel<br>de friandises']];
+const T0=-0.45, DI=2.3, APP=T0+IT.length*DI+0.6, END_T=APP+3.6, END=END_T+3.2; window.END=END;
+const ov=$('#ov'), labs=$('#labs');
+IT.forEach(([p,l,a,b],i)=>{ov.insertAdjacentHTML('beforeend',`<line id="ln${i}" x1="${p[0]}" y1="${p[1]}" x2="${l[0]+40}" y2="${l[1]+40}" stroke="#fff" stroke-width="5" stroke-linecap="round"/>`);
+  labs.insertAdjacentHTML('beforeend',`<div class="dot" id="d${i}" style="left:${p[0]}px;top:${p[1]}px"></div><div class="lab" id="l${i}" style="left:${l[0]}px;top:${l[1]}px"><b>${i+1} · ${a}</b>${b}</div>`);});
+const snd=[]; IT.forEach((x,i)=>{if(i)snd.push([T0+i*DI,'pop']);}); snd.push([APP,'whoosh'],[APP+1.0,'pop'],[APP+1.5,'ding'],[END_T,'whoosh']); window.SOUNDS=snd;
+function render(t){
+  $('#card img').style.transform=`scale(${1.0+0.06*cl(t/APP)})`;
+  IT.forEach((x,i)=>{const st=T0+i*DI, p=oB(P(t,st,0.4)), ln=$('#ln'+i), d=$('#d'+i);
+    tf(d,{s:p,o:P(t,st,0.05)}); ln.style.opacity=P(t,st+0.1,0.15);
+    tf($('#l'+i),{s:0.5+0.5*oB(P(t,st+0.12,0.4)),o:P(t,st+0.12,0.06)});});
+  const n=Math.min(IT.length,Math.max(1,Math.floor((t-T0)/DI)+1)); $('#cnt').textContent=`${n} / ${IT.length} · et toi, ton cheval ?`;
+  tf($('#hook'),{s:1+0.015*Math.sin(t*5)});
+  const a=$('#app'); a.style.display=t>=APP&&t<END_T+0.6?'block':'none';
+  a.style.clipPath=`circle(${io(P(t,APP,0.5))*2200}px at 50% 40%)`;
+  tf($('#aT'),{o:P(t,APP+0.2,0.3),y:(1-oC(P(t,APP+0.2,0.4)))*40});
+  tf($('#phone'),{y:(1-oC(P(t,APP+0.2,0.6)))*1300});
+  [['#c1',1.0],['#c2',1.5]].forEach(([id,dd],k)=>{const p=oB(P(t,APP+dd,0.4));tf($(id),{s:0.4+0.6*p,r:(k?3:-3)*p,o:P(t,APP+dd,0.08)});});
+  const e=$('#end'); e.style.display=t>=END_T?'block':'none';
+  e.style.clipPath=`circle(${io(P(t,END_T,0.5))*2200}px at 50% 100%)`;
+  tf($('#e1'),{s:0.7+0.3*oB(P(t,END_T+0.25,0.45)),o:P(t,END_T+0.25,0.1)});
+  const b=oB(P(t,END_T+1.0,0.45)); tf($('#brand'),{s:0.6+0.4*b,o:P(t,END_T+1.0,0.1)}); tf($('#url'),{o:P(t,END_T+1.3,0.4)});
+}
+window.render=render; render(0);
+</script></body></html>
