@@ -35,3 +35,6 @@
 | 2026-10-29 12:30 | Instagram | Carrousel (c4) | Le coffre de concours : la checklist — programmé auto |
 | 2026-10-30 19:00 | Instagram | Floy a ton numéro · hors-série | Spécial Equita Lyon — programmé auto (remplace Dis vs réalité concours, remis en stock) |
 | 2026-11-02 19:00 | Instagram | Conversation (nouveau sujet) | 7 h 12, la pension t'écrit : la couverture — programmé auto |
+| 2026-11-03 19:00 | Instagram | Floy a ton numéro · ép. 7 | La tonte (épisode 8 voté en commentaire) — programmé auto |
+| 2026-11-04 12:30 | Instagram | POV appel v2 (expérience) | Le maréchal t'appelle : « il a été ferré quand ? » — programmé auto |
+| 2026-11-04 18:30 | Instagram | Conversation de groupe (nouveau) | 7 h 03, le groupe de l'écurie : qui a laissé le pré ouvert ? — programmé auto |

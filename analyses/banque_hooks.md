@@ -39,8 +39,13 @@ Pour chaque nouvelle vidéo, écrire **3 hooks** et garder le plus fort, puis no
 | « Personne ne te dit ça avant d'avoir un cheval » | Personne n'en parle (Trial Reel) | 28/10, 12 h |
 | « Floy a ton numéro · spécial Equita Lyon : t'es où ? ça fait 2 jours » | Série + actu | 30/10, 19 h |
 | « 7 h 12. La pension t'écrit 📱 » (couverture déchirée) | Galère + conversation | 2/11, 19 h |
+| « Floy ép. 7 : pourquoi t'as sorti la tondeuse ? 😨 » | Série + vote en commentaire | 3/11, 19 h |
+| « POV : le maréchal t'appelle 📞 » (v2, plus rapide) | Galère + appel | 4/11, 12 h 30 |
+| « 7 h 03. Le groupe de l'écurie 📱 » | Conversation de groupe + tag | 4/11, 18 h 30 |
 
 ## Non testés (réserve)
+- Résultats 25–27/10 : Floy HS heure 57,4 % ; Floy ép. 5 dentiste 51,7 % ; écran verrouillé 31,9 % ; red flags pension 26,2 % ; quiz 25,6 % (jeux abandonnés).
+- (écartés le 29/10) « on est en NOVEMBRE et tu me tonds ?? » ; « Qui a laissé le pré ouvert ?? » ; « Le maréchal passe demain. Tu le savais ? »
 - (écartés le 26/10) Equita : « Floy a vu tes stories d'Equita 👀 » ; « Tu rentres d'Equita. Ton cheval a des questions. »
 - (écartés le 26/10) Pension : « Le message que tu ne veux pas lire à 7 h » ; « Ta couverture neuve a tenu 1 nuit »
 - Résultats 23–25/10 : Floy HS heure 58,7 % ; DP 23 h 51,4 % ; vaccins (voix off) 41 % ; seules les propriétaires 36,6 % ; 3 emojis 31,4 % ; changement d'heure 23,6 % ; dis vs réalité 22,7 % ; appel véto 13,5 %.

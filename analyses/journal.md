@@ -120,3 +120,30 @@
 - Pension : « 7 h 12. La pension t'écrit 📱 » / « Le message que tu ne veux pas lire à 7 h » / « Ta couverture neuve a tenu 1 nuit »
 
 **À regarder jeudi 29/10** : écran verrouillé (25/10), red flags pension (26/10), quiz et Floy ép. 5 (27/10) ; abonnés du 25 au 28/10. Si le quiz est < 30 %, abandonner les jeux définitivement. Prévoir mar. 3/11 et mer. 4/11 (2 vidéos le mercredi).
+
+## 2026-10-29 (jeudi) — Cycle 4
+**Données** : Metricool s'arrête au 27/10 (rien encore pour le 28/10 ni le carrousel c4 du jour). Brutes dans `analyses/donnees_2026-10-29.json`.
+
+**Compte** : **209 abonnés** le 27/10 (207 au cycle du 26/10, 197 le 16/10) → +12 en 11 jours, ~8/semaine. Objectif ≥ 15/semaine : toujours pas atteint.
+
+**Top 20 %** (hook > 3 s / durée moyenne vue) :
+- Conversation, désormais **5 vidéos sur 6 au-dessus de 45 %** : Floy HS heure 57,4 % / 7,7 s ; **Floy ép. 5 dentiste 51,7 % / 7,4 s** (nouveau, ~40 h de vie) ; DP 23 h 50,9 % / 8,3 s ; Floy ép. 3 45,9 % / 11,0 s. Pourquoi : chaque bulle relance, situation vécue, humour du cheval.
+- Mais **portée faible** : 105–238 personnes. Instagram ne les pousse pas au-delà des abonnés, faute de partages (0 sur Floy ép. 5).
+
+**Flop 20 %** : quiz 25,6 % / 4,5 s (sous le seuil de 30 % → **jeux abandonnés définitivement**, comme prévu) ; red flags pension 26,2 % / 4,4 s (liste sans histoire) ; écran verrouillé 31,9 % (moyen, 1 enregistrement).
+
+**Le vrai problème a changé** : le hook des conversations est réglé. Ce qui manque, c'est la **diffusion** (partages, tags). Les 2 seules vidéos qui ont dépassé 800 personnes (appel véto 2 253, couvertures 841) sont des galères très reconnaissables avec un « identifie celle qui… » — mais leur hook est faible.
+
+**Décisions**
+1. **3 vidéos pour combler le trou du 3 au 4/11** (le 3/11 n'avait rien, le mer. 4/11 demande 2 vidéos).
+2. **70 % éprouvé** — Floy ép. 7 « la tonte » (mar. 3/11, 19 h) avec **nouvelle mécanique de commentaires** : « l'épisode 8, c'est toi qui choisis : 1 la boue, 2 le véto, 3 Noël ». Teste si un vote en chiffre fait monter les commentaires (aujourd'hui 0 partout).
+3. **70 % éprouvé, variante partage** — « 7 h 03, le groupe de l'écurie » (mer. 4/11, 18 h 30) : conversation de groupe (plusieurs prénoms), fin « identifie celle qui a laissé le pré ouvert » + « envoie-le dans ton groupe d'écurie ». Hypothèse : le format qui retient (conversation) + la mécanique qui diffuse (tag/groupe) = plus de portée.
+4. **30 % expérience** — « POV : le maréchal t'appelle » v2 (mer. 4/11, **12 h 30**, même créneau que l'appel véto qui a touché 2 253 personnes). Changements vs véto : « Toi : Euh… » arrive à 1,1 s au lieu de 1,9 s, cartes plus rapides, vidéo de 14 s. Teste si on peut garder la portée du format appel en améliorant le hook.
+5. Nouvelle capture `captures/journal_crop.png` (journal avec photo, ressenti, météo) pour montrer le journal dans les conversations.
+
+**3 hooks écrits par vidéo** (gardé en premier) :
+- Tonte : « pourquoi t'as sorti la tondeuse ? 😨 » / « on est en NOVEMBRE et tu me tonds ?? » / « Floy a vu la tondeuse »
+- Groupe : « 7 h 03. Le groupe de l'écurie 📱 · 47 messages non lus » / « Qui a laissé le pré ouvert ?? » / « Le groupe de l'écurie un lundi matin »
+- Maréchal : « POV : le maréchal t'appelle 📞 » / « "Il a été ferré quand déjà ?" » / « Le maréchal passe demain. Tu le savais ? »
+
+**À regarder lundi 2/11** : commentaires et partages des réels du 28/10 au 1/11 (Equita, Halloween, Floy ép. 6, maman, première année), carrousels c4 et c3 (enregistrements), abonnés gagnés pendant les vacances. Si un des formats « identifie / groupe » dépasse 500 personnes avec un hook > 40 %, on en fait la base de la semaine. Programmer jusqu'au dim. 8/11 et lancer l'épisode 8 selon le vote.
