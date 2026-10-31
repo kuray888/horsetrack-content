@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<!-- Format « personnage qui parle » : Floy en mascotte dessinée, fond quadrillé animé, sous-titres mot à mot.
+     Généré par scripts/make_explique.py (remplace TITLE, EP, LINES, END_Q). -->
+<style>
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Fraunces;src:url(polices/fraunces-latin-400-italic.woff2);font-weight:400;font-style:italic}
+:root{--bg:#F6F4F0;--navy:#231B6B;--ink:#1A1446;--muted:#6E6A86;--lav:#B8B0F2;--vio:#6C5FD6}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+body{font-family:Inter,"Noto Color Emoji",sans-serif;-webkit-font-smoothing:antialiased;color:var(--ink)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+#grid{position:absolute;inset:-120px;background-image:linear-gradient(rgba(108,95,214,.16) 2px,transparent 2px),linear-gradient(90deg,rgba(108,95,214,.16) 2px,transparent 2px);background-size:60px 60px}
+.abs{position:absolute}
+#top{left:0;right:0;top:70px;text-align:center}
+#top span{display:inline-block;background:var(--navy);color:var(--bg);font-size:32px;font-weight:800;letter-spacing:3px;padding:12px 28px;border-radius:30px}
+#title{left:40px;right:40px;top:150px;text-align:center;font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:74px;line-height:1.05;color:var(--navy)}
+#title i{font-weight:400;color:var(--vio)}
+#cap{left:60px;right:60px;top:430px;min-height:300px;display:flex;align-items:flex-start;justify-content:center}
+#bub{position:relative;background:#fff;border:6px solid var(--navy);border-radius:48px;padding:34px 40px;box-shadow:10px 12px 0 var(--navy);text-align:center;font-size:62px;font-weight:800;line-height:1.16;color:var(--ink);max-width:960px}
+#bub:after{content:"";position:absolute;left:50%;bottom:-46px;margin-left:-30px;border:24px solid transparent;border-top:24px solid var(--navy);border-width:24px 30px}
+#bub .w{display:inline-block;margin:0 .12em;transition:none}
+#bub .w.on{color:var(--vio)}
+#bub .w.dim{opacity:.25}
+#prop{left:0;right:0;top:790px;text-align:center;height:240px}
+#prop span{display:inline-block;font-size:150px;line-height:1;filter:drop-shadow(0 0 0 #fff) drop-shadow(6px 8px 0 rgba(35,27,107,.25))}
+#prop b{display:inline-block;background:var(--vio);color:#fff;font-size:40px;font-weight:800;padding:12px 26px;border-radius:24px;vertical-align:middle;margin-left:18px}
+#floy{left:140px;top:990px;width:800px;height:1029px;transform-origin:50% 100%}
+.st{position:absolute;font-size:64px}
+#end{inset:0;background:var(--navy);z-index:9;display:none}
+#e1{left:50px;right:50px;top:400px;text-align:center;color:var(--bg);font-family:Fraunces,"Noto Color Emoji",serif;font-weight:700;font-size:92px;line-height:1.1}
+#e1 i{font-weight:400;color:var(--lav)}
+#brand{left:150px;right:150px;top:1060px;background:var(--bg);border-radius:60px;padding:38px 0;text-align:center}
+#brand .w{font-family:Fraunces,serif;font-weight:700;font-size:70px;color:var(--navy)}
+#brand .su{font-size:30px;font-weight:600;color:var(--muted);margin-top:6px}
+#url{left:0;right:0;top:1320px;text-align:center;color:var(--lav);font-size:40px;font-weight:600}
+</style></head><body>
+<div id="stage">
+  <div id="grid"></div>
+  <div class="st" id="st1" style="left:60px;top:1150px">⭐</div>
+  <div class="st" id="st2" style="right:60px;top:1250px">✏️</div>
+  <div class="abs" id="top"><span>FLOY T’EXPLIQUE · LEÇON 2</span></div>
+  <div class="abs" id="title">Pourquoi je coûte<br><i>si cher</i> 💸</div>
+  <div class="abs" id="cap"><div id="bub"></div></div>
+  <div class="abs" id="prop"></div>
+  <svg class="abs" id="floy" viewBox="0 0 700 900">
+    <!-- encolure + bandana Horsetrack -->
+    <path d="M190 640 Q180 820 150 900 L560 900 Q520 820 510 640 Z" fill="#8A4A24"/>
+    <path d="M200 700 Q350 790 500 700 L520 760 Q350 860 180 760 Z" fill="#6C5FD6"/>
+    <path d="M330 790 L370 790 L350 860 Z" fill="#B8B0F2"/>
+    <g id="head">
+      <!-- oreilles -->
+      <g id="earL"><path d="M230 170 L200 20 L300 120 Z" fill="#7A3F1E"/><path d="M235 150 L215 55 L280 120 Z" fill="#E8A9A0"/></g>
+      <g id="earR"><path d="M470 170 L500 20 L400 120 Z" fill="#7A3F1E"/><path d="M465 150 L485 55 L420 120 Z" fill="#E8A9A0"/></g>
+      <!-- tête -->
+      <path d="M200 160 Q350 70 500 160 Q560 330 520 560 Q500 690 350 700 Q200 690 180 560 Q140 330 200 160 Z" fill="#9A5429"/>
+      <!-- liste blanche (Floy a une petite liste) -->
+      <path d="M335 150 Q350 140 365 150 L360 330 Q350 345 340 330 Z" fill="#F6F1EA"/>
+      <!-- toupet -->
+      <path d="M290 120 Q330 60 360 110 Q390 60 420 125 Q380 175 350 160 Q310 180 290 120 Z" fill="#2A1A12"/>
+      <!-- bout du nez -->
+      <ellipse cx="350" cy="590" rx="150" ry="110" fill="#C88B5F"/>
+      <ellipse cx="290" cy="575" rx="22" ry="30" fill="#4A2A18" transform="rotate(-15 290 575)"/>
+      <ellipse cx="410" cy="575" rx="22" ry="30" fill="#4A2A18" transform="rotate(15 410 575)"/>
+      <!-- bouche -->
+      <g id="mouth"><ellipse cx="350" cy="650" rx="60" ry="10" fill="#3A1E12"/><ellipse id="tongue" cx="350" cy="656" rx="30" ry="0" fill="#E36F7D"/></g>
+      <!-- yeux -->
+      <g id="eyeL"><ellipse cx="255" cy="330" rx="48" ry="56" fill="#fff"/><circle id="pL" cx="262" cy="338" r="28" fill="#1A1210"/><circle cx="272" cy="326" r="9" fill="#fff"/></g>
+      <g id="eyeR"><ellipse cx="445" cy="330" rx="48" ry="56" fill="#fff"/><circle id="pR" cx="438" cy="338" r="28" fill="#1A1210"/><circle cx="448" cy="326" r="9" fill="#fff"/></g>
+      <rect id="lidL" x="200" y="270" width="110" height="0" fill="#9A5429"/>
+      <rect id="lidR" x="390" y="270" width="110" height="0" fill="#9A5429"/>
+      <!-- sourcils -->
+      <path id="brL" d="M215 255 Q255 235 295 252" stroke="#2A1A12" stroke-width="12" fill="none" stroke-linecap="round"/>
+      <path id="brR" d="M405 252 Q445 235 485 255" stroke="#2A1A12" stroke-width="12" fill="none" stroke-linecap="round"/>
+    </g>
+  </svg>
+  <div class="abs" id="end">
+    <div class="abs" id="e1">Ton cheval te coûte<br><i>combien par mois</i> ?</div>
+    <div class="abs" id="brand"><div class="w">Horsetrack</div><div class="su">Gratuit pour 1 cheval · iPhone</div></div>
+    <div class="abs" id="url">Floy t’explique · abonne-toi pour la suite</div>
+  </div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const cl=v=>Math.min(1,Math.max(0,v)), P=(t,a,d)=>cl((t-a)/d);
+const oC=p=>1-Math.pow(1-p,3), io=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+const oB=p=>{const c1=1.8,c3=c1+1;return 1+c3*Math.pow(p-1,3)+c1*Math.pow(p-1,2)};
+function tf(el,{x=0,y=0,s=1,r=0,o=1}={}){el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;el.style.opacity=o}
+// [texte, accessoire (emoji), étiquette, durée]
+const LINES=[["Spoiler : c’est pas ma faute.", "🙅", ""], ["La pension ? Il faut bien que je dorme quelque part.", "🏠", ""], ["Le maréchal ? Toutes les 5 à 6 semaines. C’est la règle.", "🔨", "5–6 sem."], ["Le 9e tapis violet ? Ça, c’est elle.", "🛍️", "elle"], ["Le bonnet assorti ? Encore elle.", "🧢", "encore elle"], ["Elle note tout dans le budget Horsetrack. Moi, je regarde le total… et je ris.", "📊", "budget"], ["Ton cheval te coûte combien par mois ? Plus ou moins ?", "👇", ""]];
+const WPS=0.26; // secondes par mot
+let t0=0; const L=LINES.map(([txt,pr,lab,d])=>{const w=txt.split(' '); const dur=d||Math.max(1.8,w.length*WPS+0.7); const o={txt,w,pr,lab,st:t0,dur}; t0+=dur; return o;});
+const END_T=t0+0.2, END=END_T+3.4; window.END=END;
+const snd=[]; L.forEach((l,li)=>{ if(li) snd.push([l.st,'pop']); l.w.forEach((w,k)=>{ if(/[a-zà-ÿ0-9]/i.test(w)) snd.push([l.st+k*WPS+0.02,'blip:'+(520+((k*7+li*3)%5)*70)]); });});
+snd.push([END_T,'whoosh']); window.SOUNDS=snd;
+let cur=-1;
+function render(t){
+  $('#grid').style.transform=`translate(${-(t*18)%60}px,${-(t*12)%60}px)`;
+  tf($('#st1'),{r:Math.sin(t*2)*12,y:Math.sin(t*1.7)*10}); tf($('#st2'),{r:Math.cos(t*2.2)*14,y:Math.cos(t*1.5)*12});
+  const i=Math.max(0,L.findIndex(l=>t>=l.st&&t<l.st+l.dur)===-1?L.length-1:L.findIndex(l=>t>=l.st&&t<l.st+l.dur));
+  const l=L[i], k=t-l.st;
+  if(i!==cur){cur=i; $('#bub').innerHTML=l.w.map(w=>`<span class="w">${w}</span>`).join(' ');
+    $('#prop').innerHTML=l.pr?`<span>${l.pr}</span>${l.lab?`<b>${l.lab}</b>`:''}`:'';}
+  const wi=Math.floor(k/WPS); [...document.querySelectorAll('#bub .w')].forEach((e,j)=>{e.className='w'+(j===wi?' on':'')+(j>wi?' dim':'');});
+  tf($('#bub'),{s:i?0.9+0.1*oB(P(k,0,0.25)):1});
+  const pp=oB(P(k,0.15,0.4)); const pe=$('#prop'); tf(pe,{s:l.pr?0.3+0.7*pp:0,o:l.pr?P(k,0.15,0.05):0,r:Math.sin(t*3)*4});
+  // parole : bouche + tête
+  const talking=k<l.w.length*WPS; const ph=(k%WPS)/WPS; const open=talking?Math.sin(Math.PI*ph)*(0.6+0.4*Math.abs(Math.sin(wi*1.7))):0;
+  const m=$('#mouth ellipse'); m.setAttribute('ry',10+open*42); m.setAttribute('rx',60-open*8); $('#tongue').setAttribute('ry',open*18);
+  tf($('#head'),{y:talking?-Math.abs(Math.sin(t*9))*8:Math.sin(t*2)*3,r:Math.sin(t*1.3)*2});
+  $('#head').style.transformOrigin='350px 600px';
+  $('#earL').style.transformOrigin='250px 160px'; $('#earR').style.transformOrigin='450px 160px';
+  $('#earL').style.transform=`rotate(${Math.sin(t*3)*6-(l.pr==='😱'?0:0)}deg)`; $('#earR').style.transform=`rotate(${-Math.sin(t*3.4+1)*6}deg)`;
+  const bl=(((t+1.6)%3.1)<0.14)?1:0; $('#lidL').setAttribute('height',bl*120); $('#lidR').setAttribute('height',bl*120);
+  const look=Math.sin(t*0.9)*6; $('#pL').setAttribute('cx',262+look); $('#pR').setAttribute('cx',438+look);
+  const br=talking?Math.sin(t*6)*4:0; $('#brL').setAttribute('transform',`translate(0 ${-br})`); $('#brR').setAttribute('transform',`translate(0 ${-br})`);
+  tf($('#floy'),{y:(1-oC(P(t,0,0.01)))*0,s:1+0.01*Math.sin(t*2)});
+  const e=$('#end'); e.style.display=t>=END_T?'block':'none';
+  e.style.clipPath=`circle(${io(P(t,END_T,0.5))*2200}px at 50% 100%)`;
+  tf($('#e1'),{s:0.7+0.3*oB(P(t,END_T+0.25,0.45)),o:P(t,END_T+0.25,0.1)});
+  const b=oB(P(t,END_T+1.0,0.45)); tf($('#brand'),{s:0.6+0.4*b,o:P(t,END_T+1.0,0.1)}); tf($('#url'),{o:P(t,END_T+1.3,0.4)});
+}
+window.render=render; render(0);
+</script></body></html>
