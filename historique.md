@@ -43,3 +43,8 @@
 | 2026-11-05 19:00 | Instagram | Photo annotée (nouveau) | Mode d'emploi de mon cheval — programmé |
 | 2026-11-06 19:00 | Instagram | Conversation | 19 h 40, ton copain t'écrit — programmé |
 | 2026-11-07 12:00 | Instagram | Meme + conversation (nouveau) | Fer perdu : les 5 étapes du deuil — programmé |
+| 2026-11-07 18:30 | Instagram | Conversation | 21 h 12, ta coach t'écrit — programmé |
+| 2026-11-08 11:00 | Instagram | Floy t'explique (nouveau : mascotte qui parle) | Leçon 1 : comment savoir si ta propriétaire t'aime — programmé |
+| 2026-11-08 18:30 | Instagram | Conversation + photo réelle | Ta collègue découvre que t'as un cheval — programmé |
+| 2026-11-09 19:00 | Instagram | Conversation | Le 9 du mois, ta banque t'écrit — programmé |
+| 2026-11-10 19:00 | Instagram | Floy t'explique | Leçon 2 : pourquoi je coûte si cher — programmé |

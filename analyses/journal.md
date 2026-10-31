@@ -154,3 +154,10 @@
 - 3 nouvelles vidéos : notice du cheval (photo annotée, 5/11 19 h), copain 19 h 40 (conversation, 6/11 19 h), 5 étapes du deuil (fer perdu, 7/11 12 h).
 - Détail et demandes à la fondatrice (photos/vidéos de Floy, vidéo face caméra, enregistrement d'écran) : `analyses/concepts_v3.md`.
 - À juger : photos réelles vs design (hook, partages) ; si traduction ≥ 40 % de hook ou ≥ 3 partages → série.
+
+### 2026-10-31 — Demande de la fondatrice : 2 vidéos samedi et dimanche, puis au moins 1 par jour
+- Contrôle : sam. 31/10 (12 h + 19 h) et dim. 1/11 (11 h + 18 h 30) avaient déjà 2 vidéos chacun ; au moins 1 vidéo par jour du 2 au 7/11. Trou à partir du dim. 8/11.
+- Nouveau format **« Floy t'explique »** (demandé : personnage qui parle, fond quadrillé animé) : Floy en mascotte dessinée, bouche animée, sous-titres mot à mot, petite « voix » de babillage synthétisée (pas de voix IA), accessoires en stickers. Générateur `scripts/make_explique.py`. Leçon 1 (dim. 8/11, 11 h), leçon 2 (mar. 10/11, 19 h).
+- Conversations : coach la veille du cours (sam. 7/11, 18 h 30, 2e vidéo du samedi), collègue de bureau avec la vraie photo de Floy (dim. 8/11, 18 h 30), banque le 9 du mois (lun. 9/11, 19 h).
+- Horizon : au moins 1 vidéo par jour jusqu'au mar. 10/11. Les cycles du lundi 2/11 et du jeudi 5/11 prennent la suite.
+- La fondatrice enverra des vidéos et photos de Floy : les utiliser en priorité (traduction ép. 2, photo dump, notice).

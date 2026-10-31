@@ -29,3 +29,7 @@
 4. Le budget réel de Floy sur un mois (vrais chiffres de l'app) → série « ce que coûte vraiment mon cheval ».
 
 Note technique : les banques de photos (Unsplash) ne sont pas téléchargeables depuis l'environnement de la routine ; seules les photos du dépôt (`captures/photos/`) sont utilisables.
+
+## Ajout du 31/10 : « Floy t'explique » (personnage qui parle)
+Format en vogue dans d'autres niches : un personnage dessiné qui parle face caméra, fond quadrillé animé, sous-titres mot à mot, accessoires qui apparaissent. Ici : Floy en mascotte (bandana violet Horsetrack), « voix » de babillage synthétisée (aucune voix IA), une leçon par épisode, question en fin. Leçon 1 le 8/11, leçon 2 le 10/11.
+Si le hook dépasse 40 %, on en fait une série hebdomadaire (idées : « ce que je pense du maréchal », « les 3 phrases que dit ma propriétaire », « comment je choisis ma flaque de boue », « pourquoi je déteste les bâches »). Avec la voix de la fondatrice (si elle enregistre), le format devient encore plus fort.
