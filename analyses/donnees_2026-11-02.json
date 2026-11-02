@@ -1,0 +1,8 @@
+{"releve":"2026-11-02 07:55 Paris","abonnes":{"2026-10-20":201,"2026-10-21":203,"2026-10-22":205,"2026-10-23":207,"2026-10-24":207,"2026-10-25":207,"2026-10-26":208,"2026-10-27":209,"2026-10-28":210,"2026-10-29":211,"2026-10-30":210,"2026-10-31":210},
+"portee_compte":{"2026-10-28":260,"2026-10-29":60,"2026-10-30":21,"2026-10-31":58},
+"echecs_metricool":{"message":"You have reached your Metricool account limit.","posts":["2026-10-28 18:30 Dis vs réalité Equita","2026-10-29 12:30 carrousel c4 coffre de concours","2026-10-29 20:00 Traduction cheval","2026-10-30 19:00 Floy HS Equita","2026-10-31 12:00 Floy ép. 6 vacances","2026-10-31 19:00 Court-métrage Halloween"]},
+"reels_nouveaux":[
+ {"date":"2026-10-28 12:00","titre":"Personne ne te dit ça","portee":285,"vues":367,"hook":23.1,"duree_moy":3.6,"partages":2,"enreg":1,"comm":1},
+ {"date":"2026-10-27 19:00","titre":"Floy ép. 5 dentiste","portee":170,"vues":221,"hook":50.3,"duree_moy":7.1,"partages":0,"enreg":0,"comm":0},
+ {"date":"2026-11-01 11:00","titre":"Dimanche midi, ta mère t'écrit (<24 h)","portee":34,"vues":146,"hook":73.1,"duree_moy":4.7,"partages":0,"enreg":0,"comm":0}
+]}

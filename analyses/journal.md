@@ -161,3 +161,23 @@
 - Conversations : coach la veille du cours (sam. 7/11, 18 h 30, 2e vidéo du samedi), collègue de bureau avec la vraie photo de Floy (dim. 8/11, 18 h 30), banque le 9 du mois (lun. 9/11, 19 h).
 - Horizon : au moins 1 vidéo par jour jusqu'au mar. 10/11. Les cycles du lundi 2/11 et du jeudi 5/11 prennent la suite.
 - La fondatrice enverra des vidéos et photos de Floy : les utiliser en priorité (traduction ép. 2, photo dump, notice).
+
+## 2026-11-02 (lundi) — Cycle 5
+**Incident majeur** : du 28 au 31/10, **6 publications ont échoué** dans Metricool avec « You have reached your Metricool account limit » (Equita dis vs réalité 28/10, carrousel c4 et traduction 29/10, Floy spécial Equita 30/10, Floy ép. 6 et Halloween 31/10). Le compte n'a rien publié du 29 au 31/10 : portée du compte tombée à 21–60/jour (contre 260–1 855 avant). Les publications reprennent le 1/11 (2 réels publiés) → limite très probablement **mensuelle** (forfait gratuit Metricool). Novembre compte déjà 18 publications programmées ou publiées ; au rythme de la règle (≥ 1 vidéo/jour, 2 mer./sam./dim., 2 carrousels/sem.) on arrive à ~45–50 sur le mois → **risque de nouveau blocage fin novembre**.
+
+**Compte** : **210 abonnés** le 31/10 (211 le 29/10, 207 le 24/10) → +3 en 7 jours. Semaine perdue en partie à cause des échecs.
+
+**Données** (brutes : `analyses/donnees_2026-11-02.json`) :
+- Floy ép. 5 dentiste confirmé : 50,3 % de hook / 7,1 s, mais 170 personnes et 0 partage.
+- « Personne ne te dit ça » : hook faible (23,1 %) mais 2 partages + 1 enregistrement sur 285 personnes : les listes reconnaissables se partagent mieux que les conversations.
+- « Dimanche midi, ta mère t'écrit » : **73,1 % de hook** (record, < 24 h, 34 personnes seulement : à confirmer).
+- Carrousels c1/c2 : toujours les meilleurs en partages (2–3) et portée (380–535).
+- « Ta première année » (1/11 18 h 30) : pas encore remonté.
+
+**Décisions**
+1. **Récupérer le stock bloqué encore d'actualité** plutôt que produire de nouveau : « Ce que ton cheval veut vraiment dire » (photos réelles, concept jamais testé) → mar. 3/11 12 h 30 ; carrousel c4 « coffre de concours » → jeu. 5/11 12 h 30 (2e carrousel de la semaine avec c3 du 2/11). Floy Equita, Halloween et dis vs réalité Equita restent en stock (actu passée). Floy ép. 6 vacances : à ressortir aux vacances de Noël.
+2. **Nouveau réel (70 % éprouvé, conversation)** : « 11 novembre, 7 h 58. La pension t'écrit » (évasion dans le jardin du voisin, jour férié) → mer. 11/11 11 h. Hooks écrits : « 11 novembre, 7 h 58. La pension t'écrit 📱 » (gardé) / « Ta grasse mat' du jour férié a duré 7 minutes » / « Ton cheval s'est fait la malle ». Fonction montrée : journal.
+3. Pas plus de volume que la règle tant que la limite Metricool n'est pas réglée. Prévenir la fondatrice (à elle de vérifier son forfait).
+4. Horizon : au moins 1 vidéo par jour jusqu'au mer. 11/11 (2e vidéo du 11/11 et la suite au cycle de jeudi, avec l'épisode 8 voté).
+
+**À regarder jeudi 5/11** : hook et portée de « Ta mère t'écrit » et « Ta première année » après 48 h ; carrousel c3 (enregistrements) ; traduction (photos réelles) vs conversations ; votes pour l'épisode 8 (Floy ép. 7, 3/11) ; état de la limite Metricool.

@@ -48,3 +48,7 @@
 | 2026-11-08 18:30 | Instagram | Conversation + photo réelle | Ta collègue découvre que t'as un cheval — programmé |
 | 2026-11-09 19:00 | Instagram | Conversation | Le 9 du mois, ta banque t'écrit — programmé |
 | 2026-11-10 19:00 | Instagram | Floy t'explique | Leçon 2 : pourquoi je coûte si cher — programmé |
+| 2026-10-28 → 31 | Instagram | Incident | 6 publications en échec (limite du compte Metricool) : Equita dis vs réalité, c4, traduction, Floy HS Equita, Floy ép. 6, Halloween — non publiées |
+| 2026-11-03 12:30 | Instagram | Photos réelles | Ce que ton cheval veut vraiment dire — reprogrammé auto (échec du 29/10) |
+| 2026-11-05 12:30 | Instagram | Carrousel (c4) | Le coffre de concours : la checklist — reprogrammé auto (échec du 29/10) |
+| 2026-11-11 11:00 | Instagram | Conversation | 11 novembre, 7 h 58, la pension t'écrit (évasion) — programmé auto |
