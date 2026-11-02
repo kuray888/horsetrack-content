@@ -243,6 +243,23 @@ CONFIGS = {
   notif=None, notif_t='', notif_b='', end_t=17.5,
   e1='Ton budget cheval,<br><i>tu le connais ?</i>',
   nx='Chaque dépense notée, ton total du mois · gratuit pour 1 cheval<br>Sur iPhone · lien en bio'),
+ 'ferie_evasion': dict(
+  pov='11 novembre, 7 h 58.<br><i>La pension t’écrit</i> 📱', ep='LE JOUR FÉRIÉ 😬',
+  name='Sophie · pension', avatar='<div style="width:100px;height:100px;border-radius:50%;background:#B8B0F2;display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:800;color:#231B6B">S</div>',
+  msg=[['h','désolée de te réveiller un jour férié 😬',-0.4],
+       ['h','Floy est dans le jardin du voisin',1.2],
+       ['m','QUOI. il est sorti comment ??',2.5],
+       ['h','il a trouvé le seul bout de clôture pas branché',3.9],
+       ['m','et il fait quoi là ?',5.3],
+       ['h','il tond la pelouse du voisin. gratuitement 🌱',6.6],
+       ['m','j’arrive. dis-lui que je suis désolée 🙈',8.0],
+       ['h','il demande si tu peux le récupérer avant midi',9.4],
+       ['m','ce soir dans son journal : « Floy 1 – clôture 0 » 📔',10.7],
+       ['img','../captures/journal_crop.png',11.8],
+       ['h','ta grasse mat’, c’était bien ? 🙃',14.8]],
+  notif=None, notif_t='', notif_b='', end_t=16.5,
+  e1='Ton cheval s’est déjà<br><i>fait la malle ?</i>',
+  nx='Journal, planning, rappels · gratuit pour 1 cheval<br>Sur iPhone · lien en bio'),
 }
 
 for name, c in CONFIGS.items():
