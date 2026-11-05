@@ -260,6 +260,22 @@ CONFIGS = {
   notif=None, notif_t='', notif_b='', end_t=16.5,
   e1='Ton cheval s’est déjà<br><i>fait la malle ?</i>',
   nx='Journal, planning, rappels · gratuit pour 1 cheval<br>Sur iPhone · lien en bio'),
+ 'floy_ep8_boue': dict(
+  pov='POV : ton cheval<br><i>a ton numéro</i> 📱', ep='ÉPISODE 8 · LA BOUE 🤎',
+  name='Floy 🐴', avatar='<img src="../captures/avatar.png">',
+  msg=[['h','j’ai une surprise pour toi au pré 🤎',-0.4],
+       ['h','tu vas adorer',1.2],
+       ['m','tu t’es roulé dans la boue.',2.5],
+       ['h','des deux côtés. pour la symétrie 🙂',3.8],
+       ['m','je t’ai pansé 1 h hier !!',5.1],
+       ['h','oui c’était très agréable merci',6.4],
+       ['m','on a cours à 18 h 😭',7.7],
+       ['h','t’as qu’à le décaler',9.0],
+       ['m','impossible, il est dans ton planning',10.3],
+       ['h','ok. alors j’ai le temps d’en remettre une couche 🤎',13.2]],
+  notif=11.6, notif_t='Horsetrack · Rappel', notif_b='Cours de Floy De Tus aujourd’hui à 18 h 📅', end_t=15.0,
+  e1='Envoie-le à celle<br><i>qui vient de le panser</i>',
+  nx='Son planning avec un rappel · gratuit pour 1 cheval<br>Floy a ton numéro · abonne-toi'),
 }
 
 for name, c in CONFIGS.items():
