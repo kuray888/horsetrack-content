@@ -43,7 +43,12 @@ Pour chaque nouvelle vidéo, écrire **3 hooks** et garder le plus fort, puis no
 | « POV : le maréchal t'appelle 📞 » (v2, plus rapide) | Galère + appel | 4/11, 12 h 30 |
 | « 7 h 03. Le groupe de l'écurie 📱 » | Conversation de groupe + tag | 4/11, 18 h 30 |
 
+| « Floy ép. 8 : j'ai une surprise pour toi au pré 🤎 » | Série conversation | 11/11, 18 h 30 |
+| « Ta DP commence : ce qu'elle doit savoir » | Carrousel enregistre-le | 10/11, 12 h 30 |
+
 ## Non testés (réserve)
+- Résultats 1–3/11 : Floy ép. 7 43,2 % ; pension couverture 40,8 % ; ta mère 38,4 % (73 % le 1er jour) ; première année 34,2 % ; photos réelles « veut vraiment dire » 14,4 % (flop).
+- (écartés le 05/11) Floy ép. 8 : « tu m'as pansé 1 h. je me suis roulé 1 minute » ; « Floy a une surprise pour toi au pré »
 - Résultats 25–27/10 : Floy HS heure 57,4 % ; Floy ép. 5 dentiste 51,7 % ; écran verrouillé 31,9 % ; red flags pension 26,2 % ; quiz 25,6 % (jeux abandonnés).
 - (écartés le 29/10) « on est en NOVEMBRE et tu me tonds ?? » ; « Qui a laissé le pré ouvert ?? » ; « Le maréchal passe demain. Tu le savais ? »
 - (écartés le 26/10) Equita : « Floy a vu tes stories d'Equita 👀 » ; « Tu rentres d'Equita. Ton cheval a des questions. »

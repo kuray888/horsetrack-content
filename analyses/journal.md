@@ -181,3 +181,32 @@
 4. Horizon : au moins 1 vidéo par jour jusqu'au mer. 11/11 (2e vidéo du 11/11 et la suite au cycle de jeudi, avec l'épisode 8 voté).
 
 **À regarder jeudi 5/11** : hook et portée de « Ta mère t'écrit » et « Ta première année » après 48 h ; carrousel c3 (enregistrements) ; traduction (photos réelles) vs conversations ; votes pour l'épisode 8 (Floy ép. 7, 3/11) ; état de la limite Metricool.
+
+## 2026-11-05 (jeudi) — Cycle 6
+**Données** : Metricool s'arrête au 03/11 (le groupe de l'écurie du 04/11 n'est pas encore remonté, le maréchal v2 a < 24 h). Brutes : `analyses/donnees_2026-11-05.json`.
+
+**Limite Metricool** : plus aucun échec depuis le 1/11. Tous les posts du 1 au 4/11 sont « Published ». Avec ce cycle, novembre compte 20 publications programmées ou publiées sur Metricool au 11/11 : on reste au minimum de la règle pour ne pas retomber sur la limite en fin de mois.
+
+**Compte** : **211 abonnés** le 03/11 (210 le 31/10, pic à 213 le 02/11 puis −2). Sur 3 semaines : 197 → 211, soit ~5 par semaine. **Objectif ≥ 15/semaine très loin.** Le contenu tient mieux l'attention qu'au début, mais il ne fait toujours pas venir de nouvelles personnes.
+
+**Top 20 %** (hook > 3 s / durée moyenne vue, ≥ 48 h) :
+- Floy ép. 7 tonte : 43,2 % / 9,0 s (sur ~18 s). La série Floy reste le format le plus solide (6 épisodes entre 43 et 58 %).
+- Pension couverture : 40,8 % / 8,8 s, **meilleure portée récente (233 personnes, 389 vues)**. Conversation « quelqu'un d'autre t'écrit » + galère de saison.
+- « Ta mère t'écrit » : le 73 % du premier jour est retombé à **38,4 %** / 6,8 s (183 personnes). Les chiffres < 24 h ne sont pas fiables.
+
+**Flop 20 %** :
+- **Photos réelles « Ce que ton cheval veut vraiment dire » : 14,4 % / 4,8 s.** Les vraies photos seules, sans situation ni texte d'accroche fort, décrochent comme le « mets pause ». À ne pas reconduire sous cette forme (la photo doit servir une histoire, pas la remplacer).
+- Court-métrage « Ta première année » : 34,2 % / 6,3 s, moyen.
+- Carrousel c3 novembre : 75 personnes, 0 partage, 0 enregistrement (c1/c2 : 380–535 personnes et 2–3 partages). Probablement la combinaison lundi 12 h 30 et une semaine où le compte sortait de 3 jours sans publication.
+
+**Constat** : **0 partage, 0 enregistrement et 0 commentaire** sur les 6 dernières publications, malgré les fins « envoie-le à… » et le vote en chiffre de Floy ép. 7 (personne n'a voté). Les vidéos retiennent (40–45 %), mais personne n'interagit, donc Instagram ne les montre pas au-delà de ~150–250 personnes. Ce n'est plus un problème de hook : c'est un problème de **distribution**, que la routine seule ne peut pas régler (pas de réponses aux commentaires, pas de collabs, pas de partage en story). → à remonter clairement à la fondatrice.
+
+**Décisions**
+1. **Floy ép. 8 « la boue »** (mer. 11/11, 18 h 30 = 2e vidéo du mercredi). Sans vote exprimé, on prend « la boue » (option 1, la plus de saison). Hooks : « j'ai une surprise pour toi au pré 🤎 » (gardé, 1re bulle) / « tu m'as pansé 1 h. je me suis roulé 1 minute » / « Floy a une surprise pour toi au pré ». Fonction montrée : planning + rappel de cours. Fin : partage (« envoie-le à celle qui vient de le panser ») plutôt qu'un vote, puisque le vote n'a rien donné.
+2. **Carrousel c5 « Ta DP commence : ce qu'elle doit savoir »** (mar. 10/11, 12 h 30). Sujet DP = le thème qui retient le mieux (Floy ép. 3 DP 45 %, DP 23 h 51 %), carrousel = seul format qui a déjà fait des partages. Destinataire précis (« envoie-le à ta DP »). Aucune info médicale (« au moindre doute sur sa santé, on appelle le véto »). Fonction montrée : partage DP (Premium). Remplace l'idée d'un 2e carrousel « budget » (déjà banque le 9/11 et Floy budget le 10/11).
+3. Pas de nouveau format photos réelles tant que la fondatrice n'a pas envoyé de vraies vidéos de Floy (une vidéo filmée avec hook à l'écran reste l'expérience la plus prometteuse qu'on n'a pas pu tester).
+4. Volume au minimum de la règle (risque limite Metricool fin novembre).
+
+**Contrôle des 7 prochains jours (`draft: false`)** : jeu. 5 (carrousel c4 12 h 30 + notice 19 h), ven. 6 (copain 19 h), sam. 7 (deuil 12 h + coach 18 h 30), dim. 8 (Floy t'explique 11 h + collègue 18 h 30), lun. 9 (banque 19 h), mar. 10 (c5 12 h 30 + Floy t'explique 2 19 h), mer. 11 (évasion 11 h + Floy ép. 8 18 h 30). Règle respectée, 2 carrousels sur 7 jours glissants (c4, c5).
+
+**À regarder lundi 9/11** : groupe de l'écurie (tag/partage) et maréchal v2 après 48 h ; « notice » (photo annotée) vs photos réelles ; deuil du fer (meme) ; première vidéo « Floy t'explique » (8/11) ; abonnés du 4 au 8/11. Si les partages restent à 0 sur toute la semaine, proposer à la fondatrice de booster 1 réel (~10–20 €) vers une audience de cavalières pour tester la conversion abonnés, plutôt que d'augmenter le volume.

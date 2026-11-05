@@ -52,3 +52,5 @@
 | 2026-11-03 12:30 | Instagram | Photos réelles | Ce que ton cheval veut vraiment dire — reprogrammé auto (échec du 29/10) |
 | 2026-11-05 12:30 | Instagram | Carrousel (c4) | Le coffre de concours : la checklist — reprogrammé auto (échec du 29/10) |
 | 2026-11-11 11:00 | Instagram | Conversation | 11 novembre, 7 h 58, la pension t'écrit (évasion) — programmé auto |
+| 2026-11-10 12:30 | Instagram | Carrousel (c5) | Ta DP commence : ce qu'elle doit savoir — programmé auto |
+| 2026-11-11 18:30 | Instagram | Floy a ton numéro · ép. 8 | La boue — programmé auto |

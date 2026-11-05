@@ -1,0 +1,13 @@
+{"releve":"2026-11-05 ~08h Paris, Metricool (données jusqu'au 03-04/11)",
+ "compte":{"abonnes":{"2026-10-27":209,"2026-10-28":210,"2026-10-29":211,"2026-10-31":210,"2026-11-01":212,"2026-11-02":213,"2026-11-03":211},
+  "gagnes_perdus":{"2026-11-01":[2,0],"2026-11-02":[1,2]},
+  "portee_compte":{"2026-10-29":60,"2026-10-30":21,"2026-10-31":58,"2026-11-01":300,"2026-11-02":246,"2026-11-03":292}},
+ "reels":[
+  {"date":"2026-11-04 12:30","titre":"POV le maréchal t'appelle v2","portee":56,"vues":78,"hook":38.3,"duree_moy":3.8,"partages":0,"enreg":0,"likes":3,"note":"< 24 h"},
+  {"date":"2026-11-03 19:00","titre":"Floy ép. 7 la tonte","portee":144,"vues":198,"hook":43.2,"duree_moy":9.0,"partages":0,"enreg":0,"likes":10,"commentaires":0},
+  {"date":"2026-11-03 12:30","titre":"Ce que ton cheval veut vraiment dire (photos réelles)","portee":125,"vues":202,"hook":14.4,"duree_moy":4.8,"partages":0,"enreg":0,"likes":6},
+  {"date":"2026-11-02 19:00","titre":"7 h 12 la pension t'écrit (couverture)","portee":233,"vues":389,"hook":40.8,"duree_moy":8.8,"partages":0,"enreg":0,"likes":14},
+  {"date":"2026-11-01 18:30","titre":"Ta première année avec lui (court-métrage)","portee":144,"vues":194,"hook":34.2,"duree_moy":6.3,"partages":0,"enreg":0,"likes":11},
+  {"date":"2026-11-01 11:00","titre":"Dimanche midi ta mère t'écrit","portee":183,"vues":260,"hook":38.4,"duree_moy":6.8,"partages":0,"enreg":0,"likes":13}],
+ "carrousels":[{"date":"2026-11-02 12:30","titre":"c3 Novembre la checklist","portee":75,"vues":249,"partages":0,"enreg":0,"abonnes":0}],
+ "non_remonte":["groupe de l'écurie 04/11 18:30 (publié)"]}
