@@ -210,3 +210,41 @@
 **Contrôle des 7 prochains jours (`draft: false`)** : jeu. 5 (carrousel c4 12 h 30 + notice 19 h), ven. 6 (copain 19 h), sam. 7 (deuil 12 h + coach 18 h 30), dim. 8 (Floy t'explique 11 h + collègue 18 h 30), lun. 9 (banque 19 h), mar. 10 (c5 12 h 30 + Floy t'explique 2 19 h), mer. 11 (évasion 11 h + Floy ép. 8 18 h 30). Règle respectée, 2 carrousels sur 7 jours glissants (c4, c5).
 
 **À regarder lundi 9/11** : groupe de l'écurie (tag/partage) et maréchal v2 après 48 h ; « notice » (photo annotée) vs photos réelles ; deuil du fer (meme) ; première vidéo « Floy t'explique » (8/11) ; abonnés du 4 au 8/11. Si les partages restent à 0 sur toute la semaine, proposer à la fondatrice de booster 1 réel (~10–20 €) vers une audience de cavalières pour tester la conversion abonnés, plutôt que d'augmenter le volume.
+
+## 2026-11-09 (lundi) — Cycle 7
+**Données** : Metricool s'arrête au 07/11 pour le compte, au 08/11 pour les réels. Brutes : `analyses/donnees_2026-11-09.json`. Aucun échec de publication depuis le 1/11.
+
+**Compte** : **212 abonnés** le 07/11 (211 le 03/11, 197 le 16/10). **+1 en 4 jours, +15 en 3 semaines.** Objectif ≥ 15/semaine : on fait ~5/semaine. Portée du compte : 170–330/jour.
+
+**Top 20 %** (hook > 3 s / durée moyenne vue) :
+- **Coach 21 h 12 : 55,8 % / 10,4 s** (meilleur depuis Floy HS heure). Situation précise + quelqu'un qui « attaque » (la coach) + chute.
+- **Copain 19 h 40 : 49,2 % / 8,5 s, 6 partages + 1 enregistrement** : **premiers vrais partages d'un réel conversation** (0 sur les 10 précédents). Hypothèse : quand l'interlocuteur est **quelqu'un hors du monde du cheval** (copain, mère : 1 partage), la cavalière a une **personne réelle à qui envoyer** la vidéo. « Envoie-le à ta copine d'écurie » ne déclenche rien ; « envoie-le à ton copain » oui.
+- Floy t'explique 1 : 48 % / 6,0 s (< 24 h, à confirmer).
+- Deuil du fer : 42,8 % / 8,8 s.
+
+**Flop 20 %** :
+- **Notice du cheval (photo annotée) : 20,6 % / 3,1 s** et photos réelles traduction 12,9 % : les vraies photos sans conversation décrochent, 2 sur 2. **Format abandonné** jusqu'à nouvelle vidéo filmée.
+- Appel maréchal v2 : 31,7 % / 3,3 s, 125 personnes. Le format appel ne retrouve ni le hook ni la portée du véto (2 253). **Format appel arrêté.**
+- **Carrousels c3 et c4 : 78 et 58 personnes, 0 partage** (c1/c2 : 381 et 538). Différence nette : c1/c2 publiés à **18 h 30**, c3/c4 à **12 h 30**.
+
+**Décisions**
+1. **Carrousels repassés le soir** : c5 (DP) déplacé de mar. 10/11 12 h 30 à **18 h 30** ; Floy t'explique 2 avancé de 19 h à **12 h** pour garder l'écart de 6 h. c6 programmé à 18 h 30. Si c5/c6 dépassent 250 personnes → les carrousels restent le soir.
+2. **Conversations « personne hors cheval »** (70 % éprouvé + test de l'hypothèse partage) : meilleure amie (jeu. 12, 12 h), mamie (sam. 14, 11 h). Fin = « envoie-le à ta meilleure amie / ta cousine ».
+3. **Suite du top** : « Ta coach t'écrit · le retour » (dim. 15, 18 h 30). Teste si la coach tient sur 2 épisodes.
+4. **Floy hors-série d'actu** (meilleur format historique, 57–59 %) : spécial **vendredi 13** (ven. 13, 19 h ; date vérifiée : lundi 9/11 → vendredi 13/11).
+5. **Floy t'explique leçon 3** « comment j'ai dressé ma propriétaire » (sam. 14, 18 h 30), série promise dans les légendes.
+6. **30 % expérience : nouveau format « timeline / horloge »** « J'y vais 20 minutes » (dim. 15, 11 h) : une horloge qui avance de 14 h à 18 h 12, une carte par étape, compteur de retard en rouge. Nouveau modèle `modeles/timeline_20min.html`. Galère universelle + partage vers « celui qui t'attend pour dîner ».
+7. **Carrousel c6 « Idées cadeaux pour une cavalière »** (jeu. 12, 18 h 30), à envoyer au copain ou à la mère : combine le seul format qui fait des enregistrements et le destinataire qui a fait partager le copain. Aucune marque citée.
+8. Volume : novembre = 27 publications programmées ou publiées au 15/11. Risque de limite Metricool fin novembre (incident du 28–31/10) : rester au minimum de la règle et le rappeler à la fondatrice.
+
+**3 hooks écrits par vidéo** (gardé en premier) :
+- Amie : « Jeudi, 12 h 04. Ta meilleure amie t'écrit » / « Samedi : son anniversaire. Toi : concours » / « "T'existes plus depuis que t'as un cheval" »
+- Vendredi 13 : « on est vendredi 13. je sors pas du box 😱 » / « Floy est superstitieux » / « Vendredi 13 : la bâche est maudite »
+- Mamie : « Samedi, 9 h 30. Ta mamie t'écrit » / « Bisous. Mamie » / « Mamie a tricoté une écharpe pour ton cheval »
+- Coach 2 : « 21 h 47. Ta coach t'écrit : demain, sans étriers » / « Ta coach est de retour » / « 30 minutes de trot assis. Un lundi. »
+- Timeline : « « J'y vais 20 minutes. » » / « 14 h 00 → 18 h 12 » / « Ce que veut dire "20 minutes" à l'écurie »
+- Leçon 3 : « Comment j'ai dressé ma propriétaire 🎓 » / « Ton cheval t'a dressée (et tu le sais pas) » / « 4 étapes pour obtenir une carotte »
+
+**Contrôle des 7 prochains jours (`draft: false`)** : lun. 9 (banque 19 h), mar. 10 (Floy t'explique 2 12 h + c5 18 h 30), mer. 11 (évasion 11 h + Floy ép. 8 18 h 30), jeu. 12 (amie 12 h + c6 18 h 30), ven. 13 (Floy vendredi 13 19 h), sam. 14 (mamie 11 h + leçon 3 18 h 30), dim. 15 (timeline 11 h + coach 2 18 h 30). Règle respectée, 2 carrousels sur la semaine.
+
+**À regarder jeudi 12/11** : partages de la banque (9/11) et de Floy t'explique 2 ; carrousel c5 à 18 h 30 (portée vs c3/c4) ; hook de Floy t'explique 1 après 48 h ; abonnés du 8 au 11/11. Si les conversations « hors cheval » refont des partages (≥ 3) → en faire 1 par jour. Les partages restent trop faibles pour faire venir des abonnées : **proposer encore à la fondatrice un boost test de 10–20 € sur « Copain 19 h 40 »** (le seul réel avec 6 partages), ciblé cavalières France.

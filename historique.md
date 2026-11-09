@@ -54,3 +54,12 @@
 | 2026-11-11 11:00 | Instagram | Conversation | 11 novembre, 7 h 58, la pension t'écrit (évasion) — programmé auto |
 | 2026-11-10 12:30 | Instagram | Carrousel (c5) | Ta DP commence : ce qu'elle doit savoir — programmé auto |
 | 2026-11-11 18:30 | Instagram | Floy a ton numéro · ép. 8 | La boue — programmé auto |
+| 2026-11-10 12:00 | Instagram | Floy t'explique | Leçon 2 déplacée de 19 h à 12 h (carrousel c5 passe le soir) |
+| 2026-11-10 18:30 | Instagram | Carrousel (c5) | Ta DP commence — déplacé de 12 h 30 à 18 h 30 |
+| 2026-11-12 12:00 | Instagram | Conversation (hors cheval) | Jeudi 12 h 04, ta meilleure amie t'écrit — programmé auto |
+| 2026-11-12 18:30 | Instagram | Carrousel (c6) | Idées cadeaux pour une cavalière — programmé auto |
+| 2026-11-13 19:00 | Instagram | Floy a ton numéro · hors-série | Spécial vendredi 13 — programmé auto |
+| 2026-11-14 11:00 | Instagram | Conversation (hors cheval) | Samedi 9 h 30, ta mamie t'écrit — programmé auto |
+| 2026-11-14 18:30 | Instagram | Floy t'explique | Leçon 3 : comment j'ai dressé ma propriétaire — programmé auto |
+| 2026-11-15 11:00 | Instagram | Timeline / horloge (nouveau) | « J'y vais 20 minutes » — programmé auto |
+| 2026-11-15 18:30 | Instagram | Conversation | Ta coach t'écrit · le retour (sans étriers) — programmé auto |

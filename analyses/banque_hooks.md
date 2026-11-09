@@ -45,8 +45,16 @@ Pour chaque nouvelle vidéo, écrire **3 hooks** et garder le plus fort, puis no
 
 | « Floy ép. 8 : j'ai une surprise pour toi au pré 🤎 » | Série conversation | 11/11, 18 h 30 |
 | « Ta DP commence : ce qu'elle doit savoir » | Carrousel enregistre-le | 10/11, 12 h 30 |
+| « Jeudi, 12 h 04. Ta meilleure amie t'écrit » | Conversation hors cheval | 12/11, 12 h |
+| « Floy : on est vendredi 13. je sors pas du box 😱 » | Série + actu | 13/11, 19 h |
+| « Samedi, 9 h 30. Ta mamie t'écrit » | Conversation hors cheval | 14/11, 11 h |
+| « Floy t'explique · leçon 3 : comment j'ai dressé ma propriétaire » | Mascotte | 14/11, 18 h 30 |
+| « « J'y vais 20 minutes. » » | Timeline / horloge (nouveau) | 15/11, 11 h |
+| « 21 h 47. Ta coach t'écrit : demain, sans étriers » | Conversation (suite du top) | 15/11, 18 h 30 |
+| « Idées cadeaux pour une cavalière » | Carrousel à envoyer | 12/11, 18 h 30 |
 
 ## Non testés (réserve)
+- Résultats 4–8/11 : coach 55,8 % (record récent) ; copain 49,2 % + **6 partages** ; Floy t'explique 1 48 % (<24 h) ; deuil du fer 42,8 % ; groupe écurie 39,7 % ; maréchal v2 31,7 % (appel arrêté) ; notice photo 20,6 % (photos arrêtées).
 - Résultats 1–3/11 : Floy ép. 7 43,2 % ; pension couverture 40,8 % ; ta mère 38,4 % (73 % le 1er jour) ; première année 34,2 % ; photos réelles « veut vraiment dire » 14,4 % (flop).
 - (écartés le 05/11) Floy ép. 8 : « tu m'as pansé 1 h. je me suis roulé 1 minute » ; « Floy a une surprise pour toi au pré »
 - Résultats 25–27/10 : Floy HS heure 57,4 % ; Floy ép. 5 dentiste 51,7 % ; écran verrouillé 31,9 % ; red flags pension 26,2 % ; quiz 25,6 % (jeux abandonnés).
