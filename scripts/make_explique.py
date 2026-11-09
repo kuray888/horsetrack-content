@@ -25,6 +25,16 @@ CONFIGS = {
          ['Elle note tout dans le budget Horsetrack. Moi, je regarde le total… et je ris.', '📊', 'budget'],
          ['Ton cheval te coûte combien par mois ? Plus ou moins ?', '👇', '']],
   end_q='Ton cheval te coûte<br><i>combien par mois</i> ?'),
+ 'floy_explique_3_dressage': dict(
+  ep='FLOY T’EXPLIQUE · LEÇON 3', title='Comment j’ai <i>dressé</i><br>ma propriétaire 🎓',
+  lines=[['Étape 1 : je hennis quand elle arrive. Elle fond. Carotte.', '🥕', ''],
+         ['Étape 2 : je boude devant la bâche. Elle descend. On rentre.', '🙈', ''],
+         ['Étape 3 : je pose ma tête sur son épaule. Elle annule son dîner.', '💜', 'dîner annulé'],
+         ['Étape 4 : je prends la pose en photo. Elle achète un tapis assorti.', '📸', 'tapis'],
+         ['Le seul truc que j’ai pas réussi : lui faire oublier le maréchal.', '🔨', ''],
+         ['Elle a un rappel Horsetrack la veille. À chaque fois.', '📱', 'rappel'],
+         ['Et toi, ton cheval t’a dressée comment ?', '👇', '']],
+  end_q='Ton cheval t’a dressée<br><i>comment</i> ?'),
 }
 for name, c in CONFIGS.items():
     lines = [[fix(a), b, l] for a, b, l in c['lines']]
