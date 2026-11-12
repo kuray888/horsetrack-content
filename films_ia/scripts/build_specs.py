@@ -65,6 +65,11 @@ if which == "c1":
             {"t0": 26.65, "t1": END_T0, "kind": "clip", "file": LIP, "src": 23.85}],
         "hook": {"t0": 0, "t1": 4.2, "text": "Je vais vous montrer le téléphone de ma propriétaire."},
         "notes": {"t0": 4.6, "t1": 11.75, "title": "Notes", "lines": [[5.6, "maréchal ??"], [7.9, "vaccin… quand ?"], [10.5, "acheter carottes"]]},
+        "callouts": [
+            {"t0": 16.3, "t1": 21.55, "img": "src/co_vaccin.png", "y": 430, "tag": "Fiche santé de Biscotte"},
+            {"t0": 16.75, "t1": 21.55, "img": "src/co_marechal.png", "y": 740},
+            {"t0": 17.3, "t1": 21.55, "img": "src/co_dentiste.png", "y": 1050},
+            {"t0": 22.35, "t1": 23.9, "img": "src/co_notif.png", "y": 330, "tag": "Rappel Horsetrack"}],
         "speakers": [[M_AT, M_AT + DM, "Manon"]],
         "words": words,
         "end": {"t0": END_T0, "title": "Le carnet de santé de ton cheval, dans ta poche.",
@@ -121,6 +126,10 @@ if which == "c4":
                    {"t0": 7.95, "t1": 9.7, "title": "MARDI", "sub": "personne"},
                    {"t0": 9.85, "t1": 12.4, "title": "MERCREDI", "sub": "ration × 2"},
                    {"t0": round(22.46 + OB, 2), "t1": END_T0 - 0.05, "title": "DIMANCHE", "sub": "repos"}],
+        "callouts": [
+            {"t0": t_part + 0.5, "t1": t_plan - 0.05, "img": "src/co_partage.png", "y": 760, "tag": "Partager Biscotte"},
+            {"t0": t_plan + 0.3, "t1": t_res - 0.05, "img": "src/co_jade.png", "y": 520, "tag": "Planning partagé"},
+            {"t0": t_plan + 0.9, "t1": t_res - 0.05, "img": "src/co_manon.png", "y": 850}],
         "speakers": [[DP1, DP1 + 1.3, "Jade, sa demi-pensionnaire"], [MAT, MAT + DM, "Manon, sa propriétaire"], [X, X + 0.84, "Jade"]],
         "words": words,
         "end": {"t0": END_T0, "title": "Une fiche, deux cavalières, zéro malentendu.",

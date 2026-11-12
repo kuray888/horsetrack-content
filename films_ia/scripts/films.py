@@ -169,6 +169,25 @@ def stamp(img, st, t):
     lay.putalpha(lay.getchannel("A").point(lambda v: int(v * fade)))
     img.alpha_composite(lay, ((W - sw) // 2, st.get("y", 230) + (460 - sh) // 2))
 
+CO = {}
+def callout(img, c, t):
+    if c["img"] not in CO:
+        im = Image.open(c["img"]).convert("RGBA"); w = c.get("w", 980)
+        CO[c["img"]] = im.resize((w, int(im.height * w / im.width)), Image.LANCZOS)
+    im = CO[c["img"]]; p = ease((t - c["t0"]) / 0.3); q = ease((c["t1"] - t) / 0.2); a = min(p, q)
+    s = 0.85 + 0.15 * p; w, h = int(im.width * s), int(im.height * s)
+    lay = Image.new("RGBA", (w + 60, h + 60), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    d.rounded_rectangle([30, 40, 30 + w, 40 + h], 44, fill=(10, 8, 40, 110))
+    from PIL import ImageFilter as IF
+    lay = lay.filter(IF.GaussianBlur(14)); lay.alpha_composite(im.resize((w, h), Image.LANCZOS), (30, 26))
+    lay.putalpha(lay.getchannel("A").point(lambda v: int(v * a)))
+    x = (W - lay.width) // 2; y = c["y"] + int(40 * (1 - p))
+    img.alpha_composite(lay, (x, y))
+    if c.get("tag"):
+        d = ImageDraw.Draw(img); tw = d.textlength(c["tag"], font=F_TAG)
+        d.rounded_rectangle([(W - tw) / 2 - 22, y - 44, (W + tw) / 2 + 22, y + 8], 26, fill=VIOLET + (int(255 * a),))
+        d.text(((W - tw) / 2, y - 40), c["tag"], font=F_TAG, fill=(255, 255, 255, int(255 * a)))
+
 def frame(t):
     if t >= END["t0"]:
         im = END_IMG.copy(); im.putalpha(int(255 * ease((t - END["t0"]) / 0.35))); return im
@@ -180,7 +199,9 @@ def frame(t):
     if nc and nc["t0"] <= t < nc["t1"]: notes_card(img, nc, t)
     for st in S.get("stamps", []):
         if st["t0"] <= t < st["t1"]: stamp(img, st, t)
-    y = 1690 if seg_kind(t) == "phone" else 1380
+    for c in S.get("callouts", []):
+        if c["t0"] <= t < c["t1"]: callout(img, c, t)
+    y =1690 if seg_kind(t) == "phone" else 1380
     for g in groups:
         if g[0][0] - 0.05 <= t < g[-1][1] + 0.3:
             act = max([i for i, w in enumerate(g) if t >= w[0] - 0.05] or [0])
