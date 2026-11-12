@@ -43,7 +43,7 @@ if which == "c1":
         else: seq.append([a, b, t])
     assert len(seq) == len(txt), (len(seq), len(txt), [s[2] for s in seq])
     words = [[a, b, t] for (a, b, _), t in zip(seq, txt)]
-    mw = shift(M, M_AT); mtxt = "Attends… c'est toi qui as mis le dentiste ?".split(" ")
+    mw = shift(M, M_AT); mtxt = "Attends… c'est toi qui as mis le dentiste\u00a0?".split(" ")
     mw = [[a, b, t] for (a, b, _), t in zip(mw, mtxt)] if len(mw) == len(mtxt) else mw
     words += mw
     words += shift([w for w in A if w[0] >= 23.9], B_OFF)
