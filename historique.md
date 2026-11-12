@@ -63,3 +63,8 @@
 | 2026-11-14 18:30 | Instagram | Floy t'explique | Leçon 3 : comment j'ai dressé ma propriétaire — programmé auto |
 | 2026-11-15 11:00 | Instagram | Timeline / horloge (nouveau) | « J'y vais 20 minutes » — programmé auto |
 | 2026-11-15 18:30 | Instagram | Conversation | Ta coach t'écrit · le retour (sans étriers) — programmé auto |
+| 2026-11-12 | Instagram | Carrousels | En pause (c3–c5 < 100 personnes) : pas de c7 cette semaine, décision après c6 |
+| 2026-11-16 19:00 | Instagram | Conversation (suite du copain) | 18 h 52, ton copain a ouvert le colis — programmé auto |
+| 2026-11-17 19:00 | Instagram | Floy t'explique | Leçon 4 : mon agenda est plus rempli que le tien — programmé auto |
+| 2026-11-18 12:00 | Instagram | Conversation de groupe famille (nouveau) | Le groupe « Famille » organise Noël — programmé auto |
+| 2026-11-18 18:30 | Instagram | Floy a ton numéro · ép. 9 | Le vaccin — programmé auto |

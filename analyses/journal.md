@@ -248,3 +248,35 @@
 **Contrôle des 7 prochains jours (`draft: false`)** : lun. 9 (banque 19 h), mar. 10 (Floy t'explique 2 12 h + c5 18 h 30), mer. 11 (évasion 11 h + Floy ép. 8 18 h 30), jeu. 12 (amie 12 h + c6 18 h 30), ven. 13 (Floy vendredi 13 19 h), sam. 14 (mamie 11 h + leçon 3 18 h 30), dim. 15 (timeline 11 h + coach 2 18 h 30). Règle respectée, 2 carrousels sur la semaine.
 
 **À regarder jeudi 12/11** : partages de la banque (9/11) et de Floy t'explique 2 ; carrousel c5 à 18 h 30 (portée vs c3/c4) ; hook de Floy t'explique 1 après 48 h ; abonnés du 8 au 11/11. Si les conversations « hors cheval » refont des partages (≥ 3) → en faire 1 par jour. Les partages restent trop faibles pour faire venir des abonnées : **proposer encore à la fondatrice un boost test de 10–20 € sur « Copain 19 h 40 »** (le seul réel avec 6 partages), ciblé cavalières France.
+
+## 2026-11-12 (jeudi) — Cycle 8
+**Données** : compte jusqu'au 10/11, réels jusqu'au 11/11 (Floy ép. 8 du 11/11 18 h 30 pas encore remonté). Brutes : `analyses/donnees_2026-11-12.json`. Aucun échec de publication en novembre (tout « Published » du 1er au 11/11).
+
+**Compte** : **214 abonnés** le 10/11 (212 le 07/11, 211 le 03/11). **+3 en 7 jours**, ~+5/semaine depuis 4 semaines. Objectif ≥ 15/semaine (≥ 30 à partir de mi-novembre) toujours très loin. Portée du compte 150–330/jour.
+
+**Top 20 %** (hook / durée moyenne vue / partages) :
+- Pension évasion 11/11 : 52,1 % / 8,1 s (< 24 h, à confirmer).
+- Coach 21 h 12 : 51,5 % / 10,0 s (confirmé à 48 h+).
+- **Copain 19 h 40 : 48,1 % / 8,5 s / 6 partages + 1 enreg.** — toujours le seul réel qui se partage vraiment.
+- **Floy t'explique 2 (budget) : 45,4 % / 6,9 s / 3 partages.** 2e réel qui partage. Point commun avec le copain : le **budget / les achats** (« envoie-le à celle qui achète encore des tapis »).
+
+**Flop 20 %** :
+- Notice (photo annotée) : 20,4 % (confirmé, format abandonné le 09/11).
+- Banque « le 9 du mois » : 31,9 % / 5,5 s, 0 partage (1 enreg.). Le budget marche quand il y a un personnage proche (copain, Floy), pas avec une banque.
+- **Carrousel c5 (DP) publié à 18 h 30 : 27 personnes, 0 partage.** L'hypothèse « carrousels le soir » est **réfutée** : c3 81, c4 62, c5 27 personnes, en baisse continue, quelle que soit l'heure. c1/c2 (380–540) datent de la 1re semaine, quand le compte était neuf.
+
+**Collègue (personne hors cheval)** : 47,1 % mais 0 partage ; mère 1 ; copain 6. L'hypothèse « personne hors cheval = partage » ne tient qu'avec le copain. Nouvelle hypothèse : ce qui fait partager, c'est **une personne très précise à qui envoyer + un sujet argent/achats**.
+
+**Décisions**
+1. **Carrousels en pause** après 3 échecs d'affilée (< 100 personnes, 0 partage) : pas de c7 cette semaine. On attend c6 (cadeaux, ce soir 18 h 30) : s'il dépasse 150 personnes ou fait ≥ 2 partages, on relance 1 carrousel/semaine ; sinon, on les remplace par des réels. Ça réduit aussi le risque de limite Metricool fin novembre (31 publications au 18/11).
+2. **Suite du top partage : « Ton copain a ouvert le colis »** (lun. 16, 19 h) = copain + achats + budget Horsetrack (capture « nouvelle dépense »). Test direct de l'hypothèse partage.
+3. **Floy t'explique leçon 4 « mon agenda est plus rempli que le tien »** (mar. 17, 19 h) : série qui partage (leçon 2), sujet du carrousel c2 (meilleure portée historique), fonction planning + rappel.
+4. **30 % expérience : conversation de groupe familiale** « Le groupe Famille organise Noël » (mer. 18, 12 h) : saison (Noël), destinataire = tout le groupe familial, retour de Mamie (clin d'œil au réel du 14/11). Pas d'écran de l'app dans la vidéo (fin seulement) : on mesure si l'histoire seule partage mieux.
+5. **Floy a ton numéro ép. 9 « le vaccin »** (mer. 18, 18 h 30) : cœur du compte (43–59 %). Règle exacte « vaccin pas à jour = pas de départ », renvoi au véto dans la légende, notification de rappel. Capture santé montrée = écran « Santé » réel de l'app.
+6. Mardi : 1 seule publication (pas de carrousel), conforme au minimum de la règle.
+
+**Contrôle des 7 prochains jours (`draft: false`)** : jeu. 12 (amie 12 h + c6 18 h 30), ven. 13 (Floy vendredi 13 19 h), sam. 14 (mamie 11 h + leçon 3 18 h 30), dim. 15 (timeline 11 h + coach 2 18 h 30), lun. 16 (copain colis 19 h), mar. 17 (leçon 4 19 h), mer. 18 (famille Noël 12 h + Floy ép. 9 18 h 30). Règle respectée (≥ 1 vidéo/jour, 2 le mer./sam./dim., max 2/jour, ≥ 6 h d'écart). Horizon : 6 jours.
+
+**Problème de fond (à redire à la fondatrice)** : depuis 4 semaines, les vidéos retiennent bien (hook 42–52 % contre < 31 % au départ) mais la portée plafonne à 130–200 personnes et les abonnés à ~+5/semaine. Le contenu seul ne suffit plus : il faut de la distribution (répondre aux commentaires dans l'heure, partager chaque réel en story, 1 collab avec une micro-créatrice, ou un boost test de 10–20 € sur « Copain 19 h 40 »).
+
+**À regarder lundi 16/11** : c6 (portée, enregistrements, partages) → décision carrousels ; Floy ép. 8 boue et vendredi 13 ; amie et mamie (partages) ; timeline (nouveau format) ; abonnés du 11 au 15/11.

@@ -71,3 +71,6 @@ Pour chaque nouvelle vidéo, écrire **3 hooks** et garder le plus fort, puis no
 - (écartés le 22/10) DP : « Ta DP : "on a un souci" » ; « Message de ta DP à 23 h, tu ouvres ou pas ? »
 - (écartés le 22/10) Floy ép. 5 : « Ép. 5 : le dentiste arrive et personne ne m'a prévenu » ; « Floy découvre la râpe »
 - (écartés le 22/10) Liste : « 6 vérités sur la vie de propriétaire » ; « Ce qu'on ne t'a pas dit en t'achetant un cheval »
+- Résultats 05–11/11 (hook > 3 s) : pension évasion 52,1 % (< 24 h) ; coach 21 h 12 51,5 % ; copain 48,1 % (6 partages) ; collègue 47,1 % ; Floy t'explique 2 budget 45,4 % (3 partages) ; Floy t'explique 1 43,2 % ; deuil du fer 42,0 % ; banque 31,9 % ; notice 20,4 %.
+- (gardés le 12/11) « 18 h 52. Ton copain a ouvert le colis 📦 » ; « Mon agenda est plus rempli que le tien 📒 » ; « 12 h 15. Le groupe « Famille » 📱 · on organise Noël » ; « pourquoi la voiture du véto est sur le parking 👀 »
+- (écartés le 12/11) Copain : « Tom a vu le relevé de compte » / « "C'est quoi un bonnet pour cheval ?" » ; Leçon 4 : « Mon cheval a plus de rendez-vous que toi » / « Lundi maréchal, mardi cours, mercredi ostéo… » ; Famille : « Noël : tu arrives à 19 h 30 (donc 22 h) » / « Mamie demande si le cheval vient à Noël » ; Floy ép. 9 : « Ép. 9 : Floy a reconnu la voiture du véto » / « Floy a vu la seringue »
