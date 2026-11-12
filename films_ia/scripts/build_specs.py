@@ -10,6 +10,7 @@ def merge_elisions(ws):
     for a, b, t in ws:
         if t.startswith("'") and out: out[-1] = [out[-1][0], b, out[-1][2] + t]
         elif t.startswith("-") and out: out[-1] = [out[-1][0], b, out[-1][2] + t]
+        elif t.strip("?!.,") == "" and out: out[-1] = [out[-1][0], b, out[-1][2] + " " + t]
         else: out.append([a, b, t])
     return out
 def shift(ws, off, fix=None, lo=-1, hi=99):
