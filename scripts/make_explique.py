@@ -35,6 +35,16 @@ CONFIGS = {
          ['Elle a un rappel Horsetrack la veille. À chaque fois.', '📱', 'rappel'],
          ['Et toi, ton cheval t’a dressée comment ?', '👇', '']],
   end_q='Ton cheval t’a dressée<br><i>comment</i> ?'),
+ 'floy_explique_4_agenda': dict(
+  ep='FLOY T’EXPLIQUE · LEÇON 4', title='Mon agenda est<br><i>plus rempli</i> que le tien 📒',
+  lines=[['Lundi : le maréchal. Toutes les 5 à 6 semaines, je suis VIP.', '🔨', '5–6 sem.'],
+         ['Mardi : cours. Elle transpire, moi je pose.', '🏇', ''],
+         ['Mercredi : l’ostéo passe. Massage. Je mérite.', '💆', ''],
+         ['Jeudi : ma DP. Elle aussi veut me voir.', '💜', 'DP'],
+         ['Samedi : concours. Tresses à 5 h du matin.', '🏆', '5 h'],
+         ['Elle a tout dans le planning Horsetrack. Avec un rappel la veille.', '📱', 'planning'],
+         ['Et ton cheval, il a combien de rendez-vous ce mois-ci ?', '👇', '']],
+  end_q='Ton cheval a combien<br><i>de rendez-vous</i> ce mois-ci ?'),
 }
 for name, c in CONFIGS.items():
     lines = [[fix(a), b, l] for a, b, l in c['lines']]
